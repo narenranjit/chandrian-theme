@@ -1,11 +1,62 @@
-.someClass {
-  font-family: serif;
+element {
+  --main-bg-color: brown;
 }
 
-#someID {
-  background: yellow;
+body {
+  font-size: var(--font_size_base);
+  line-height: calc(100% - 100);
 }
 
-main {
-  margin-top: 20px;
+.f-footer {
+  margin-bottom: 30px;
+  margin-bottom: 2em;
+}
+
+
+[data-f-bind]:not([data-initial]):not([data-update]):not(input):not(select):not(textarea) {
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+[data-f-bind][data-initial]:not(input):not(select):not(textarea) {
+  opacity: 1;
+  transition: opacity 200ms linear;
+  transition: opacitys 200ms linear;
+}
+
+.navigation .messages-menu {
+  width: 300px;
+  padding: 10%;
+  padding-top: 25px;
+}
+
+.navigation .messages-menu li:not(:last-child) {
+  border-bottom: 1px solid silver;
+  border-bottom: 1px soli #ffffff;
+  margin-bottom: 15px;
+}
+
+div:after {
+  content: "Foo";
+  position: relative
+}
+a:hover {
+  display: none;
+}
+
+/**
+Block comment
+**/
+@media only screen and (min-device-width: 320px)
+                 and (max-device-width: 667px)
+                 and (-webkit-min-device-pixel-ratio: 2) {
+  li.messages {
+      position: static;
+  }
+  .navigation .messages-menu {
+      position: absolute !important;
+      background: white !important;
+      left: 6px;
+      right: 6px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.3) !important;
+  }
 }
