@@ -1,0 +1,22 @@
+{
+    "name": "chandrian",
+    "displayName": "chandrian",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "narenranjit",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "chandrian",
+                "uiTheme": "vs-dark",
+                "path": "./themes/chandrian-color-theme.json"
+            }
+        ]
+    }
+}
