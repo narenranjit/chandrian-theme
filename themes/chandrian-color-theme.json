@@ -207,7 +207,8 @@
 		},
 		{
 			"scope": [
-				"text.html.markdown"
+				"text.html.markdown",
+				"text.html.basic"
 			],
 			"settings": {
 				"foreground": "#FFFFFFBF"
@@ -324,6 +325,63 @@
 			"settings": {
 				"foreground": "#C0EAFE"
 			}
+		},
+
+
+		//HTML
+		{
+			"scope": [
+				"entity.name.tag.structure.any.html", //HTMl / body
+				"meta.tag.sgml.html"
+			],
+			"settings": {
+				"foreground": "#1491CB"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.any.html",
+				"meta.tag.block.any.html"
+			],
+			"settings": {
+				"foreground": "#1491CB"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.inline.any.html"
+			],
+			"settings": {
+				"foreground": "#65CDFE"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.metadata.script.html"
+			],
+			"settings": {
+				"foreground": "#0BDBE7"
+			}
+		},
+		{
+			"scope": ["entity.other.attribute-name.html"],
+			"settings": {
+				"foreground": "#FFA53EBF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["meta.toc-list.id.html"], //#ids
+			"settings": {
+				"foreground": "#e2dc2e"
+			}
+		},
+		{
+			"scope": ["string.quoted.double.html"],
+			"settings": {
+				"foreground": "#b3ae23"
+			}
 		}
+		
 	]
 }
