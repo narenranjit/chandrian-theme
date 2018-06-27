@@ -23,7 +23,18 @@ body {
   transition: opacitys 200ms linear;
 }
 
-.navigation .messages-menu {
+#something {
+  display: block;
+}
+#something > li {
+  display: block;
+}
+
+#something ~ li+li {
+  display: block;
+}
+
+.navigation .messages-menu:not(foo) {
   width: 300px;
   padding: 10%;
   padding-top: 25px;

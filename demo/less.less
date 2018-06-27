@@ -1,0 +1,112 @@
+//you'll have access to all the variables in <theme>/theme.less & variables.less here
+@import "node_modules/contour/src/styles/contour.less";
+@import "node_modules/bootstrap/less/bootstrap.less";
+@import "variables.less";
+@import "project-variables.less";
+@import "theme.less";
+
+
+@gray-base:              #29292B;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              lighten(@gray-base, 20%);   // #333
+
+.run-list-legend(@list) {
+    .iter(length(@list));
+    .iter(@i) when (@i > 0) {
+        .iter(@i - 1);
+        @pair:  extract(@list, @i);
+        @value: extract(@pair, 1);
+        .runs-list .run-@{i} {
+            border-left: 10px solid @value;
+            color: inherit !important;
+            font-weight: normal;
+        }
+    }
+}
+.contour-colors(@prefix @list) {
+    .iter(length(@list));
+    .iter(@i) when (@i > 0) {
+        .iter(@i - 1);
+        @pair:  extract(@list, @i);
+        @value: extract(@pair, 1);
+        .@{prefix}-@{i} {
+            color: @value;
+            stroke: @value;
+            fill: @value;
+        }
+        .@{prefix}-@{i}.contour-legend-key {
+            background-color: @value;
+        }
+    }
+}
+
+.contour-colors(s, @graph-colors);
+.run-list-legend(@run-selection-colors);
+.contour-colors(run, @run-selection-colors);
+
+.btn {
+    margin-bottom: 20px;
+    padding: 0 40px 0 40px;
+    min-height: 40px;
+}
+
+.SaveRun{
+    margin-bottom: 0;
+}
+
+//wells because wells
+.well{padding-top: 10px;}
+
+//div on the other side of the well, evens them out (in theory)
+.opp-well{padding-top: 10px;}
+
+@media (max-width: 760px) {
+    .navbar-collapse {
+        &.in {
+            background: @navbar-default-bg;
+            color: @navbar-default-color;
+            width: 100%;
+            height: 1vh;
+        }
+    }
+    .burger-container span {
+        background: @navbar-default-brand-color;
+    }
+
+    .action{
+        padding-top: 20px;
+        width: inherit;
+    }
+
+    .btn{
+        width: inherit;
+    }
+
+    .name-sim{
+        margin-bottom: 10px;
+    }
+
+    .f-header .f-media-container img {
+        margin-bottom: 20px;
+    }
+
+}
+
+.builder-mode {
+    .f-page-legend {
+        &:empty, >div:empty {
+            background-color: #b2dbfb;
+            color: rgba(0,0,0,0.5);
+        }
+    }
+}
+
+.f-toggle {
+    :checked + .tgl-btn {
+        background-color: @track-color;
+    }
+}
+
+.range-value:not(readonly) {
+    color: @input-color;
+}
