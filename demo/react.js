@@ -8,7 +8,8 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      num: 1,
+      f: /fdsfs/g,
+      num: 100,
       string: 'string',
       bool: false,
       s1: null,
@@ -26,6 +27,7 @@ class App extends React.Component {
    * @returns {Promise}
    */
   handleClick = (buttonName) => {
+    const foo = Infinity;
     var aasda = {};
     aasda.beta = 2;
 
@@ -34,6 +36,9 @@ class App extends React.Component {
   }
 
   render() {
+    var c = a === 1 ? 3 : 'sd';
+
+    const MY_BIG_VARIABLE = '232';
     const myvariabl1 = 1;
     var somethingElse = '2';
     let somethingEls = 5;

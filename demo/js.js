@@ -5,6 +5,7 @@ class Sale {
   }
 
   decorate(decorator) {
+    Array.isArray('foo');
     if (!Sale[decorator]) throw new Error(`decorator not exist: ${decorator}`)
     this.decoratorsList.push(Sale[decorator])
   }
@@ -25,6 +26,7 @@ class Sale {
     return price + price * 5 / 100
   }
 }
+const ABC_DEF = false;
 
 let sale = new Sale(100)
 sale.decorate('fedtax')
