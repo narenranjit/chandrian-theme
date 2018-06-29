@@ -535,7 +535,7 @@
 		},
 		{
 			"scope": [
-				"string.quoted.double",
+				"string.quoted.double.html",
 				"string.quoted.jsx"
 			],
 			"settings": {
