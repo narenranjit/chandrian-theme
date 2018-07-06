@@ -1,0 +1,45 @@
+[{
+    "name": "Comment",
+    "scope": [
+        "comment",
+        "other.description.jsdoc", // variable description
+        "punctuation.definition.comment",
+        "storage.type.class.jsdoc"  //@param
+    ],
+    "settings": {
+        "foreground": "#71727F"
+    }
+},
+{
+    "name": "Comment",
+    "scope": [
+        "storage.type.class.jsdoc",  //@param
+        "comment.line",
+        "other.description.jsdoc", // variable description
+        "punctuation.definition.comment"
+    ],
+    "settings": {
+        "fontStyle": "italic"
+    }
+},
+{
+    "scope": [
+        "variable.other.jsdoc", //variable name in jsdoc
+        "entity.name.type.instance.jsdoc" //{string}
+    ],
+    "settings": {
+        "foreground": "#AFB1CE"
+    }
+},
+{
+    "scope": [
+        "meta.brace",
+        "punctuation.terminator",
+        "punctuation.definition",
+        "punctuation.separator",
+        "meta.delimiter"
+    ],
+    "settings": {
+        "foreground": "#71727F"
+    }
+}]
