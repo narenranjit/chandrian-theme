@@ -337,7 +337,8 @@
 		//variables
 		{
 			"scope": [
-				"meta.function-call.without-arguments"
+				"meta.function-call.without-arguments",
+				"meta.function-call.method.without-arguments"
 				, "meta.brace.square"
 			],
 			"settings": {
