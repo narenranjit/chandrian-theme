@@ -1,0 +1,44 @@
+
+
+Functions
+
+Blue 
+    #19B5FE -- function definitions
+    #1491CB -- darker, object ke
+    #D4F0FD - lightest
+Yellow  
+    #FFC50D
+Orange 
+    #FF8F0D
+
+Violet
+#b486e6
+#D2B3F4 Lighter
+
+Pink #E87FD7
+
+Cyan #82DBF2
+Green #859900 -- cursor
+
+Grayish = 
+AFB1CE (var names in jsdoc)
+#A9ABCA (for comments)
+#71727F less prominent violet
+#7d80a7 - grayish Violet (var/const)
+
+--- 
+Red #AB301B
+
+
+invalid.illegal.expected-array-separator.json
+
+
+string green #A4C35B - #AFD061 (interpolated)
+number blue #80a2dd
+boolean purple #D39ABE
+regex pink #C3B95B
+
+--
+
+FF8F0D -- keyword.operator.module
+

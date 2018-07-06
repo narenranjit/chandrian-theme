@@ -145,3 +145,8 @@ keyword.operator.arithmetic.js //+-
 keyword.operator.ternary.js
 variable.language.super.js
 ---
+
+
+
+
+ = and == are complementary colors

@@ -9,12 +9,12 @@ class App extends React.Component {
     super(props)
     this.state = {
       f: /fdsfs/g,
-      num: 100,
+      "num": 100,
       string: 'string',
       bool: false,
       s1: null,
       s2: undefined,
-      a6: `something ${v1} something`
+      a6: `something ${v1} something`,
       s4: {},
       s6: [],
     }
@@ -27,6 +27,10 @@ class App extends React.Component {
    * @returns {Promise}
    */
   handleClick = (buttonName) => {
+    const FOO = {
+      BAR: 2
+    };
+    console.log(FOO.BAR, Math.random());
     const foo = Infinity;
     var aasda = {};
     aasda.beta = 2;
@@ -42,6 +46,11 @@ class App extends React.Component {
     const myvariabl1 = 1;
     var somethingElse = '2';
     let somethingEls = 5;
+
+    const name = new Typees(arguments);
+
+    foobar();
+    foobar(1, 2);
 
     if (a > 1) {
       return 1;
