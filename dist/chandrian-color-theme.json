@@ -2,7 +2,7 @@
   "name": "chandrian",
   "type": "dark",
   "colors": {
-    "editor.background": "#000",
+    "editor.background": "#262626",
     "editor.lineHighlightBackground": "#313131",
     "editorWhitespace.foreground": "#353434",
     "editor.foreground": "#FFFFFF",
@@ -22,7 +22,7 @@
         "storage.type.class.jsdoc"
       ],
       "settings": {
-        "foreground": "#71727F"
+        "foreground": "#A9ABCA"
       }
     },
     {
@@ -55,7 +55,7 @@
         "meta.delimiter"
       ],
       "settings": {
-        "foreground": "#71727F"
+        "foreground": "{{commentGray}"
       }
     },
     {
@@ -632,7 +632,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "#b486e6"
       }
     },
     {
@@ -640,7 +640,7 @@
         "meta.property.object"
       ],
       "settings": {
-        "foreground": "#FFFFFFD4"
+        "foreground": "FFFFFFD4"
       }
     },
     {
@@ -648,7 +648,7 @@
         "variable.other.object"
       ],
       "settings": {
-        "foreground": "#FFFFFFD4"
+        "foreground": "FFFFFFD4"
       }
     },
     {
@@ -743,7 +743,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#FFFFFFD4"
+        "foreground": "FFFFFFD4"
       }
     },
     {
@@ -751,7 +751,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "FFFFFF"
       }
     },
     {

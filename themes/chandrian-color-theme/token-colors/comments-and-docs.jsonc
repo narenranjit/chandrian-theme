@@ -7,7 +7,7 @@
         "storage.type.class.jsdoc"  //@param
     ],
     "settings": {
-        "foreground": "#71727F"
+        "foreground": "{{commentGray}}"
     }
 },
 {
@@ -28,7 +28,7 @@
         "entity.name.type.instance.jsdoc" //{string}
     ],
     "settings": {
-        "foreground": "#AFB1CE"
+        "foreground": "{{commentGrayProminent}}"
     }
 },
 {
@@ -40,6 +40,6 @@
         "meta.delimiter"
     ],
     "settings": {
-        "foreground": "#71727F"
+        "foreground": "{{commentGray}"
     }
 }]

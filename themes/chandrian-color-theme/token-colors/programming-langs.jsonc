@@ -2,10 +2,10 @@
     //operators
     {
         "scope": [
-            "storage.type"
+            "storage.type" //var, const etc
         ],
         "settings": {
-            "foreground": "#7d80a7"
+            "foreground": "{{keywordGray}}"
         }
     },
     {
@@ -13,7 +13,7 @@
             "keyword.operator.assignment"
         ],
         "settings": {
-            "foreground": "#7d80a7"
+            "foreground": "{{keywordGray}}"
         }
     },
 
@@ -23,7 +23,7 @@
             "entity.name.function" //function definition
         ],
         "settings": {
-            "foreground": "#19B5FE"
+            "foreground": "{{main}}"
         }
     },
     {
@@ -32,7 +32,7 @@
             "variable.function" //function invocation
         ],
         "settings": {
-            "foreground": "#b486e6"
+            "foreground": "{{alt2}}"
         }
     },
     {
@@ -44,15 +44,15 @@
             "constant.language"
         ],
         "settings": {
-            "foreground": "#D2B3F4"
+            "foreground": "{{alt2Variant}}"
         }
     },
     {
         "scope": [
-            "variable.function.constructor" //function invocation
+            "variable.function.constructor"
         ],
         "settings": {
-            "foreground": "#E87FD7"
+            "foreground": "{{alt3}}"
         }
     },
     {
@@ -60,7 +60,7 @@
             "variable.parameter.function"
         ],
         "settings": {
-            "foreground": "#D4F0FD"
+            "foreground": "{{mainLightest}}"
         }
     },
     {
@@ -73,7 +73,7 @@
             "variable.other.property.static"
         ],
         "settings": {
-            "foreground": "#E87FD7"
+            "foreground": "{{alt3}}"
         }
     },
     {
@@ -81,7 +81,7 @@
             "meta.type.annotation"
         ],
         "settings": {
-            "foreground": "#b486e6"
+            "foreground": "{{alt4}}"
         }
     },
     {
@@ -89,7 +89,7 @@
             "storage.modifier"
         ],
         "settings": {
-            "foreground": "#2aa198"
+            "foreground": "{{alt4}}"
         }
     },
     //MISC
@@ -98,7 +98,7 @@
             "meta.property.object"
         ],
         "settings": {
-            "foreground": "#FFFFFFD4"
+            "foreground": "{{text}}"
             // "fontStyle": "italic"
         }
     },
@@ -107,7 +107,7 @@
             "variable.other.object"
         ],
         "settings": {
-            "foreground": "#FFFFFFD4"
+            "foreground": "{{text}}"
             // "fontStyle": "italic"
         }
     },
@@ -116,7 +116,7 @@
             "string.unquoted.label"
         ],
         "settings": {
-            "foreground": "#1491CB"
+            "foreground": "{{mainDarker}}"
         }
     },
 
@@ -129,7 +129,7 @@
             "keyword.operator.comparison"
         ],
         "settings": {
-            "foreground": "#FFC50DBF"
+            "foreground": "{{alt1}}BF"
         }
     },
     {
@@ -140,7 +140,7 @@
 
         ],
         "settings": {
-            "foreground": "#FFC50D"
+            "foreground": "{{alt1}}"
             // , "fontStyle": "italic"
         }
     },
@@ -160,7 +160,7 @@
             "variable.function meta.function-call"
         ],
         "settings": {
-            "foreground": "#FF8F0D"
+            "foreground": "{{alt1Complentary}}"
             // , "fontStyle": "italic"
         }
     }, 
@@ -170,7 +170,7 @@
             "support.type.object.module",
         ],
         "settings": {
-            "foreground": "#b486e6BF"
+            "foreground": "{{alt4}}BF"
             // , "fontStyle": "italic"
         }
     },
@@ -180,13 +180,13 @@
             "support.type.object.console"
         ],
         "settings": {
-            "foreground": "#D4F0FD"
+            "foreground": "{{mainLightest}}"
         }
     },
     {
         "scope": "support.class.error",
         "settings": {
-            // "foreground": "#"
+            // "foreground": ""
         }
     },
     {
@@ -195,7 +195,7 @@
             "keyword.other.new"
         ],
         "settings": {
-            "foreground": "#E87FD77F"
+            "foreground": "{{alt3}}7F"
         }
     },
 
@@ -207,7 +207,7 @@
             , "meta.brace.square"
         ],
         "settings": {
-            "foreground": "#7d80a7"
+            "foreground": "{{keywordGray}}"
         }
     },
     {
@@ -215,7 +215,7 @@
             "variable"
         ],
         "settings": {
-            "foreground": "#FFFFFFD4"
+            "foreground": "{{text}}"
         }
     },
     {
@@ -223,7 +223,7 @@
             "variable.other.constant"
         ],
         "settings": {
-            "foreground": "#FFFFFF"
+            "foreground": "{{textProminent}}"
         }
     },
     {
@@ -231,7 +231,7 @@
             "variable.language.super"
         ],
         "settings": {
-            "foreground": "#E87FD7"
+            "foreground": "{{alt3}}"
         }
     }, 
     {
