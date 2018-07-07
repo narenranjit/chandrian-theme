@@ -20,7 +20,7 @@
     ]
   },
   "scripts": {
-    "build": "node ./build/compile-themes.js"
+    "watch": "node ./build/compile-themes.js"
   },
   "author": "",
   "license": "ISC",
