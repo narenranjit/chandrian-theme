@@ -15,7 +15,7 @@
       {
         "label": "chandrian",
         "uiTheme": "vs-dark",
-        "path": "./themes/chandrian-color-theme.json"
+        "path": "./dist/chandrian-color-theme.json"
       }
     ]
   },

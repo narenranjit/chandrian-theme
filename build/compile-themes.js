@@ -24,7 +24,7 @@ function getContents(fileName) {
 const basePath = path.resolve(__dirname, '../themes/chandrian-color-theme/');
 const generalStylesDir = `${basePath}/editor-colors`;
 const codeStylesDir = `${basePath}/token-colors`;
-const outputFile = path.resolve(__dirname, '../themes/chandrian-color-theme.json');
+const outputFile = path.resolve(__dirname, '../dist/chandrian-color-theme.json');
 
 const generalStyleFiles = fs.readdirSync(generalStylesDir);
 const generalColors = generalStyleFiles.reduce((accum, fileName)=> {
