@@ -23,7 +23,7 @@
         ],
         "settings": {
             "fontStyle": "italic",
-            "foreground": "{{booleans}"
+            "foreground": "{{booleans}}"
         }
     },
     {
@@ -31,7 +31,7 @@
             "constant.language.boolean"
         ],
         "settings": {
-            "foreground": "{{booleans}"
+            "foreground": "{{booleans}}"
         }
     },
     {

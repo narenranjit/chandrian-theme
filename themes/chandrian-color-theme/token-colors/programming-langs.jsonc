@@ -41,6 +41,7 @@
         "scope": [
             "support.class.builtin",// Math.Infinity
             "support.function.builtin",
+            "support.function.node",
 
             "constant.other.symbol",
             "constant.language"

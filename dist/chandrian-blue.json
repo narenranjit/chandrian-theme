@@ -272,7 +272,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "{{booleans}"
+        "foreground": "undefined"
       }
     },
     {
@@ -280,7 +280,7 @@
         "constant.language.boolean"
       ],
       "settings": {
-        "foreground": "{{booleans}"
+        "foreground": "undefined"
       }
     },
     {
@@ -572,6 +572,7 @@
       "scope": [
         "support.class.builtin",
         "support.function.builtin",
+        "support.function.node",
         "constant.other.symbol",
         "constant.language"
       ],

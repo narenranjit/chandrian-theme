@@ -10,7 +10,7 @@
         "alt1Complentary": "#FF9F1A",//return
     
         "alt2": "#6DBDFF", //main complementary, function invocation
-        "alt2Variant": "#7C79FF", //Math.floor
+        "alt2Variant": "#9C97FB", //Math.floor
     
         "alt3": "#60FFF2", //class names
     
@@ -23,10 +23,10 @@
         "important": "#AB301B",
     
         "strings": "#A4C35B",
-        "interpolated": "#AFD061",
-        "number": "#80a2dd",
-        "booleans": "#D39ABE",
-        "regex": "#C3B95B",
+        "interpolated": "#66A344",
+        "number": "#CDA1EB",
+        "booleans": "#CF84BC",
+        "regex": "#D0C257",
     
         "text": "#FFFFFFD4",
         "textProminent": "#FFFFFF"
