@@ -40,6 +40,6 @@
         "meta.delimiter"
     ],
     "settings": {
-        "foreground": "{{commentGray}"
+        "foreground": "{{commentGray}}"
     }
 }]

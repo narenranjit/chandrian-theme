@@ -14,7 +14,7 @@ module.exports = function compile(paths) {
     colorSchemeFiles.forEach((fileName)=> {
         const contents = fs.readFileSync(`${paths.COLOR_SCHEMES_FOLDER}/${fileName}`, 'utf8');
         const scheme = jsonc.parse(contents);
-        console.log(scheme, contents);
+        // console.log(scheme, contents);
         const base = {
             name: `Chandrian (${scheme.name})`,
             type: scheme.type,

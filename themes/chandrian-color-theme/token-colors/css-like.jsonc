@@ -140,16 +140,6 @@
     },
     {
         "scope": [
-            "string.quoted.double",
-            "punctuation.definition.string.begin",
-            "punctuation.definition.string.end"
-        ],
-        "settings": {
-            "foreground": "#A4C35B"
-        }
-    },
-    {
-        "scope": [
             "entity.name.function.scss",
             "entity.other.attribute-name.class.mixin.css"
         ],

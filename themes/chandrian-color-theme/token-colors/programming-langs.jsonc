@@ -20,6 +20,7 @@
     //functions
     {
         "scope": [
+            "meta.definition.method",
             "entity.name.function" //function definition
         ],
         "settings": {
@@ -28,7 +29,8 @@
     },
     {
         "scope": [
-            "support.function.node",
+            // "meta.function-call",
+            "support.function",
             "variable.function" //function invocation
         ],
         "settings": {
@@ -52,7 +54,7 @@
             "variable.function.constructor"
         ],
         "settings": {
-            "foreground": "{{alt3}}"
+            "foreground": "{{alt4}}"
         }
     },
     {
@@ -78,6 +80,7 @@
     },
     {
         "scope": [
+            "entity.name.type",
             "meta.type.annotation"
         ],
         "settings": {
@@ -89,7 +92,7 @@
             "storage.modifier"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
+            "foreground": "{{alt3}}"
         }
     },
     //MISC
@@ -104,7 +107,7 @@
     },
     {
         "scope": [
-            "variable.other.object"
+            "variable.other.object" //this.object
         ],
         "settings": {
             "foreground": "{{text}}"
@@ -176,6 +179,7 @@
     },
     {
         "scope": [
+            "support.class.console",
             "support.function.console",
             "support.type.object.console"
         ],
@@ -195,7 +199,7 @@
             "keyword.other.new"
         ],
         "settings": {
-            "foreground": "{{alt3}}7F"
+            "foreground": "{{alt4}}7F"
         }
     },
 
@@ -204,10 +208,18 @@
         "scope": [
             "meta.function-call.without-arguments",
             "meta.function-call.method.without-arguments"
-            , "meta.brace.square"
+            , "meta.brace.round"
         ],
         "settings": {
-            "foreground": "{{keywordGray}}"
+            "foreground": "{{mainLightest}}b4"
+        }
+    },
+    {
+        "scope": [
+            "meta.brace.square"
+        ],
+        "settings": {
+            "foreground": "{{text}}"
         }
     },
     {
@@ -239,6 +251,7 @@
             "variable.language.this"
         ],
         "settings": {
+            "color": "{{text}}",
             "fontStyle": "italic"
         }
     }

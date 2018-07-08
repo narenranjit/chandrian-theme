@@ -2,19 +2,19 @@
     "name": "Yellow",
     "type": "dark",
     "colors": {
-        "main": "#FFC66D",
-        "mainDarker": "#CC9E57", //object keys
-        "mainLightest": "#FFF8EE", //fn params
+        "main": "#58CDE8",
+        "mainDarker": "#58CDE8", //object keys
+        "mainLightest": "#B9E0FF", //fn params
     
-        "alt1": "#FFC71A", //ifthen
+        "alt1": "#FFCB0D", //ifthen
         "alt1Complentary": "#FF9F1A",//return
     
         "alt2": "#6DBDFF", //main complementary, function invocation
-        "alt2Variant": "#2974B2", //Math.floor
+        "alt2Variant": "#7C79FF", //Math.floor
     
-        "alt3": "#A29BDF", //class names
+        "alt3": "#60FFF2", //class names
     
-        "alt4": "#47A78C", //annotation, static
+        "alt4": "#A29BDF", //annotation
       
         "commentGray": "#6D7278",
         "commentGrayProminent": "#A7B5C3",
@@ -22,13 +22,13 @@
     
         "important": "#AB301B",
     
-        "string": "#A4C35B",
+        "strings": "#A4C35B",
         "interpolated": "#AFD061",
         "number": "#80a2dd",
-        "boolean": "#D39ABE",
+        "booleans": "#D39ABE",
         "regex": "#C3B95B",
     
-        "text": "FFFFFFD4",
-        "textProminent": "FFFFFF"
+        "text": "#FFFFFFD4",
+        "textProminent": "#FFFFFF"
     }
 }

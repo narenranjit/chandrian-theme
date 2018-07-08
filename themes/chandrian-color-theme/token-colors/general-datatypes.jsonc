@@ -2,12 +2,10 @@
     {
         "scope": [
             "string.quoted",
-            "punctuation.definition.string.begin",
-            "punctuation.definition.string.end",
             "punctuation.definition.string"
         ],
         "settings": {
-            "foreground": "#A4C35B"
+            "foreground": "{{strings}}"
         }
     },
     {
@@ -15,7 +13,7 @@
             "constant.numeric"
         ],
         "settings": {
-            "foreground": "#80a2dd"
+            "foreground": "{{number}}"
         }
     },
     {
@@ -25,7 +23,7 @@
         ],
         "settings": {
             "fontStyle": "italic",
-            "foreground": "#D39ABE"
+            "foreground": "{{booleans}"
         }
     },
     {
@@ -33,7 +31,7 @@
             "constant.language.boolean"
         ],
         "settings": {
-            "foreground": "#D39ABE"
+            "foreground": "{{booleans}"
         }
     },
     {
@@ -41,7 +39,7 @@
             "string.interpolated"
         ],
         "settings": {
-            "foreground": "#AFD061"
+            "foreground": "{{interpolated}}"
         }
     }, 
     {
@@ -52,7 +50,7 @@
             "keyword.other.template.end"
         ],
         "settings": {
-            "foreground": "#AFD0617F"
+            "foreground": "{{interpolated}}7F"
         }
     },
     {
@@ -60,7 +58,7 @@
             "string.regexp"
         ],
         "settings": {
-            "foreground": "#C3B95B"
+            "foreground": "{{regex}}"
         }
     }, 
     {
@@ -68,7 +66,7 @@
             "constant.other.object.key" //What's this?
         ],
         "settings": {
-            "foreground": "#C3B95B"
+            "foreground": "{{regex}}"
         }
     }
 ]
