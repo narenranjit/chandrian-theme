@@ -54,7 +54,7 @@ variable.parameter.url.scss
 storage.type.js
 storage.type.class.js
 storage.modifier.js //static
-storage.type.function.js // function keyworld
+storage.type.function.js // function key word
 
 variable.language.this.js
 

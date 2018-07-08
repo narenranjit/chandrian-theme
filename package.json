@@ -16,6 +16,11 @@
         "label": "chandrian (blue)",
         "uiTheme": "vs-dark",
         "path": "./dist/chandrian-blue.json"
+      },
+      {
+        "label": "chandrian (yellow)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/chandrian-yellow.json"
       }
     ]
   },

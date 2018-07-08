@@ -1,0 +1,34 @@
+{
+    "name": "Yellow",
+    "type": "dark",
+    "colors": {
+        "main": "#FFC66D",
+        "mainDarker": "#CC9E57", //object keys
+        "mainLightest": "#FFF8EE", //fn params
+    
+        "alt1": "#FFC71A", //ifthen
+        "alt1Complentary": "#FF9F1A",//return
+    
+        "alt2": "#6DBDFF", //main complementary, function invocation
+        "alt2Variant": "#2974B2", //Math.floor
+    
+        "alt3": "#A29BDF", //class names
+    
+        "alt4": "#47A78C", //annotation, static
+      
+        "commentGray": "#6D7278",
+        "commentGrayProminent": "#A7B5C3",
+        "keywordGray": "#708394",
+    
+        "important": "#AB301B",
+    
+        "string": "#A4C35B",
+        "interpolated": "#AFD061",
+        "number": "#80a2dd",
+        "boolean": "#D39ABE",
+        "regex": "#C3B95B",
+    
+        "text": "FFFFFFD4",
+        "textProminent": "FFFFFF"
+    }
+}
