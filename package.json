@@ -13,14 +13,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "chandrian",
+        "label": "chandrian (blue)",
         "uiTheme": "vs-dark",
-        "path": "./dist/chandrian-color-theme.json"
+        "path": "./dist/chandrian-blue.json"
       }
     ]
   },
   "scripts": {
-    "watch": "node ./build/compile-themes.js"
+    "build": "node ./build/compile-themes.js",
+    "watch": "node ./build/watch-and-compile.js"
   },
   "author": "",
   "license": "ISC",
