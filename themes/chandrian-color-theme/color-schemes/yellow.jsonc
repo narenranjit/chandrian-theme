@@ -1,0 +1,40 @@
+{
+    "name": "Yellow",
+    "type": "dark",
+    "colors": {
+        "main": "#6DBDFF",
+        "mainDarker1": "#2299FB",
+        "mainDarker2": "#006DC7",
+        "mainLight1": "#ADD8E6",
+        "mainLight2": "#C5EFF7",
+        "mainLightest": "#B9E0FF", //fn params
+        
+        "mainVariant": "#9C97FB", //Math.floor
+        "mainAlt": "#58CDE8", //fn definition
+
+        "alt2": "#6DBDFF", //main complementary, function invocation
+
+        "alt1": "#FFCB0D", //ifthen
+        "alt1Complentary": "#FF9F1A",//return
+        "alt1ComplentaryShade1": "#FFBF66",//return
+        "alt1Supplementary": "#CCCA1F",
+    
+        "alt3": "#60FFF2", //class names
+        "alt4": "#A29BDF", //annotation
+      
+        "commentGray": "#6D7278",
+        "commentGrayProminent": "#BEC4CA",
+        "keywordGray": "#708394",
+    
+        "important": "#AB301B",
+    
+        "strings": "#A4C35B",
+        "interpolated": "#66A344",
+        "number": "#CDA1EB",
+        "booleans": "#CF84BC",
+        "regex": "#D0C257",
+    
+        "text": "#FFFFFFD4",
+        "textProminent": "#FFFFFF"
+    }
+}

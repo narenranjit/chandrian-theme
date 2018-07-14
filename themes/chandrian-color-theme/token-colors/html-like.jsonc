@@ -1,0 +1,59 @@
+[
+    {
+        "scope": [
+            "entity.name.tag.structure.any", //HTMl / body
+            "meta.tag.sgml"
+        ],
+        "settings": {
+            "foreground": "#1491CB"
+        }
+    },
+    {
+        "scope": [
+            "meta.tag",
+            "meta.tag.any",
+            "meta.tag.block.any"
+        ],
+        "settings": {
+            "foreground": "#1491CB"
+        }
+    },
+    {
+        "scope": [
+            "meta.tag.inline.any"
+        ],
+        "settings": {
+            "foreground": "#65CDFE"
+        }
+    },
+    {
+        "scope": [
+            "meta.tag.metadata.script"
+        ],
+        "settings": {
+            "foreground": "#0BDBE7"
+        }
+    },
+    {
+        "scope": ["entity.other.attribute-name"],
+        "settings": {
+            "foreground": "#FFA53EBF",
+            "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": ["meta.toc-list.id"], //#ids
+        "settings": {
+            "foreground": "#e2dc2e"
+        }
+    },
+    {
+        "scope": [
+            "string.quoted.double.html",
+            "string.quoted.jsx"
+        ],
+        "settings": {
+            "foreground": "#b3ae23"
+        }
+    }
+]

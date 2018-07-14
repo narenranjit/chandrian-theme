@@ -1,0 +1,72 @@
+[
+    {
+        "scope": [
+            "string.quoted",
+            "punctuation.definition.string"
+        ],
+        "settings": {
+            "foreground": "{{strings}}"
+        }
+    },
+    {
+        "scope": [
+            "constant.numeric"
+        ],
+        "settings": {
+            "foreground": "{{number}}"
+        }
+    },
+    {
+        "scope": [
+            "constant.language.null",
+            "constant.language.undefined"
+        ],
+        "settings": {
+            "fontStyle": "italic",
+            "foreground": "{{booleans}}"
+        }
+    },
+    {
+        "scope": [
+            "constant.language.boolean"
+        ],
+        "settings": {
+            "foreground": "{{booleans}}"
+        }
+    },
+    {
+        "scope": [
+            "string.interpolated"
+        ],
+        "settings": {
+            "foreground": "{{interpolated}}"
+        }
+    }, 
+    {
+        "scope": [
+            "keyword.other.substitution.begin",
+            "keyword.other.substitution.end",
+            "keyword.other.template.begin",
+            "keyword.other.template.end"
+        ],
+        "settings": {
+            "foreground": "{{interpolated}}7F"
+        }
+    },
+    {
+        "scope": [
+            "string.regexp"
+        ],
+        "settings": {
+            "foreground": "{{regex}}"
+        }
+    }, 
+    {
+        "scope": [
+            "constant.other.object.key" //What's this?
+        ],
+        "settings": {
+            "foreground": "{{regex}}"
+        }
+    }
+]

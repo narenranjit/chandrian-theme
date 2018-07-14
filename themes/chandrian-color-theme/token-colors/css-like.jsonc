@@ -1,0 +1,238 @@
+[
+    {
+        "scope": [
+            "entity.name.tag.css",
+            "meta.selector.css"
+        ],
+        "settings": {
+            "foreground": "{{mainVariant}}"
+        }
+    },
+    {
+        "scope": [
+            "entity.other.attribute-name.css"
+        ],
+        "settings": {
+            "foreground": "{{mainDarker1}}",
+            "fontStyle": ""
+        }
+    },
+    {
+        "scope": [
+            "punctuation.definition.entity.begin.bracket.square.css",
+            "punctuation.definition.entity.end.bracket.square.css"
+        ],
+        "settings": {
+            "foreground": "{{mainDarker1}}BF"
+        }
+    },
+    {
+        "scope": [
+            "entity.other.attribute-name.class.css"
+        ],
+        "settings": {
+            "foreground": "{{main}}"
+        }
+    },
+    {
+        "scope": [
+            "entity.other.attribute-name.id.css"
+        ],
+        "settings": {
+            "foreground": "{{main}}"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.tag.reference.scss", //&
+            "entity.other.attribute-name.pseudo-class.css",
+            "entity.other.attribute-name.pseudo-element.css"
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.section.function.begin.bracket.round.css",
+            "punctuation.section.function.end.bracket.round.css" //assuming :not is primary case
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}BF"
+        }
+    },
+
+    //ATTR Values
+    {
+        "scope": [
+            "constant.numeric.css"
+        ],
+        "settings": {
+            "foreground": "{{number}}",
+            "fontStyle": ""
+        }
+    },
+    {
+        "scope": [
+            "keyword.other.unit.px",
+            "keyword.other.unit.percentage",
+            "keyword.other.unit.em",
+            "keyword.other.unit.rem",
+            "keyword.other.unit.s",
+            "keyword.other.unit.ms"
+        ],
+        "settings": {
+            "foreground": "{{number}}BF",
+            "fontStyle": ""
+        }
+    },
+    {
+        "scope": [
+            "support.function.misc.css", //url()
+            "meta.function.calc.css" //calc()
+        ],
+        "settings": {
+            "foreground": "{{alt1}}"
+            // ,"fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "meta.function.color.css",
+            "support.constant.color",
+            "constant.other.color.rgb-value.hex.css"
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+        }
+    },
+    {
+        "scope": [
+            "support.constant.property-value.css" //relative etc
+        ],
+        "settings": {
+            "foreground": "{{booleans}}"
+        }
+    },
+    {
+        "scope": [
+            "keyword.other.important.css",
+            "invalid.deprecated.media.css"
+        ],
+        "settings": {
+            "foreground": "{{important}}"
+        }
+    },
+    {
+        "scope": [
+            "support.type.property-name"
+        ],
+        "settings": {
+            "foreground": "{{mainLightest}}"
+        }
+    },
+    {
+        "scope": [
+            "support.type.vendored.property-name"
+        ],
+        "settings": {
+            "foreground": "{{mainLightest}}BF"
+        }
+    },
+    {
+        "scope": [
+            // "punctuation.definition.entity.css", // . #,
+            "keyword.operator.combinator.css" //+>~
+        ],
+        "settings": {
+            "foreground": "{{alt1}}DF"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.section.property-list.begin.bracket.curly.scss",
+            "punctuation.section.property-list.end.bracket.curly.scss",
+            "punctuation.section.property-list.begin.bracket.curly.css",
+            "punctuation.section.property-list.end.bracket.curly.css",
+            "punctuation.terminator.rule.css", //;
+            "punctuation.separator.key-value.css"
+        ],
+        "settings": {
+            "foreground": "{{commentGray}}"
+        }
+    }, 
+    {
+        "scope": [
+            "keyword.control.at-rule.import"
+        ],
+        "settings": {
+            "foreground": "{{mainVariant}}"
+        }
+    },
+    {
+        "scope": [
+            "keyword.control.at-rule.mixin",
+            "keyword.operator.logical.and.media.css" //and,only in media queries
+        ],
+        "settings": {
+            "foreground": "{{keywordGray}}"
+        }
+    },
+    {
+        "scope": [
+            "keyword.control.at-rule",
+            "entity.name.function.scss",
+            "entity.other.attribute-name.class.mixin.css"
+        ],
+        "settings": {
+            "foreground": "{{alt1}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.css",
+            "variable.scss",
+            "variable.other.less"
+        ],
+        "settings": {
+            "foreground": "{{alt1Complentary}}"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.definition.variable.less" //@
+        ],
+        "settings": {
+            "foreground": "{{alt1Complentary}}7f"
+        }
+    },
+    {
+        "scope": [
+            "variable.argument.css"
+        ],
+        "settings": {
+            "foreground": "{{alt1Complentary}}",
+            "fontStyle": ""
+        }
+    },
+    {
+        "scope": [
+            "support.constant.property-value.css",
+            "support.function.misc.scss",
+            "support.function.any-method.builtin.less",
+            "meta.function.variable.css" //var()
+        ],
+        "settings": {
+            "foreground": "{{alt1Supplementary}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.other.interpolation.less"
+        ],
+        "settings": {
+            "foreground": "{{alt1ComplentaryShade1}}"
+        }
+    }
+    
+]

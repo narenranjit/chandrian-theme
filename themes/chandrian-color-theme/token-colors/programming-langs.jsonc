@@ -1,0 +1,259 @@
+[
+    //operators
+    {
+        "scope": [
+            "storage.type" //var, const etc
+        ],
+        "settings": {
+            "foreground": "{{keywordGray}}"
+        }
+    },
+    {
+        "scope": [
+            "keyword.operator.assignment"
+        ],
+        "settings": {
+            "foreground": "{{keywordGray}}"
+        }
+    },
+
+    //functions
+    {
+        "scope": [
+            "meta.definition.method",
+            "entity.name.function" //function definition
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}"
+        }
+    },
+    {
+        "scope": [
+            // "meta.function-call",
+            "support.function",
+            "variable.function" //function invocation
+        ],
+        "settings": {
+            "foreground": "{{main}}"
+        }
+    },
+    {
+        "scope": [
+            "support.class.builtin",// Math.Infinity
+            "support.function.builtin",
+            "support.function.node",
+
+            "constant.other.symbol",
+            "constant.language"
+        ],
+        "settings": {
+            "foreground": "{{mainVariant}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.function.constructor"
+        ],
+        "settings": {
+            "foreground": "{{alt4}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.parameter.function"
+        ],
+        "settings": {
+            "foreground": "{{mainLightest}}"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.class",
+            "entity.name.type.class",
+            "variable.other.class",
+            "meta.interface",
+            "support.class",
+            "variable.other.property.static"
+        ],
+        "settings": {
+            "foreground": "{{alt3}}"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.type",
+            "meta.type.annotation"
+        ],
+        "settings": {
+            "foreground": "{{alt4}}"
+        }
+    },
+    {
+        "scope": [
+            "storage.modifier"
+        ],
+        "settings": {
+            "foreground": "{{alt3}}"
+        }
+    },
+    //MISC
+    {
+        "scope": [
+            "meta.property.object"
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+            // "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "variable.other.object" //this.object
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+            // "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "string.unquoted.label"
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}"
+        }
+    },
+
+    //keywords
+    {
+        "scope": [
+            "keyword.operator", //instanceof
+            "keyword.operator.accessor", //.
+            "keyword.operator.logical",
+            "keyword.operator.comparison"
+        ],
+        "settings": {
+            "foreground": "{{alt1}}BF"
+        }
+    },
+    {
+        "scope": [
+            "keyword",
+            "keyword.control",
+            "keyword.operator.ternary"
+
+        ],
+        "settings": {
+            "foreground": "{{alt1}}"
+            // , "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "keyword.control.conditional",
+            "keyword.control.switch"
+        ],
+        "settings": {
+            // "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "keyword.control.flow",
+            "keyword.control.trycatch",
+            "variable.function meta.function-call"
+        ],
+        "settings": {
+            "foreground": "{{alt1Complentary}}"
+            // , "fontStyle": "italic"
+        }
+    }, 
+    {
+        "scope": [
+            "keyword.operator.module",
+            "support.type.object.module",
+        ],
+        "settings": {
+            "foreground": "{{alt4}}BF"
+            // , "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "support.class.console",
+            "support.function.console",
+            "support.type.object.console"
+        ],
+        "settings": {
+            "foreground": "{{mainLightest}}"
+        }
+    },
+    {
+        "scope": "support.class.error",
+        "settings": {
+            // "foreground": ""
+        }
+    },
+    {
+        "scope": [
+            "keyword.operator.new",
+            "keyword.other.new"
+        ],
+        "settings": {
+            "foreground": "{{alt4}}7F"
+        }
+    },
+
+    //variables
+    {
+        "scope": [
+            "meta.function-call.without-arguments",
+            "meta.function-call.method.without-arguments"
+            , "meta.brace.round"
+        ],
+        "settings": {
+            "foreground": "{{mainLightest}}b4"
+        }
+    },
+    {
+        "scope": [
+            "meta.brace.square"
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+        }
+    },
+    {
+        "scope": [
+            "variable"
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.other.constant"
+        ],
+        "settings": {
+            "foreground": "{{textProminent}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.language.super"
+        ],
+        "settings": {
+            "foreground": "{{alt3}}"
+        }
+    }, 
+    {
+        "scope": [
+            "variable.language.this"
+        ],
+        "settings": {
+            "color": "{{text}}",
+            "fontStyle": "italic"
+        }
+    }
+]

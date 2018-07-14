@@ -1,22 +1,42 @@
 {
-    "name": "chandrian",
-    "displayName": "chandrian",
-    "description": "",
-    "version": "0.0.1",
-    "publisher": "narenranjit",
-    "engines": {
-        "vscode": "^1.24.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "chandrian",
-                "uiTheme": "vs-dark",
-                "path": "./themes/chandrian-color-theme.json"
-            }
-        ]
-    }
+  "name": "chandrian",
+  "displayName": "chandrian",
+  "description": "You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:",
+  "version": "0.0.1",
+  "publisher": "narenranjit",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "chandrian (light)",
+        "uiTheme": "vs",
+        "path": "./dist/chandrian-light.json"
+      },
+      {
+        "label": "chandrian (blue)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/chandrian-blue.json"
+      },
+      {
+        "label": "chandrian (yellow)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/chandrian-yellow.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node ./build/compile-themes.js",
+    "watch": "node ./build/watch-and-compile.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-templates": "^2.0.0",
+    "jsonc-parser": "^2.0.1"
+  }
 }
