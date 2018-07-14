@@ -24,7 +24,7 @@
             "entity.name.function" //function definition
         ],
         "settings": {
-            "foreground": "{{main}}"
+            "foreground": "{{mainAlt}}"
         }
     },
     {
@@ -34,7 +34,7 @@
             "variable.function" //function invocation
         ],
         "settings": {
-            "foreground": "{{alt2}}"
+            "foreground": "{{main}}"
         }
     },
     {
@@ -47,7 +47,7 @@
             "constant.language"
         ],
         "settings": {
-            "foreground": "{{alt2Variant}}"
+            "foreground": "{{mainVariant}}"
         }
     },
     {
@@ -120,7 +120,7 @@
             "string.unquoted.label"
         ],
         "settings": {
-            "foreground": "{{mainDarker}}"
+            "foreground": "{{mainAlt}}"
         }
     },
 

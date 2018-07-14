@@ -13,6 +13,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "chandrian (light)",
+        "uiTheme": "vs",
+        "path": "./dist/chandrian-light.json"
+      },
+      {
         "label": "chandrian (blue)",
         "uiTheme": "vs-dark",
         "path": "./dist/chandrian-blue.json"

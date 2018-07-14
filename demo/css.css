@@ -5,6 +5,7 @@ element {
 body {
   font-size: var(--font_size_base);
   line-height: calc(100% - 100);
+  background-color: url(google.com);
 }
 
 .f-footer {
@@ -12,6 +13,13 @@ body {
   margin-bottom: 2em;
 }
 
+input[disabled] {
+
+}
+
+input.foobar[disabled] {
+
+}
 
 [data-f-bind]:not([data-initial]):not([data-update]):not(input):not(select):not(textarea) {
   opacity: 0;

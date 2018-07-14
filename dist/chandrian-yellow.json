@@ -43,14 +43,13 @@
         "entity.name.type.instance.jsdoc"
       ],
       "settings": {
-        "foreground": "#A7B5C3"
+        "foreground": "#BEC4CA"
       }
     },
     {
       "scope": [
         "meta.brace",
         "punctuation.terminator",
-        "punctuation.definition",
         "punctuation.separator",
         "meta.delimiter"
       ],
@@ -64,7 +63,25 @@
         "meta.selector.css"
       ],
       "settings": {
-        "foreground": "#1491CB"
+        "foreground": "#9C97FB"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.css"
+      ],
+      "settings": {
+        "foreground": "#2299FB",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.entity.begin.bracket.square.css",
+        "punctuation.definition.entity.end.bracket.square.css"
+      ],
+      "settings": {
+        "foreground": "#2299FBBF"
       }
     },
     {
@@ -72,7 +89,15 @@
         "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "foreground": "#65CDFE"
+        "foreground": "#6DBDFF"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#6DBDFF"
       }
     },
     {
@@ -82,7 +107,16 @@
         "entity.other.attribute-name.pseudo-element.css"
       ],
       "settings": {
-        "foreground": "#0BDBE7"
+        "foreground": "#58CDE8"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.function.begin.bracket.round.css",
+        "punctuation.section.function.end.bracket.round.css"
+      ],
+      "settings": {
+        "foreground": "#58CDE8BF"
       }
     },
     {
@@ -90,42 +124,41 @@
         "constant.numeric.css"
       ],
       "settings": {
-        "foreground": "#b3ae23",
+        "foreground": "#CDA1EB",
         "fontStyle": ""
       }
     },
     {
       "scope": [
-        "keyword.other.unit.px.css",
-        "keyword.other.unit.percentage.css",
-        "keyword.other.unit.em.css",
-        "keyword.other.unit.rem.css",
-        "keyword.other.unit.s.css",
-        "keyword.other.unit.ms.css"
+        "keyword.other.unit.px",
+        "keyword.other.unit.percentage",
+        "keyword.other.unit.em",
+        "keyword.other.unit.rem",
+        "keyword.other.unit.s",
+        "keyword.other.unit.ms"
       ],
       "settings": {
-        "foreground": "#66630A",
+        "foreground": "#CDA1EBBF",
         "fontStyle": ""
       }
     },
     {
       "scope": [
-        "keyword.operator.logical.and.media.css",
         "support.function.misc.css",
         "meta.function.calc.css"
       ],
       "settings": {
-        "foreground": "#b3ae23BF"
+        "foreground": "#FFCB0D"
       }
     },
     {
       "scope": [
         "meta.function.color.css",
-        "support.constant.color.w3c-standard-color-name.css",
+        "support.constant.color",
         "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
-        "foreground": "#8351A9"
+        "foreground": "#FFFFFFD4"
       }
     },
     {
@@ -133,17 +166,7 @@
         "support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "#A2CA1D"
-      }
-    },
-    {
-      "scope": [
-        "meta.function.color.css",
-        "support.constant.color.w3c-standard-color-name.css",
-        "constant.other.color.rgb-value.hex.css"
-      ],
-      "settings": {
-        "foreground": "#8351A9"
+        "foreground": "#CF84BC"
       }
     },
     {
@@ -152,25 +175,31 @@
         "invalid.deprecated.media.css"
       ],
       "settings": {
-        "foreground": "#FF6331"
+        "foreground": "#AB301B"
       }
     },
     {
       "scope": [
-        "punctuation.definition.entity.css",
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#B9E0FF"
+      }
+    },
+    {
+      "scope": [
+        "support.type.vendored.property-name"
+      ],
+      "settings": {
+        "foreground": "#B9E0FFBF"
+      }
+    },
+    {
+      "scope": [
         "keyword.operator.combinator.css"
       ],
       "settings": {
-        "foreground": "#0BDBE7"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.definition.entity.begin.bracket.square.css",
-        "punctuation.definition.entity.end.bracket.square.css"
-      ],
-      "settings": {
-        "foreground": "#1491CB7B"
+        "foreground": "#FFCB0DDF"
       }
     },
     {
@@ -183,24 +212,34 @@
         "punctuation.separator.key-value.css"
       ],
       "settings": {
-        "foreground": "#FFFFFF40"
+        "foreground": "#6D7278"
       }
     },
     {
       "scope": [
-        "keyword.control.at-rule.import.scss"
+        "keyword.control.at-rule.import"
       ],
       "settings": {
-        "foreground": "#FFBC0D"
+        "foreground": "#9C97FB"
       }
     },
     {
       "scope": [
+        "keyword.control.at-rule.mixin",
+        "keyword.operator.logical.and.media.css"
+      ],
+      "settings": {
+        "foreground": "#708394"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.at-rule",
         "entity.name.function.scss",
         "entity.other.attribute-name.class.mixin.css"
       ],
       "settings": {
-        "foreground": "#FFC20D"
+        "foreground": "#FFCB0D"
       }
     },
     {
@@ -210,7 +249,7 @@
         "variable.other.less"
       ],
       "settings": {
-        "foreground": "#FFA23E"
+        "foreground": "#FF9F1A"
       }
     },
     {
@@ -218,7 +257,7 @@
         "punctuation.definition.variable.less"
       ],
       "settings": {
-        "foreground": "#C567017A"
+        "foreground": "#FF9F1A7f"
       }
     },
     {
@@ -226,18 +265,19 @@
         "variable.argument.css"
       ],
       "settings": {
-        "foreground": "#C1569E",
+        "foreground": "#FF9F1A",
         "fontStyle": ""
       }
     },
     {
       "scope": [
+        "support.constant.property-value.css",
         "support.function.misc.scss",
         "support.function.any-method.builtin.less",
         "meta.function.variable.css"
       ],
       "settings": {
-        "foreground": "#C1569EBF"
+        "foreground": "#CCCA1F"
       }
     },
     {
@@ -245,7 +285,7 @@
         "variable.other.interpolation.less"
       ],
       "settings": {
-        "foreground": "#C1569E"
+        "foreground": "#FFBF66"
       }
     },
     {
