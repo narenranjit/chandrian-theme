@@ -37,8 +37,8 @@
     {
         "scope": ["entity.other.attribute-name"],
         "settings": {
-            "foreground": "#FFA53EBF",
-            "fontStyle": "italic"
+            "foreground": "#FFA53EBF"
+            // "fontStyle": "italic"
         }
     },
     {

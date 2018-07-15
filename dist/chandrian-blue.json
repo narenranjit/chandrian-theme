@@ -89,7 +89,8 @@
         "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "foreground": "#19B5FE"
+        "foreground": "#D4F0FD",
+        "fontStyle": ""
       }
     },
     {
@@ -97,7 +98,8 @@
         "entity.other.attribute-name.id.css"
       ],
       "settings": {
-        "foreground": "#19B5FE"
+        "foreground": "#D4F0FD",
+        "fontStyle": ""
       }
     },
     {
@@ -144,8 +146,7 @@
     },
     {
       "scope": [
-        "support.function.misc.css",
-        "meta.function.calc.css"
+        "support.function.any-method.builtin.url.css"
       ],
       "settings": {
         "foreground": "#FFC50D"
@@ -183,7 +184,7 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#D4F0FD"
+        "foreground": "#19B5FE"
       }
     },
     {
@@ -271,7 +272,9 @@
     },
     {
       "scope": [
-        "support.constant.property-value.css",
+        "support.function.calc.css",
+        "meta.function.calc.css",
+        "support.function.misc.css",
         "support.function.misc.scss",
         "support.function.any-method.builtin.less",
         "meta.function.variable.css"
@@ -398,8 +401,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#FFA53EBF",
-        "fontStyle": "italic"
+        "foreground": "#FFA53EBF"
       }
     },
     {

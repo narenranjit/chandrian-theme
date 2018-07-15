@@ -6,6 +6,7 @@
             "script": "watch",
             "isBackground": true,
             "presentation": {
+                "panel": "new",
                 "reveal": "always"
             },
             "group": {

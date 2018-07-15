@@ -31,7 +31,8 @@
             "entity.other.attribute-name.class.css"
         ],
         "settings": {
-            "foreground": "{{main}}"
+            "foreground": "{{mainLightest}}",
+            "fontStyle": ""
         }
     },
     {
@@ -39,7 +40,8 @@
             "entity.other.attribute-name.id.css"
         ],
         "settings": {
-            "foreground": "{{main}}"
+            "foreground": "{{mainLightest}}",
+            "fontStyle": ""
         }
     },
     {
@@ -88,8 +90,7 @@
     },
     {
         "scope": [
-            "support.function.misc.css", //url()
-            "meta.function.calc.css" //calc()
+            "support.function.any-method.builtin.url.css"
         ],
         "settings": {
             "foreground": "{{alt1}}"
@@ -128,7 +129,7 @@
             "support.type.property-name"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}"
+            "foreground": "{{main}}"
         }
     },
     {
@@ -217,7 +218,9 @@
     },
     {
         "scope": [
-            "support.constant.property-value.css",
+            "support.function.calc.css",
+            "meta.function.calc.css",
+            "support.function.misc.css",
             "support.function.misc.scss",
             "support.function.any-method.builtin.less",
             "meta.function.variable.css" //var()
