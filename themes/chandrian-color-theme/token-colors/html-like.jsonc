@@ -5,7 +5,7 @@
             "meta.tag.sgml"
         ],
         "settings": {
-            "foreground": "#1491CB"
+            "foreground": "{{mainDarker2}}"
         }
     },
     {
@@ -15,7 +15,7 @@
             "meta.tag.block.any"
         ],
         "settings": {
-            "foreground": "#1491CB"
+            "foreground": "{{mainDarker1}}BF"
         }
     },
     {
@@ -23,7 +23,15 @@
             "meta.tag.inline.any"
         ],
         "settings": {
-            "foreground": "#65CDFE"
+            "foreground": "{{main}}BF"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.tag.other.html"
+        ],
+        "settings": {
+            "foreground": "{{mainLight2}}BF"
         }
     },
     {
@@ -31,20 +39,20 @@
             "meta.tag.metadata.script"
         ],
         "settings": {
-            "foreground": "#0BDBE7"
+            "foreground": "{{mainAlt}}"
         }
     },
     {
         "scope": ["entity.other.attribute-name"],
         "settings": {
-            "foreground": "#FFA53EBF"
+            "foreground": "{{booleans}}BF"
             // "fontStyle": "italic"
         }
     },
     {
         "scope": ["meta.toc-list.id"], //#ids
         "settings": {
-            "foreground": "#e2dc2e"
+            "foreground": "{{strings}}"
         }
     },
     {
@@ -53,7 +61,16 @@
             "string.quoted.jsx"
         ],
         "settings": {
-            "foreground": "#b3ae23"
+            "foreground": "{{interpolated}}"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.definition.string.begin.html",
+            "punctuation.definition.string.end.html",
+        ],
+        "settings": {
+            "foreground": "{{strings}}7F"
         }
     }
 ]
