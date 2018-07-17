@@ -5,9 +5,9 @@
         "main": "#6DBDFF",
         "mainDarker1": "#2299FB",
         "mainDarker2": "#006DC7",
-        "mainLight1": "#ADD8E6",
-        "mainLight2": "#C5EFF7",
-        "mainLightest": "#B9E0FF", //fn params
+        "mainLight1": "#94CFFF",
+        "mainLight2": "#BCE1FF",
+        "mainLightest": "#E4F3FF", //fn params
         
         "mainVariant": "#9C97FB", //Math.floor
         "mainAlt": "#58CDE8", //fn definition
