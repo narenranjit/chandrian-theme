@@ -1,0 +1,20 @@
+[
+    {
+        "scope": [
+            "punctuation.definition.dictionary.begin.json",
+            "punctuation.definition.dictionary.end.json",
+            "punctuation.separator.dictionary.key-value.json", //:
+        ],
+        "settings": {
+            "foreground": "{{textProminent}}"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.separator.dictionary.pair.json"
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}"
+        }
+    }
+]

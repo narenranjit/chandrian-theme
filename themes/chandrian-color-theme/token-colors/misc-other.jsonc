@@ -1,0 +1,11 @@
+[
+    {
+        "scope": [
+            "entity.name.tag.yaml",
+            "keyword.other.definition.ini"
+        ],
+        "settings": {
+            "foreground": "{{main}}"
+        }
+    }
+]

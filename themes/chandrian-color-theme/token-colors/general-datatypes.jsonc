@@ -1,6 +1,15 @@
 [
     {
         "scope": [
+            "text",
+            "source",
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+        }
+    },
+    {
+        "scope": [
             "string.quoted",
             "punctuation.definition.string"
         ],
@@ -51,6 +60,14 @@
         ],
         "settings": {
             "foreground": "{{interpolated}}7F"
+        }
+    },
+    {
+        "scope": [
+            "invalid.illegal"
+        ],
+        "settings": {
+            "foreground": "{{important}}"
         }
     },
     {

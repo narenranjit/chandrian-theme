@@ -1,4 +1,7 @@
 'use strict'
+
+import Foo from './bar';
+
 class Sale {
   constructor(price) {
     ;[this.decoratorsList, this.price] = [[], price]

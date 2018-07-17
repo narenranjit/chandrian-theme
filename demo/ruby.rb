@@ -10,6 +10,9 @@ module ExampleModule
       puts 'doing stuff'
       yield if block_given?
       other_method(:arg)
+      if a = 1
+        foo = 'bar'
+      end
     end
 
     def self.class_method

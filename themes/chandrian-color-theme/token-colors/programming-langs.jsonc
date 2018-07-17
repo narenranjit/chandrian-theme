@@ -2,7 +2,8 @@
     //operators
     {
         "scope": [
-            "storage.type" //var, const etc
+            "keyword.other.variable.definition", //$ in powershell
+            "storage.type", //var, const etc
         ],
         "settings": {
             "foreground": "{{keywordGray}}"
@@ -72,11 +73,19 @@
             "entity.name.type.class",
             "variable.other.class",
             "meta.interface",
-            "support.class",
-            "variable.other.property.static"
+            "support.class"
         ],
         "settings": {
             "foreground": "{{alt3}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.other.property.static"
+
+        ],
+        "settings": {
+            "foreground": "{{alt3}}BF"
         }
     },
     {
@@ -93,7 +102,8 @@
             "storage.modifier"
         ],
         "settings": {
-            "foreground": "{{alt3}}"
+            "foreground": "{{alt4}}"
+            , "fontStyle": "italic"
         }
     },
     //MISC
@@ -130,6 +140,7 @@
             "keyword.operator", //instanceof
             "keyword.operator.accessor", //.
             "keyword.operator.logical",
+            "variable.language.prototype.js",
             "keyword.operator.comparison"
         ],
         "settings": {
@@ -171,6 +182,8 @@
     {
         "scope": [
             "keyword.operator.module",
+            "keyword.control.import", //keyword.control.import.tsx,
+            "keyword.control.export",
             "support.type.object.module",
         ],
         "settings": {
@@ -200,7 +213,7 @@
             "keyword.other.new"
         ],
         "settings": {
-            "foreground": "{{alt4}}7F"
+            "foreground": "{{alt3}}7F"
         }
     },
 

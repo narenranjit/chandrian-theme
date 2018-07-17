@@ -34,6 +34,7 @@
 {
     "scope": [
         "meta.brace",
+        "punctuation.definition.block", //{} in tsx
         "punctuation.terminator",
         // "punctuation.definition",
         "punctuation.separator",
