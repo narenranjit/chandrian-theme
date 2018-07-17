@@ -11,10 +11,55 @@
     },
     {
         "scope": [
-            "punctuation.separator.dictionary.pair.json"
+            "punctuation.separator.dictionary.pair.json" //,
         ],
         "settings": {
             "foreground": "{{mainAlt}}"
         }
-    }
+    },
+    {
+        "name": "JSON Key - Level 0",
+        "scope": [
+          "source.json meta.structure.dictionary.json support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "{mainDarker1}}"
+        }
+      },
+      {
+        "name": "JSON Key - Level 1",
+        "scope": [
+          "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "{{mainVariant}}"
+        }
+      }, {
+        "name": "JSON Key - Level 2",
+        "scope": [
+          "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "{{main}}"
+        }
+      },
+      {
+        "name": "JSON Key - Level 3",
+        "scope": [
+          "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "{{mainLight1}}"
+        }
+      },
+      {
+        "name": "JSON Key - Level 4",
+        "scope": [
+          "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "{{mainLightest}}"
+        }
+      }
+  
 ]

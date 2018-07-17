@@ -1,0 +1,97 @@
+[user]
+	name = Naren Ranjit
+	email = narendran.ranjit@gmail.com
+
+[credential]
+  helper = osxkeychain
+
+[core]
+	excludesfile = /Users/narenranjit/.gitignore_global
+
+[merge]
+  log = true
+  tool = sublimerge
+
+[mergetool "sublimerge"]
+  cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
+  trustExitCode = false
+
+[diff]
+  tool = icdiff
+
+[difftool]
+  prompt = false
+
+[difftool "icdiff"]
+  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
+
+[difftool "sublimerge"]
+  cmd = subl -n --wait \"$REMOTE\" \"$LOCAL\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
+
+[difftool "diffmerge"]
+  cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+[mergetool "diffmerge"]
+  cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+  trustExitCode = true
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta
+  plain = white bold
+  old = red bold
+  new = green bold
+  commit = yellow bold
+  func = green dim
+  #plain = white bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[alias]
+  br = branch
+  brd = !git-br
+  cm = commit -am
+  st = status -sb
+  co = checkout
+  df = diff
+  g = grep -I
+  lg = log -p
+  lq = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order
+  pb = publish-branch
+  pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
+
+[help]
+  autocorrect = 1
+[push]
+  default = simple
+  followTags = true
+[status]
+  showUntrackedFiles = all
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
+[log]
+  follow = true
+[commit]
+	template = /Users/narenranjit/.stCommitMsg
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Users/narenranjit/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

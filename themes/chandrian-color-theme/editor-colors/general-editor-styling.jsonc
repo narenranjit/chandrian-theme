@@ -3,9 +3,6 @@
     "editor.lineHighlightBackground": "#313131",
     "editorWhitespace.foreground": "#353434",
     "editor.foreground": "#FFFFFF",
-    "editorCursor.background": "#859900",
-    "editor.selectionBackground": "#474554",
-    "editorOverviewRuler.bracketMatchForeground": "#fff000",
-    "activityBarBadge.background": "#1E1E1E",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "statusBar.background": "#726767",
+    "editor.findMatchHighlightBackground": "#584FEA"
 }

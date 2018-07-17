@@ -11,11 +11,18 @@
     {
         "scope": [
             "meta.tag",
-            "meta.tag.any",
+            "meta.tag.any"
+        ],
+        "settings": {
+            "foreground": "{{main}}"
+        }
+    },
+    {
+        "scope": [
             "meta.tag.block.any"
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}BF"
+            "foreground": "{{mainDarker1}}"
         }
     },
     {
@@ -23,15 +30,15 @@
             "meta.tag.inline.any"
         ],
         "settings": {
-            "foreground": "{{main}}BF"
+            "foreground": "{{mainLight1}}"
         }
     },
     {
         "scope": [
-            "entity.name.tag.other.html"
+            "entity.name.tag.other.html" //unknown tags
         ],
         "settings": {
-            "foreground": "{{mainLight2}}BF"
+            "foreground": "{{mainLightest}}"
         }
     },
     {
@@ -71,6 +78,23 @@
         ],
         "settings": {
             "foreground": "{{strings}}7F"
+        }
+    },
+
+    {
+        "scope": [
+            "meta.tag.jsx"
+        ],
+        "settings": {
+            "foreground": "{{booleans}}"
+        }
+    },
+    {
+        "scope": [
+            "entity.other.attribute-name.jsx"
+        ],
+        "settings": {
+            "foreground": "{{alt2}}"
         }
     }
 ]

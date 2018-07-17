@@ -10,6 +10,7 @@
     },
     {
         "scope": [
+            "string",
             "string.quoted",
             "punctuation.definition.string"
         ],
@@ -64,10 +65,19 @@
     },
     {
         "scope": [
+            "invalid",
             "invalid.illegal"
         ],
         "settings": {
             "foreground": "{{important}}"
+        }
+    },
+    {
+        "scope": [
+            "invalid.deprecated"
+        ],
+        "settings": {
+            "foreground": "{{important}}7F"
         }
     },
     {

@@ -7,5 +7,13 @@
         "settings": {
             "foreground": "{{main}}"
         }
+    },
+    {
+        "scope": [
+            "log.exception"
+        ],
+        "settings": {
+            "foreground": "{{important}}"
+        }
     }
 ]

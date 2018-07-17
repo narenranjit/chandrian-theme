@@ -4,7 +4,7 @@
     "colors": {
         "main": "#6DBDFF",
         "mainDarker1": "#2299FB",
-        "mainDarker2": "#006DC7",
+        "mainDarker2": "#0270C9",
         "mainLight1": "#94CFFF",
         "mainLight2": "#BCE1FF",
         "mainLightest": "#E4F3FF", //fn params
@@ -26,7 +26,7 @@
         "commentGrayProminent": "#BEC4CA",
         "keywordGray": "#708394",
     
-        "important": "#AB301B",
+        "important": "#FE4A35",
     
         "strings": "#A4C35B",
         "interpolated": "#66A344",

@@ -6,11 +6,8 @@
     "editor.lineHighlightBackground": "#313131",
     "editorWhitespace.foreground": "#353434",
     "editor.foreground": "#FFFFFF",
-    "editorCursor.background": "#859900",
-    "editor.selectionBackground": "#474554",
-    "editorOverviewRuler.bracketMatchForeground": "#fff000",
-    "activityBarBadge.background": "#1E1E1E",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "statusBar.background": "#726767",
+    "editor.findMatchHighlightBackground": "#584FEA"
   },
   "tokenColors": [
     {
@@ -303,6 +300,7 @@
     },
     {
       "scope": [
+        "string",
         "string.quoted",
         "punctuation.definition.string"
       ],
@@ -357,10 +355,19 @@
     },
     {
       "scope": [
+        "invalid",
         "invalid.illegal"
       ],
       "settings": {
         "foreground": "#AB301B"
+      }
+    },
+    {
+      "scope": [
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#AB301B7F"
       }
     },
     {
@@ -391,11 +398,18 @@
     {
       "scope": [
         "meta.tag",
-        "meta.tag.any",
+        "meta.tag.any"
+      ],
+      "settings": {
+        "foreground": "#19B5FE"
+      }
+    },
+    {
+      "scope": [
         "meta.tag.block.any"
       ],
       "settings": {
-        "foreground": "undefinedBF"
+        "foreground": "undefined"
       }
     },
     {
@@ -403,7 +417,7 @@
         "meta.tag.inline.any"
       ],
       "settings": {
-        "foreground": "#19B5FEBF"
+        "foreground": "undefined"
       }
     },
     {
@@ -411,7 +425,7 @@
         "entity.name.tag.other.html"
       ],
       "settings": {
-        "foreground": "undefinedBF"
+        "foreground": "#D4F0FD"
       }
     },
     {
@@ -458,6 +472,22 @@
     },
     {
       "scope": [
+        "meta.tag.jsx"
+      ],
+      "settings": {
+        "foreground": "undefined"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.jsx"
+      ],
+      "settings": {
+        "foreground": "#b486e6"
+      }
+    },
+    {
+      "scope": [
         "punctuation.definition.dictionary.begin.json",
         "punctuation.definition.dictionary.end.json",
         "punctuation.separator.dictionary.key-value.json"
@@ -472,6 +502,51 @@
       ],
       "settings": {
         "foreground": "undefined"
+      }
+    },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "{mainDarker1}}"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "undefined"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#19B5FE"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "undefined"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#D4F0FD"
       }
     },
     {
@@ -642,6 +717,14 @@
       ],
       "settings": {
         "foreground": "#19B5FE"
+      }
+    },
+    {
+      "scope": [
+        "log.exception"
+      ],
+      "settings": {
+        "foreground": "#AB301B"
       }
     },
     {
