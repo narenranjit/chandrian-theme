@@ -24,6 +24,7 @@
 },
 {
     "scope": [
+        "keyword.other.phpdoc",
         "variable.other.jsdoc", //variable name in jsdoc
         "entity.name.type.instance.jsdoc" //{string}
     ],

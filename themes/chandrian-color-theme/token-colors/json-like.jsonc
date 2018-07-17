@@ -1,20 +1,28 @@
 [
     {
         "scope": [
-            "punctuation.definition.dictionary.begin.json",
-            "punctuation.definition.dictionary.end.json",
+            "punctuation.definition.dictionary.begin.json", //{
+            "punctuation.definition.dictionary.end.json", // }
             "punctuation.separator.dictionary.key-value.json", //:
         ],
         "settings": {
-            "foreground": "{{textProminent}}"
+            "foreground": "{{commentGray}}"
         }
+    },
+    {
+      "scope": [
+        "constant.language.json"
+      ], 
+      "settings": {
+        "foreground": "{{booleans}}"
+      }
     },
     {
         "scope": [
             "punctuation.separator.dictionary.pair.json" //,
         ],
         "settings": {
-            "foreground": "{{mainAlt}}"
+            "foreground": "{{textProminent}}"
         }
     },
     {
@@ -23,7 +31,7 @@
           "source.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         "settings": {
-          "foreground": "{mainDarker1}}"
+          "foreground": "{{mainDarker1}}"
         }
       },
       {
@@ -49,7 +57,7 @@
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         "settings": {
-          "foreground": "{{mainLight1}}"
+          "foreground": "{{mainAlt}}"
         }
       },
       {
@@ -58,8 +66,16 @@
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         "settings": {
-          "foreground": "{{mainLightest}}"
+          "foreground": "{{mainLighter1}}"
         }
       }
-  
+      // ,{
+      //   "name": "JSON Key - Level 5",
+      //   "scope": [
+      //     "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      //   ],
+      //   "settings": {
+      //     "foreground": "{{mainLightest}}"
+      //   }
+      // }
 ]

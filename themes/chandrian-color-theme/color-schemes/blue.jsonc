@@ -2,33 +2,39 @@
     "name": "Blue",
     "type": "dark",
     "colors": {
-        "main": "#19B5FE",
-        "mainDarker": "#1491CB", //object keys
-        "mainLightest": "#D4F0FD",
+        "main": "#6DBDFF",
+        "mainDarker1": "#2299FB",
+        "mainDarker2": "#0270C9",
+        "mainLight1": "#94CFFF",
+        "mainLight2": "#BCE1FF",
+        "mainLightest": "#E4F3FF", //fn params
+        
+        "mainVariant": "#9C97FB", //Math.floor
+        "mainAlt": "#58CDE8", //fn definition
+
+        "alt2": "#6DBDFF", //main complementary, function invocation
+
+        "alt1": "#FFCB0D", //ifthen
+        "alt1Complentary": "#FF9F1A",//return
+        "alt1ComplentaryShade1": "#FFBF66",//return
+        "alt1Supplementary": "#CCCA1F",
     
-        "alt1": "#FFC50D",
-        "alt1Complentary": "#FF8F0D",
+        "alt3": "#60FFF2", //class names
+        "alt4": "#A29BDF", //annotation
+      
+        "commentGray": "#6D7278",
+        "commentGrayProminent": "#BEC4CA",
+        "keywordGray": "#708394",
     
-        "alt2": "#b486e6", //main complementary, function invocation
-        "alt2Variant": "#D2B3F4", //Math.floor
+        "important": "#FE4A35",
     
-        "alt3": "#E87FD7", //class names
+        "strings": "#A4C35B",
+        "interpolated": "#66A344",
+        "number": "#CDA1EB",
+        "booleans": "#CF84BC",
+        "regex": "#D0C257",
     
-        "alt4": "#b486e6", //annotation, static
-    
-        "commentGray": "#A9ABCA",
-        "commentGrayProminent": "#AFB1CE",
-        "keywordGray": "#7d80a7",
-    
-        "important": "#AB301B",
-    
-        "string": "#A4C35B",
-        "interpolated": "#AFD061",
-        "number": "#80a2dd",
-        "boolean": "#D39ABE",
-        "regex": "#C3B95B",
-    
-        "text": "FFFFFFD4",
-        "textProminent": "FFFFFF"
+        "text": "#FFFFFFD4",
+        "textProminent": "#FFFFFF"
     }
 }

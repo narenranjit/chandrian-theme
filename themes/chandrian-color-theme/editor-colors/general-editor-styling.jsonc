@@ -4,5 +4,6 @@
     "editorWhitespace.foreground": "#353434",
     "editor.foreground": "#FFFFFF",
     "statusBar.background": "#726767",
-    "editor.findMatchHighlightBackground": "#584FEA"
+    "editor.findMatchHighlightBackground": "#584FEA",
+    "editorLink.activeForeground": "{{alt1}}"
 }

@@ -1,8 +1,15 @@
 {
   "env": {
     "es6": true,
+    "foobar": null,
     "mocha": true,
-    "node": true
+    "node": true,
+    "level2": {
+      "h1": "hello",
+      "level4": {
+        "something": true
+      },
+    }
   },
   "extends": "eslint:recommended",
   "rules": {
