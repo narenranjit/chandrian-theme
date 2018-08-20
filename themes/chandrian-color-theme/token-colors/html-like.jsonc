@@ -19,6 +19,7 @@
     },
     {
         "scope": [
+            "meta.tag.structure entity.name.tag",
             "meta.tag.block.any"
         ],
         "settings": {
@@ -27,18 +28,40 @@
     },
     {
         "scope": [
-            "meta.tag.inline.any"
+            "meta.tag.inline entity.name.tag",
+            "meta.tag.structure.label entity.name.tag",
+            "meta.tag.object.img entity.name.tag"
         ],
         "settings": {
-            "foreground": "{{mainLight1}}"
+            "foreground": "{{mainAlt}}"
         }
     },
     {
         "scope": [
-            "entity.name.tag.other.html" //unknown tags
+            "meta.tag.structure.select entity.name.tag",
+            "meta.tag.structure.textarea entity.name.tag",
+            "meta.tag.structure.input entity.name.tag"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}"
+            "foreground": "{{mainLight2}}"
+        }
+    },
+    {
+        "scope": [
+            "meta.tag.structure.button entity.name.tag",
+            "meta.tag.inline.a"
+        ],
+        "settings": {
+            "foreground": "{{mainLight2}}"
+        }
+    },
+        {
+        "scope": [
+            //Doesn't work
+            "meta.tag.inline entity.name.tag meta.tag.structure entity.name.tag"
+        ],
+        "settings": {
+            "foreground": "{{important}}"
         }
     },
     {
@@ -52,20 +75,30 @@
     {
         "scope": ["entity.other.attribute-name"],
         "settings": {
-            "foreground": "{{booleans}}BF"
+            "foreground": "{{alt4}}"
             // "fontStyle": "italic"
         }
     },
     {
-        "scope": ["meta.toc-list.id"], //#ids
+        "scope": [
+            "meta.attribute.type.html",
+            "string.quoted.jsx"
+        ],
         "settings": {
             "foreground": "{{strings}}"
         }
     },
     {
+        "scope": ["meta.attribute.data-x entity.other.attribute-name.html"],
+        "settings": {
+            "foreground": "{{booleans}}"
+            // "fontStyle": "italic"
+        }
+    },
+    {
         "scope": [
-            "string.quoted.double.html",
-            "string.quoted.jsx"
+            "meta.attribute.class.html string.quoted.double.html",
+            "meta.attribute.id.html string.quoted.double.html"
         ],
         "settings": {
             "foreground": "{{interpolated}}"
@@ -73,11 +106,73 @@
     },
     {
         "scope": [
-            "punctuation.definition.string.begin.html",
-            "punctuation.definition.string.end.html",
+            "meta.attribute.class.html punctuation.definition.string",
+            "meta.attribute.id.html punctuation.definition.string",
         ],
         "settings": {
-            "foreground": "{{strings}}7F"
+            "foreground": "{{interpolated}}BF"
+        }
+    },
+
+    {
+        "scope": [
+            "meta.attribute.href.html string.quoted.double.html",
+            "meta.attribute.action.html string.quoted.double.html"
+        ],
+        "settings": {
+            "foreground": "{{alt1}}BF"
+        }
+    },
+    {
+        "scope": [
+            "meta.attribute.href.html punctuation.definition.string",
+            "meta.attribute.action.html punctuation.definition.string"
+        ],
+        "settings": {
+            "foreground": "{{alt1}}7F"
+        }
+    },
+
+    { //Hrefs in links aren't action items
+        "scope": [
+            "meta.tag.metadata.link.void.html meta.attribute.href.html string.quoted.double.html",
+            "meta.tag.metadata.link.void.html meta.attribute.href.html punctuation.definition.string"
+        ],
+        "settings": {
+            "foreground": "{{strings}}"
+        }
+    },
+    {
+        "scope": [
+            "meta.attribute.event-handler entity.other.attribute-name.html"
+        ],
+        "settings": {
+            "foreground": "{{alt1Complentary}}"
+        }
+    },
+    // {
+    //     "scope": [
+    //         "punctuation.definition.string.begin.html",
+    //         "punctuation.definition.string.end.html",
+    //     ],
+    //     "settings": {
+    //         "foreground": "{{strings}}7F"
+    //     }
+    // },
+    {
+        "scope": [
+            "punctuation.definition.tag"
+        ],
+        "settings": {
+            "foreground": "{{mainDarker1}}BF"
+        }
+    },
+    {
+        "scope": [
+            "meta.embedded.line.css source.css"
+        ],
+        "settings": {
+            "foreground": "{{strings}}"
         }
     },
 

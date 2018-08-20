@@ -3,7 +3,7 @@
     "editor.lineHighlightBackground": "#313131",
     "editorWhitespace.foreground": "#353434",
     "editor.foreground": "#FFFFFF",
-    "statusBar.background": "#726767",
-    "editor.findMatchHighlightBackground": "#584FEA",
+    "statusBar.background": "#303030",
+    "editor.findMatchHighlightBackground": "#584FEADF",
     "editorLink.activeForeground": "{{alt1}}"
 }

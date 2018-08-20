@@ -44,7 +44,7 @@ class App extends React.Component {
 
     const MY_BIG_VARIABLE = '232';
     const myvariabl1 = 1;
-    var somethingElse = '2';
+    var somethingElse = `this is an interpolated 2 ${MY_BIG_VARIABLE}`;
     let somethingEls = 5;
 
     const name = new Typees(arguments);
@@ -67,10 +67,10 @@ class App extends React.Component {
     throw new Error('foo');
     //This is my comment
     return (
-      <div className="component-app">
+      <div className="component-app" id="foobar">
         Tacos
         <Display value={this.state.next || this.state.total || '0'} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <ButtonPanel onClick={ this.handleClick } clickHandler={this.handleClick} />
       </div>
     )
   }

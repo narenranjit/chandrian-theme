@@ -29,6 +29,9 @@ input.foobar[disabled] {
   opacity: 1;
   transition: opacity 200ms linear;
   transition: opacitys 200ms linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 #something {

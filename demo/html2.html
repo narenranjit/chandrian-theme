@@ -1,0 +1,200 @@
+<div class="row decisions">
+    <div class="col-xs-12 col-md-5">
+        <section class="section">
+            <h2 class="section-head" data-f-showif="Year[<Step>] | lessThan(8)">Year <span data-f-bind="Year[<Step>]"></span> Economic Forecast</h3>
+            <div data-f-showif="Year[<Step>] | equalsNumber(1)">
+                <div data-f-showif="Scenario_multiplier | equalsNumber(1)">
+                    <p>Last year Econland’s GDP was US$100 billion, making the economy roughly the size of Puerto Rico or Hungary. Econland is affected by global economic conditions, but it is too small to impact the global economy in return. Exports and imports both account for 25% of GDP.</p>
+                    <p> Last year, the world economy did well and Econland experienced solid economic growth (2.4%). Unemployment is low (5%), and inflation (at 2%) and the budget deficit (2.8% of GDP) are under control. Total government debt is 60% of GDP.</p>
+                    <p> The outlook for next year is moderately positive, with the International Monetary Fund (IMF) predicting world economic growth of <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%. The Consumer Confidence Index is at its long-term average of 100.
+                    </p>
+                </div>
+                <div data-f-showif="Scenario_multiplier | equalsNumber(2)">
+                    <p>Last year Econland’s GDP was US$100 billion, making the economy roughly the size of Puerto Rico or Hungary. Econland is affected by global economic conditions, but it is too small to impact the global economy in return. Exports and imports both account for 25% of GDP.</p>
+                    <p> Last year, the world economy did well and Econland experienced solid economic growth (2.4%). Unemployment is low (5%), and inflation (at 2%) and the budget deficit (2.8% of GDP) are under control. Total government debt is 60% of GDP.</p>
+                    <p> The outlook for next year is moderately positive, with the International Monetary Fund (IMF) predicting world economic growth of
+                        <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%. The Consumer Confidence Index is at its long-term average of 100.
+                    </p>
+                </div>
+                <div data-f-showif="Scenario_multiplier | equalsNumber(0.5)">
+                    <p>Last year Econland’s GDP was US$100 billion, making the economy roughly the size of Puerto Rico or Hungary. Econland is affected by global economic conditions, but it is too small to impact the global economy in return. Exports and imports both account for 25% of GDP.</p>
+                    <p> Last year, the world economy did well and Econland experienced solid economic growth (2.4%). Unemployment is low (5%), and inflation (at 2%) and the budget deficit (2.8% of GDP) are under control. Total government debt is 60% of GDP.</p>
+                    <p> The outlook for next year is moderately positive, with the International Monetary Fund (IMF) predicting world economic growth of
+                        <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%. The Consumer Confidence Index is at its long-term average of 100.
+                    </p>
+                </div>
+            </div>
+            <div data-f-showif="Year[<Step>] | equalsNumber(2)">
+                <div data-f-showif="Scenario_multiplier | equalsNumber(1)">
+                    <p>Following elections in several of the world's largest countries and continuing rapid growth in emerging markets, the outlook for the world economy is increasingly positive. Confidence among investors is increasing. </p>
+                    <p>As a result, world economic growth is expected to accelerate to <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%. </p>
+                </div>
+                <div data-f-showif="Scenario_multiplier | equalsNumber(2)">
+                    <p>Elections in some of the largest emerging markets have brought to power a set of new leaders who have announced their strong commitment to democracy and the rule of law, market based reforms, and social inclusiveness.</p>
+                    <p>This has resulted in a new wave of optimism for the world economy, with trade, investment and employment expected to increase. The world economic growth forecast has been revised upwards to <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%.
+                    </p>
+                </div>
+                <div data-f-showif="Scenario_multiplier | equalsNumber(0.5)">
+                    <p>Elections in several large countries have kept the existing governments in power. This reduction in uncertainty in global markets has led to a modest improvement for the world economic outlook, with the world economy forecast to grow at
+                        <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%.
+                    </p>
+                </div>
+            </div>
+            <div data-f-showif="Year[<Step>] | equalsNumber(3)">
+                <p>The newly elected governments have so far failed to live up to expectations. The early signs of promise have been replaced by some signs of frustration for both businesses and consumers.</p>
+                <p> After last year's rapid world economic growth, the global economy is still doing well, but is beginning to slow down. This year world economic growth is expected to be <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%. </p>
+            </div>
+            <div data-f-showif="Year[<Step>] | equalsNumber(4)">
+                <p>The world economy is slowing down further as the governments in the world's largest countries fail to boost growth and reduce unemployment in a significant way. Emerging markets are also slowing down as commodity prices have dropped, and several overheated real estate markets have started to suffer.</p>
+                <p> As result of these different headwinds, world economic growth is expected to slow down to <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>% next year.</p>
+            </div>
+            <div data-f-showif="Year[<Step>] | equalsNumber(5)">
+                <div data-f-showif="Scenario_multiplier | equalsNumber(1)">
+                    <p>Now there is real trouble. A major financial crisis in emerging markets in Asia and Latin America has spilled over to other parts of the world and has pushed several major countries in recession.</p>
+                    <p> Developed countries are feeling the impact, and world economic growth is expected to be only <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>% next year.</p>
+                </div>
+                <div data-f-showif="Scenario_multiplier | equalsNumber(2)">
+                    <p>Confidence in the world's major economies has collapsed and stock markets across the world have fallen sharply. The world is in economic crisis. The IMF has issued a warning that without concerted action by the leaders of the largest economies, the world economy will shrink next year, causing serious consequences for the unemployed and working families. </p>
+                    <p>The latest official forecast for world economic growth stands at <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%. This will certainly have an impact on Econland. Which measures need to be taken to weather the storm?</p>
+                </div>
+                <div data-f-showif="Scenario_multiplier | equalsNumber(0.5)">
+                    <p>The governments in several emerging markets have lost the trust of their citizens. People have taken to the streets to demand change. Two leaders of major emerging markets have been accused of involvement in corruption scandals. </p>
+                    <p>Amidst all this uncertainty, the economy is projected to slow down further, with world economic growth projected to be only <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%. </p>
+                </div>
+            </div>
+            <div data-f-showif="Year[<Step>] | equalsNumber(6)">
+                <p>Several corrupt government and business leaders have been given lengthy jail sentences. Meanwhile, the IMF has agreed on a stabilization package with countries that were in crisis that has helped to stop the panic and to stabilize the situation. Other countries have provided fiscal and monetary stimulus to their economies.</p>
+                <p> Confidence in the world economy is beginning to return, but risks to economic stability remain. World economic growth is predicted to pick up slightly to reach <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>% next year.</p>
+            </div>
+            <div data-f-showif="Year[<Step>] | equalsNumber(7)">
+                  <strong>Hello <p>Goo</p></strong>
+                <p>It looks like the world economy has turned a corner, with many parts of the world growing again at a healthy pace. Stability has returned to several major advanced economies in Asia and Europe; China and India are growing quickly again, and this is benefiting other economies in Asia.</p>
+                <p>The latest forecast for world economic growth is now <span data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>%.</p>
+            </div>
+        </section>
+        <section class="section current-climate">
+            <div>
+                <strong class="h4">Forecast World Economic Growth %</strong>
+                <span class="big-number" data-f-bind="World_Economic_Growth_F_cast_percent[<Step>] | 0.0"></span>
+            </div>
+            <div>
+                <strong class="h4">
+                    Econland Consumer Confidence Index
+                    <div class="tt-container">
+                        <i role="tooltip" aria-describedby="consumer-confidence-tooltip" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="tooltip"></i>
+                        <div class="tooltip fade right in" role="tooltip">
+                            <div class="tooltip-arrow" style="top: 27px"></div>
+                            <div class="tooltip-inner" id="consumer-confidence-tooltip">The Consumer Confidence Index is determined by the world economic growth forecast as well as by Econland's performance on GDP growth and unemployment last year.</div>
+                        </div>
+                    </div>
+                </strong>
+                <span class="big-number" data-f-bind="Consumer_Confidence_Index[<Step>] | 0"></span>
+            </div>
+            <div class="forecast-icon">
+                <div data-f-showif="Weather[<Step>] | equalsNumber(1)"><img src="images/Sun.png" alt="The forecast is sunny" /></div>
+                <div data-f-showif="Weather[<Step>] | equalsNumber(2)"><img src="images/Sunbehindcloud.png" alt="The forecast is partly sunny" /></div>
+                <div data-f-showif="Weather[<Step>] | equalsNumber(3)"><img src="images/Cloud.png" alt="The forecast is cloudy" /></div>
+                <div data-f-showif="Weather[<Step>] | equalsNumber(4)"><img src="images/UmbrellaRain.png" alt="The forecast is rainy" /></div>
+            </div>
+        </section>
+    </div>
+    <div class="col-xs-12 col-md-6 col-md-offset-1 decisions section" data-f-showif="Year[<Step>] | lessThan(8)">
+       <div data-f-hideif="Sim_Open | notCurrentRun">
+            <h3 class="section-head">Decisions</h3>
+            <div class="decision-container">
+                <div class="f-slider form-group">
+                    <div class="label-container">
+                        <label for="int-rate">Interest Rate</label>
+                        <div class="tt-container">
+                            <i role="tooltip" aria-describedby="int-rate-tooltip" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="tooltip"></i>
+                            <div class="tooltip fade right in" role="tooltip">
+                                <div class="tooltip-arrow" style="top: 27px"></div>
+                                <div class="tooltip-inner" id="int-rate-tooltip">The Interest rate impacts Consumption, Investment and the Exchange Rate (which in turn affects Imports and Exports)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div class="slider-container" data-min="0%" data-max="7%">
+                            <input type="range" data-f-bind="Interest_rate_percent[<Step>]" id="int-rate" min="0" max="7" step="0.5" />
+                        </div>
+                        <span class="range-value" aria-hidden="true" data-f-bind="Interest_rate_percent[<Step>] | last | 0.0"><%= value %>%</span>
+                    </div>
+                </div>
+                <p>Last year's interest rate: <span data-f-bind="Interest_rate_percent_reported[<Step>]"></span>%</p>
+            </div>
+            <div class="decision-container">
+                <div class="f-slider form-group">
+                    <div class="label-container">
+                        <label for="ip-tax">Income Tax Rate</label>
+                        <div class="tt-container">
+                            <i role="tooltip" aria-describedby="income-tax-rate-tooltip" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="tooltip"></i>
+                            <div class="tooltip fade right in" role="tooltip">
+                                <div class="tooltip-arrow" ></div>
+                                <div class="tooltip-inner" id="income-tax-rate-tooltip">The Income Tax rate impacts Consumption and Government Revenues.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div class="slider-container" data-min="0%" data-max="50%">
+                            <input type="range"id="ip-tax" data-unit="%" data-f-bind="Income_tax_percent[<Step>]" min="0" max="50" step="1" />
+                        </div>
+                        <span class="range-value" aria-hidden="true" title="Current Income Tax Rate" data-f-bind="Income_tax_percent[<Step>] | last"><%= value %>%</span>
+                    </div>
+                </div>
+                <p>Last year's income tax rate: <span data-f-bind="Income_tax_percent_reported[<Step>]"></span>%</p>
+            </div>
+            <div class="decision-container">
+                <div class="f-slider form-group">
+                    <div class="label-container">
+                        <label for="corp-tax">Corporate Tax Rate</label>
+                        <div class="tt-container">
+                            <i role="tooltip" aria-describedby="corp-tax-rate-tooltip" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="tooltip"></i>
+                            <div class="tooltip fade right in" role="tooltip">
+                                <div class="tooltip-arrow" style="top: 27px"></div>
+                                <div class="tooltip-inner" id="corp-tax-rate-tooltip">The Corporate Tax Rate impacts Government Revenues and the level of Investment (which in turn affects the Capital Stock and Productivity Growth).</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div class="slider-container" data-min="0%" data-max="50%">
+                            <input type="range" data-unit="%" id="corp-tax" data-f-bind="Corporate_tax_percent[<Step>]" min="0" max="50" step="1" />
+                        </div>
+                        <span class="range-value" aria-hidden="true" data-f-bind="Corporate_tax_percent[<Step>] | last"><%= value %>%</span>
+                    </div>
+                </div>
+                <p>Last year's corporate tax rate: <span data-f-bind="Corporate_tax_percent_reported[<Step>]"></span>%</p>
+            </div>
+            <div class="decision-container">
+                <div class="form-group">
+                    <label for="goverment-expenditure" class="control-label">
+                        Government Expenditure (billions)
+                        <div class="tt-container">
+                            <i role="tooltip" aria-describedby="govt-exp-tooltip" tabindex="0" class="glyphicon glyphicon-info-sign" data-toggle="tooltip"></i>
+                            <div class="tooltip fade right in" role="tooltip">
+                                <div class="tooltip-arrow"></div>
+                                <div class="tooltip-inner" id="govt-exp-tooltip">Government Expenditure impacts the level of GDP and the Budget Deficit.</div>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="text" id="goverment-expenditure" aria-describedby="govt-exp-help-text" data-f-bind="Govt_exp[<Step>]|$#,##0" class="form-control text-right" />
+                    <span id="govt-exp-help-text" class="help-block">Expenditure should be between 0-1000 billion</span>
+                </div>
+                <p>Last year's government expenditure (billions): <span data-f-bind="Govt_exp_reported[<Step>]|$#,##0"></span></p>
+            </div>
+       </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-md-offset-1 decisions section" data-f-showif="Year[<Step>] | equalsNumber(8)">
+        <h4>Simulation is complete.</h4>
+        <a class="internal-link" href="dashboard" onclick="window.alert('foo')" class="">View Results</a>
+    </div>
+</div>
+<div class="row" data-f-hideif="Sim_Open | notCurrentRun">
+    <div class="col-xs-12 btn-container">
+        <button id="btn-advance" data-f-showif="Year[<Step>] | lessThan(8)" class="btn btn-primary" role="button">Submit Decisions for Year <span data-f-bind="Year[<Step>]"></span>
+        </button>
+
+    </div>
+</div>
+<script>
+  App.initializeDecisions();
+</script>

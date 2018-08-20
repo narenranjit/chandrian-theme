@@ -28,8 +28,8 @@
     
         "important": "#FE4A35",
     
-        "strings": "#A4C35B",
-        "interpolated": "#66A344",
+        "strings": "#46BD66", //#66A344 -- original, #8BC77F -- too bright
+        "interpolated": "#9FD44E", //E0F69D
         "number": "#CDA1EB",
         "booleans": "#CF84BC",
         "regex": "#D0C257",

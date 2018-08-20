@@ -29,7 +29,7 @@
       "error",
       "always"
     ],
-    "rules":
+    "rules": {
       "indent": [
         "error",
         2

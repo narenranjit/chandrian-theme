@@ -8,6 +8,10 @@ class Sale {
   }
 
   decorate(decorator) {
+    const ABC = 1;
+    const DEF = 'HELLO';
+    const GHI = true;
+
     Array.isArray('foo');
     if (!Sale[decorator]) throw new Error(`decorator not exist: ${decorator}`)
     this.decoratorsList.push(Sale[decorator])
