@@ -1,8 +1,16 @@
 [
+    //Selectors
     {
         "scope": [
-            "entity.name.tag.css",
-            "meta.selector.css"
+            "source.css meta.selector"
+        ],
+        "settings": {
+            "foreground": "{{important}}DF"
+        }
+    },
+    {
+        "scope": [
+            "source.css entity.name.tag",
         ],
         "settings": {
             "foreground": "{{mainVariant}}"
@@ -10,7 +18,7 @@
     },
     {
         "scope": [
-            "entity.other.attribute-name.css"
+            "source.css entity.other.attribute-name"
         ],
         "settings": {
             "foreground": "{{mainDarker1}}",
@@ -19,8 +27,9 @@
     },
     {
         "scope": [
-            "punctuation.definition.entity.begin.bracket.square.css",
-            "punctuation.definition.entity.end.bracket.square.css"
+            "source.css punctuation.definition.attribute-selector",
+            "source.css punctuation.definition.entity.begin.bracket.square",
+            "source.css punctuation.definition.entity.end.bracket.square"
         ],
         "settings": {
             "foreground": "{{mainDarker1}}BF"
@@ -28,27 +37,34 @@
     },
     {
         "scope": [
-            "entity.other.attribute-name.class.css"
+            "source.css entity.other.attribute-name.class"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}",
+            "foreground": "{{mainLight2}}",
             "fontStyle": ""
         }
     },
     {
         "scope": [
-            "entity.other.attribute-name.id.css"
+            "source.css entity.other.attribute-name.id"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}",
+            "foreground": "{{mainLight2}}",
             "fontStyle": ""
         }
     },
     {
         "scope": [
-            "entity.name.tag.reference.scss", //&
-            "entity.other.attribute-name.pseudo-class.css",
-            "entity.other.attribute-name.pseudo-element.css"
+            "source.css entity.name.tag.reference"//&
+        ],
+        "settings": {
+            "foreground": "{{mainLightest}}"
+        }
+    },
+    {
+        "scope": [
+            "source.css entity.other.attribute-name.pseudo-class",
+            "source.css entity.other.attribute-name.pseudo-element"
         ],
         "settings": {
             "foreground": "{{mainAlt}}"
@@ -56,8 +72,8 @@
     },
     {
         "scope": [
-            "punctuation.section.function.begin.bracket.round.css",
-            "punctuation.section.function.end.bracket.round.css" //assuming :not is primary case
+            "source.css punctuation.section.function.begin.bracket.round",
+            "source.css punctuation.section.function.end.bracket.round" //assuming :not is primary case
         ],
         "settings": {
             "foreground": "{{mainAlt}}BF"
@@ -67,7 +83,7 @@
     //ATTR Values
     {
         "scope": [
-            "constant.numeric.css"
+            "source.css constant.numeric"
         ],
         "settings": {
             "foreground": "{{number}}",
@@ -76,12 +92,7 @@
     },
     {
         "scope": [
-            "keyword.other.unit.px",
-            "keyword.other.unit.percentage",
-            "keyword.other.unit.em",
-            "keyword.other.unit.rem",
-            "keyword.other.unit.s",
-            "keyword.other.unit.ms"
+            "source.css keyword.other.unit"
         ],
         "settings": {
             "foreground": "{{number}}BF",
@@ -90,7 +101,7 @@
     },
     {
         "scope": [
-            "support.function.any-method.builtin.url.css"
+            "source.css support.function.any-method.builtin.url"
         ],
         "settings": {
             "foreground": "{{alt1}}"
@@ -99,9 +110,10 @@
     },
     {
         "scope": [
-            "meta.function.color.css",
-            "support.constant.color",
-            "constant.other.color.rgb-value.hex.css"
+            "source.css meta.function.color",
+            "source.css meta.function.color support.function.misc",
+            "source.css support.constant.color",
+            "source.css constant.other.color"
         ],
         "settings": {
             "foreground": "{{text}}"
@@ -109,7 +121,7 @@
     },
     {
         "scope": [
-            "support.constant.property-value.css" //relative etc
+            "source.css support.constant.property-value" //relative etc
         ],
         "settings": {
             "foreground": "{{booleans}}"
@@ -117,11 +129,11 @@
     },
     {
         "scope": [
-            "keyword.other.important.css",
-            "invalid.deprecated.media.css"
+            "source.css keyword.other.important",
+            "source.css invalid.deprecated"
         ],
         "settings": {
-            "foreground": "{{important}}"
+            "foreground": "{{important}}DF"
         }
     },
     {
@@ -137,7 +149,7 @@
             "support.type.vendored.property-name"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}BF"
+            "foreground": "{{main}}7F"
         }
     },
     {
@@ -151,12 +163,10 @@
     },
     {
         "scope": [
-            "punctuation.section.property-list.begin.bracket.curly.scss",
-            "punctuation.section.property-list.end.bracket.curly.scss",
-            "punctuation.section.property-list.begin.bracket.curly.css",
-            "punctuation.section.property-list.end.bracket.curly.css",
-            "punctuation.terminator.rule.css", //;
-            "punctuation.separator.key-value.css"
+            "source.css punctuation.section.property-list.begin.bracket.curly",
+            "source.css punctuation.section.property-list.end.bracket.curly",
+            "source.css punctuation.terminator.rule", //;
+            "source.css punctuation.separator.key-value"
         ],
         "settings": {
             "foreground": "{{commentGray}}"
@@ -164,16 +174,18 @@
     }, 
     {
         "scope": [
-            "keyword.control.at-rule.import"
+            "source.css keyword.control.at-rule.import",
+            "source.css keyword.control.at-rule.media"
         ],
         "settings": {
-            "foreground": "{{mainVariant}}"
+            "foreground": "{{alt4}}"
         }
     },
     {
         "scope": [
-            "keyword.control.at-rule.mixin",
-            "keyword.operator.logical.and.media.css" //and,only in media queries
+            "source.css keyword.control.at-rule.mixin",
+            "source.css keyword.operator.logical.and.media",
+            "source.css keyword.operator.logical.only.media"
         ],
         "settings": {
             "foreground": "{{keywordGray}}"
@@ -181,9 +193,9 @@
     },
     {
         "scope": [
-            "keyword.control.at-rule",
-            "entity.name.function.scss",
-            "entity.other.attribute-name.class.mixin.css"
+            "source.css keyword.control.at-rule", //@extend .foo
+            "source.css entity.name.function", //@mixin foo()
+            "esource.css entity.other.attribute-name.class.mixin"
         ],
         "settings": {
             "foreground": "{{alt1}}"
@@ -191,9 +203,8 @@
     },
     {
         "scope": [
-            "variable.css",
-            "variable.scss",
-            "variable.other.less"
+            "source.css variable",
+            "source.css variable.other"
         ],
         "settings": {
             "foreground": "{{alt1Complentary}}"
@@ -201,7 +212,7 @@
     },
     {
         "scope": [
-            "punctuation.definition.variable.less" //@
+            "source.css punctuation.definition.variable" //@
         ],
         "settings": {
             "foreground": "{{alt1Complentary}}7f"
@@ -209,7 +220,7 @@
     },
     {
         "scope": [
-            "variable.argument.css"
+            "source.css variable.argument"
         ],
         "settings": {
             "foreground": "{{alt1Complentary}}",
@@ -218,20 +229,19 @@
     },
     {
         "scope": [
-            "support.function.calc.css",
-            "meta.function.calc.css",
-            "support.function.misc.css",
-            "support.function.misc.scss",
-            "support.function.any-method.builtin.less",
-            "meta.function.variable.css" //var()
+            "source.css support.function.calc",
+            "source.css meta.function.calc",
+            "source.css support.function.misc",
+            "source.css support.function.any-method.builtin",
+            "source.css meta.function.variable" //var()
         ],
         "settings": {
-            "foreground": "{{alt1Supplementary}}"
+            "foreground": "{{alt1}}"
         }
     },
     {
         "scope": [
-            "variable.other.interpolation.less"
+            "source.css variable.other.interpolation"
         ],
         "settings": {
             "foreground": "{{alt1ComplentaryShade1}}"

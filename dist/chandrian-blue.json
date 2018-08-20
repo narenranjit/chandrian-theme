@@ -59,8 +59,15 @@
     },
     {
       "scope": [
-        "entity.name.tag.css",
-        "meta.selector.css"
+        "source.css meta.selector"
+      ],
+      "settings": {
+        "foreground": "#FE4A35DF"
+      }
+    },
+    {
+      "scope": [
+        "source.css entity.name.tag"
       ],
       "settings": {
         "foreground": "#9C97FB"
@@ -87,7 +94,7 @@
     },
     {
       "scope": [
-        "entity.other.attribute-name.class.css"
+        "source.css entity.other.attribute-name.class"
       ],
       "settings": {
         "foreground": "#BCE1FF",
@@ -96,7 +103,7 @@
     },
     {
       "scope": [
-        "entity.other.attribute-name.id.css"
+        "source.css entity.other.attribute-name.id"
       ],
       "settings": {
         "foreground": "#BCE1FF",
@@ -105,9 +112,16 @@
     },
     {
       "scope": [
-        "entity.name.tag.reference.scss",
-        "entity.other.attribute-name.pseudo-class.css",
-        "entity.other.attribute-name.pseudo-element.css"
+        "source.css entity.name.tag.reference"
+      ],
+      "settings": {
+        "foreground": "#E4F3FF"
+      }
+    },
+    {
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-class",
+        "source.css entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
         "foreground": "#58CDE8"
@@ -115,8 +129,8 @@
     },
     {
       "scope": [
-        "punctuation.section.function.begin.bracket.round.css",
-        "punctuation.section.function.end.bracket.round.css"
+        "source.css punctuation.section.function.begin.bracket.round",
+        "source.css punctuation.section.function.end.bracket.round"
       ],
       "settings": {
         "foreground": "#58CDE8BF"
@@ -150,9 +164,10 @@
     },
     {
       "scope": [
-        "meta.function.color.css",
-        "support.constant.color",
-        "constant.other.color.rgb-value.hex.css"
+        "source.css meta.function.color",
+        "source.css meta.function.color support.function.misc",
+        "source.css support.constant.color",
+        "source.css constant.other.color"
       ],
       "settings": {
         "foreground": "#FFFFFFD4"
@@ -169,7 +184,7 @@
     {
       "scope": [
         "source.css keyword.other.important",
-        "source.css invalid.deprecated.media"
+        "source.css invalid.deprecated"
       ],
       "settings": {
         "foreground": "#FE4A35DF"
@@ -212,16 +227,18 @@
     },
     {
       "scope": [
-        "keyword.control.at-rule.import"
+        "source.css keyword.control.at-rule.import",
+        "source.css keyword.control.at-rule.media"
       ],
       "settings": {
-        "foreground": "#9C97FB"
+        "foreground": "#A29BDF"
       }
     },
     {
       "scope": [
-        "keyword.control.at-rule.mixin",
-        "keyword.operator.logical.and.media.css"
+        "source.css keyword.control.at-rule.mixin",
+        "source.css keyword.operator.logical.and.media",
+        "source.css keyword.operator.logical.only.media"
       ],
       "settings": {
         "foreground": "#708394"
@@ -229,9 +246,9 @@
     },
     {
       "scope": [
-        "keyword.control.at-rule",
-        "entity.name.function.scss",
-        "entity.other.attribute-name.class.mixin.css"
+        "source.css keyword.control.at-rule",
+        "source.css entity.name.function",
+        "esource.css entity.other.attribute-name.class.mixin"
       ],
       "settings": {
         "foreground": "#FFCB0D"
@@ -239,9 +256,8 @@
     },
     {
       "scope": [
-        "variable.css",
-        "variable.scss",
-        "variable.other.less"
+        "source.css variable",
+        "source.css variable.other"
       ],
       "settings": {
         "foreground": "#FF9F1A"
@@ -249,7 +265,7 @@
     },
     {
       "scope": [
-        "punctuation.definition.variable.less"
+        "source.css punctuation.definition.variable"
       ],
       "settings": {
         "foreground": "#FF9F1A7f"
@@ -257,7 +273,7 @@
     },
     {
       "scope": [
-        "variable.argument.css"
+        "source.css variable.argument"
       ],
       "settings": {
         "foreground": "#FF9F1A",
@@ -266,20 +282,19 @@
     },
     {
       "scope": [
-        "support.function.calc.css",
-        "meta.function.calc.css",
-        "support.function.misc.css",
-        "support.function.misc.scss",
-        "support.function.any-method.builtin.less",
-        "meta.function.variable.css"
+        "source.css support.function.calc",
+        "source.css meta.function.calc",
+        "source.css support.function.misc",
+        "source.css support.function.any-method.builtin",
+        "source.css meta.function.variable"
       ],
       "settings": {
-        "foreground": "#CCCA1F"
+        "foreground": "#FFCB0D"
       }
     },
     {
       "scope": [
-        "variable.other.interpolation.less"
+        "source.css variable.other.interpolation"
       ],
       "settings": {
         "foreground": "#FFBF66"
@@ -648,7 +663,6 @@
         "markup.italic.markdown"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
         "fontStyle": "italic"
       }
     },

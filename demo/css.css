@@ -13,6 +13,16 @@ body {
   margin-bottom: 2em;
 }
 
+somethingelse[sdfdsf] {
+
+}
+a:hover {
+
+}
+div::before {
+
+}
+
 input[disabled] {
 
 }
@@ -34,7 +44,7 @@ input.foobar[disabled] {
   transform: translateZ(0);
 }
 
-#something {
+#something + .something {
   display: block;
 }
 #something > li {
