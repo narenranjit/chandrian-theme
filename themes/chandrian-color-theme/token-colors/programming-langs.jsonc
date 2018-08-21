@@ -44,6 +44,7 @@
         "scope": [
             // "meta.function-call",
             "support.function",
+            "meta.function-call",
             "variable.function" //function invocation
         ],
         "settings": {
@@ -56,7 +57,6 @@
             "support.function.builtin",
             "support.function.node",
 
-            "constant.other.symbol",
             "constant.language"
         ],
         "settings": {
@@ -73,6 +73,7 @@
     },
     {
         "scope": [
+            "meta.function-call.arguments",
             "variable.parameter.function"
         ],
         "settings": {
@@ -103,6 +104,7 @@
     },
     {
         "scope": [
+            "support.type",
             "entity.name.type",
             "meta.type.annotation"
         ],
@@ -112,11 +114,12 @@
     },
     {
         "scope": [
+            "constant.other.symbol",
             "storage.modifier"
         ],
         "settings": {
             "foreground": "{{alt4}}"
-            // , "fontStyle": "italic"
+            , "fontStyle": "italic"
         }
     },
     //MISC

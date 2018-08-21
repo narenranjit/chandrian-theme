@@ -2,20 +2,23 @@
     "name": "Comment",
     "scope": [
         "comment",
-        "other.description.jsdoc", // variable description
+        "comment.block.documentation other.description", // variable description
         "punctuation.definition.comment",
-        "storage.type.class.jsdoc"  //@param
+        "string.quoted.docstring",
+        "string.quoted.docstring punctuation.definition.string",
+        "comment.block.documentation storage.type.class"  //@param
     ],
     "settings": {
         "foreground": "{{commentGray}}"
+        ,"fontStyle": "italic"
     }
 },
 {
     "name": "Comment",
     "scope": [
-        "storage.type.class.jsdoc",  //@param
+        "comment.block.documentation storage.type.class",  //@param
         "comment.line",
-        "other.description.jsdoc", // variable description
+        "comment.block.documentation other.description", // variable description
         "punctuation.definition.comment"
     ],
     "settings": {
@@ -25,11 +28,12 @@
 {
     "scope": [
         "keyword.other.phpdoc",
-        "variable.other.jsdoc", //variable name in jsdoc
-        "entity.name.type.instance.jsdoc" //{string}
+        "comment.block.documentation variable.other", //variable name in jsdoc
+        "comment.block.documentation entity.name.type.instance" //{string}
     ],
     "settings": {
-        "foreground": "{{commentGrayProminent}}"
+        "foreground": "{{commentGrayProminent}}",
+        "fontStyle": ""
     }
 }
 ]

@@ -15,20 +15,23 @@
       "name": "Comment",
       "scope": [
         "comment",
-        "other.description.jsdoc",
+        "comment.block.documentation other.description",
         "punctuation.definition.comment",
-        "storage.type.class.jsdoc"
+        "string.quoted.docstring",
+        "string.quoted.docstring punctuation.definition.string",
+        "comment.block.documentation storage.type.class"
       ],
       "settings": {
-        "foreground": "#6D7278"
+        "foreground": "#6D7278",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Comment",
       "scope": [
-        "storage.type.class.jsdoc",
+        "comment.block.documentation storage.type.class",
         "comment.line",
-        "other.description.jsdoc",
+        "comment.block.documentation other.description",
         "punctuation.definition.comment"
       ],
       "settings": {
@@ -38,11 +41,12 @@
     {
       "scope": [
         "keyword.other.phpdoc",
-        "variable.other.jsdoc",
-        "entity.name.type.instance.jsdoc"
+        "comment.block.documentation variable.other",
+        "comment.block.documentation entity.name.type.instance"
       ],
       "settings": {
-        "foreground": "#BEC4CA"
+        "foreground": "#BEC4CA",
+        "fontStyle": ""
       }
     },
     {
@@ -584,7 +588,8 @@
         "entity.other.attribute-name.jsx"
       ],
       "settings": {
-        "foreground": "#6DBDFF"
+        "foreground": "#6DBDFF",
+        "fontStyle": "italic"
       }
     },
     {
@@ -876,6 +881,7 @@
     {
       "scope": [
         "support.function",
+        "meta.function-call",
         "variable.function"
       ],
       "settings": {
@@ -887,7 +893,6 @@
         "support.class.builtin",
         "support.function.builtin",
         "support.function.node",
-        "constant.other.symbol",
         "constant.language"
       ],
       "settings": {
@@ -904,6 +909,7 @@
     },
     {
       "scope": [
+        "meta.function-call.arguments",
         "variable.parameter.function"
       ],
       "settings": {
@@ -933,6 +939,7 @@
     },
     {
       "scope": [
+        "support.type",
         "entity.name.type",
         "meta.type.annotation"
       ],
@@ -942,10 +949,12 @@
     },
     {
       "scope": [
+        "constant.other.symbol",
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#A29BDF",
+        "fontStyle": "italic"
       }
     },
     {

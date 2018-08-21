@@ -76,7 +76,7 @@
         "scope": ["entity.other.attribute-name"],
         "settings": {
             "foreground": "{{alt4}}"
-            // "fontStyle": "italic"
+            // , "fontStyle": "italic"
         }
     },
     {
@@ -92,7 +92,7 @@
         "scope": ["meta.attribute.data-x entity.other.attribute-name.html"],
         "settings": {
             "foreground": "{{booleans}}"
-            // "fontStyle": "italic"
+            // ,"fontStyle": "italic"
         }
     },
     {
@@ -197,7 +197,8 @@
             "entity.other.attribute-name.jsx"
         ],
         "settings": {
-            "foreground": "{{alt2}}"
+            "foreground": "{{alt2}}",
+            "fontStyle": "italic"
         }
     }
 ]
