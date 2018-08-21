@@ -9,6 +9,13 @@ function parseContents(fileName, colors) {
     return parsed;
 }
 
+function stripItalics(colorList) {
+    return colorList.map((col)=> {
+        const dupe = Object.assign({}, col);
+        delete dupe.settings.fontStyle;
+        return dupe;
+    });
+}
 module.exports = function compile(paths) {
     const colorSchemeFiles = fs.readdirSync(paths.COLOR_SCHEMES_FOLDER);
     colorSchemeFiles.forEach((fileName)=> {
@@ -16,7 +23,7 @@ module.exports = function compile(paths) {
         const scheme = jsonc.parse(contents);
         // console.log(scheme, contents);
         const base = {
-            name: `Chandrian (${scheme.name})`,
+            name: `Chandrian ${scheme.name}`,
             type: scheme.type,
             colors: {
         
@@ -24,7 +31,7 @@ module.exports = function compile(paths) {
             tokenColors: []
         };
         const colors = scheme.colors;
-        const outputFileName = `chandrian-${scheme.name.toLowerCase()}.json`;
+        const outputFileName = `chandrian-${scheme.name.toLowerCase()}`;
 
         const generalStyleFiles = fs.readdirSync(paths.GENERAL_STYLES_FOLDER);
         const generalColors = generalStyleFiles.reduce((accum, fileName)=> {
@@ -42,8 +49,15 @@ module.exports = function compile(paths) {
         }, []);
         base.tokenColors = codeColors;
 
-        const opFile = `${paths.OP_PATH}/${outputFileName}`;
+        const opFile = `${paths.OP_PATH}/${outputFileName}.json`;
         fs.writeFileSync(opFile, JSON.stringify(base, null, 2), 'utf8');
+
+        const deitalicized = Object.assign({}, base, {
+            name: `Chandrian ${scheme.name} (no italics)`,
+            tokenColors: stripItalics(base.tokenColors),
+        });
+        fs.writeFileSync(`${paths.OP_PATH}/${outputFileName}-no-italics.json`, JSON.stringify(deitalicized, null, 2), 'utf8');
+
         console.log('Build complete. Writing ', opFile);
 
     });
