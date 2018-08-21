@@ -95,5 +95,17 @@
         "settings": {
             "foreground": "{{regex}}"
         }
+    },
+    {
+        "scope": [
+            "meta.brace",
+            "punctuation.definition.block", //{} in tsx
+            "punctuation.terminator",
+            "punctuation.separator",
+            "meta.delimiter"
+        ],
+        "settings": {
+            "foreground": "{{commentGray}}"
+        }
     }
 ]

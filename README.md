@@ -62,7 +62,28 @@ The single biggest mistake I make with JSON files is adding commas at the end.
 - Bright error colors to let you catch track down issues in malformed json
 
 
+## Markdown:
+
+This theme is designed to enhance readability of Markdown documents and uses a minimum of colors.
+
+- Header colors lighten the deeper you go to help you keep track of where you are.
+- Italics are italicized, bolds are shown more prominent.
+- Links and `code` use warm colors
+- De-emphasized urls to minimize visual clutter.
+
+
 ## Programming Languages:
 
 The following rules are were specifically designed for JS/Typescript, but should apply to most languages. If something looks off for a specific language, PRs are welcome.
 
+The first thing I look for when scanning large blocks of code are how it ends (return / throw), and how it gets there (conditionals / loops). Hence exit keywords and control keywords are assigned bright warm colors to immediately draw your eye to them.
+
+Much as I like my semi-colons and curly braces, they are just noise when I'm reading code and are hence shown in muted grays.
+
+Comments are also treated as noise and muted. If you disagree, you can always override.
+
+'function', 'var', 'const' are important definition keywords, but are still more important for the compiler/interpreter than for humans, and hence they're also toned down.
+
+constant variable names (upper-cased variables in JS by convention) are shown brighter than other variable names.
+
+`=` is assigned a contrasting color to `==` so you can immediately catch if typo one for the other.

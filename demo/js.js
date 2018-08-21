@@ -7,7 +7,7 @@ class Sale {
     ;[this.decoratorsList, this.price] = [[], price]
   }
 
-  decorate(decorator) {
+  decorate(decorator, foobar) {
     const ABC = 1;
     const DEF = 'HELLO';
     const GHI = true;

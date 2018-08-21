@@ -12,7 +12,7 @@
             "markup.italic.markdown"
         ],
         "settings": {
-            "foreground": "{{textProminent}}",
+            // "foreground": "{{textProminent}}",
             "fontStyle": "italic"
         }
     },
@@ -21,7 +21,7 @@
             "markup.fenced_code.block",
         ],
         "settings": {
-            "foreground": "{{textProminent}}"
+            "foreground": "{{keywordGray}}"
         }
     },
     {

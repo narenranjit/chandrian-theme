@@ -4,6 +4,8 @@
         "scope": [
             "keyword.other.variable.definition", //$ in powershell
             "storage.type", //var, const etc
+            "keyword.control.class", //ruby
+            "keyword.control.module", //ruby
         ],
         "settings": {
             "foreground": "{{keywordGray}}"
@@ -21,11 +23,21 @@
     //functions
     {
         "scope": [
+            "keyword.other.special-method", //private_class_method in rb
             "meta.definition.method",
+            "punctuation.decorator", //@
             "entity.name.function" //function definition
         ],
         "settings": {
             "foreground": "{{mainAlt}}"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.definition.parameters",
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}BF"
         }
     },
     {
@@ -69,6 +81,7 @@
     },
     {
         "scope": [
+            "entity.name.type.interface",
             "entity.name.class",
             "entity.name.type.class",
             "variable.other.class",
@@ -103,7 +116,7 @@
         ],
         "settings": {
             "foreground": "{{alt4}}"
-            , "fontStyle": "italic"
+            // , "fontStyle": "italic"
         }
     },
     //MISC
@@ -172,6 +185,7 @@
         "scope": [
             "keyword.control.flow",
             "keyword.control.trycatch",
+            "keyword.control.pseudo-method", //ruby yields
             "variable.function meta.function-call"
         ],
         "settings": {
@@ -182,6 +196,7 @@
     {
         "scope": [
             "keyword.operator.module",
+            "keyword.control.from",
             "keyword.control.import", //keyword.control.import.tsx,
             "keyword.control.export",
             "support.type.object.module",
@@ -198,7 +213,7 @@
             "support.type.object.console"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}"
+            "foreground": "{{mainVariant}}"
         }
     },
     {
@@ -230,7 +245,8 @@
     },
     {
         "scope": [
-            "meta.brace.square"
+            "meta.brace.square",
+            "punctuation.separator.arguments"
         ],
         "settings": {
             "foreground": "{{text}}"

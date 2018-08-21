@@ -47,18 +47,6 @@
     },
     {
       "scope": [
-        "meta.brace",
-        "punctuation.definition.block",
-        "punctuation.terminator",
-        "punctuation.separator",
-        "meta.delimiter"
-      ],
-      "settings": {
-        "foreground": "#6D7278"
-      }
-    },
-    {
-      "scope": [
         "source.css meta.selector"
       ],
       "settings": {
@@ -399,6 +387,18 @@
     },
     {
       "scope": [
+        "meta.brace",
+        "punctuation.definition.block",
+        "punctuation.terminator",
+        "punctuation.separator",
+        "meta.delimiter"
+      ],
+      "settings": {
+        "foreground": "#6D7278"
+      }
+    },
+    {
+      "scope": [
         "entity.name.tag.structure.any",
         "meta.tag.sgml"
       ],
@@ -569,6 +569,14 @@
       ],
       "settings": {
         "foreground": "#CF84BC"
+      }
+    },
+    {
+      "scope": [
+        "meta.tag.jsx punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#CF84BCBF"
       }
     },
     {
@@ -830,7 +838,9 @@
     {
       "scope": [
         "keyword.other.variable.definition",
-        "storage.type"
+        "storage.type",
+        "keyword.control.class",
+        "keyword.control.module"
       ],
       "settings": {
         "foreground": "#708394"
@@ -846,11 +856,21 @@
     },
     {
       "scope": [
+        "keyword.other.special-method",
         "meta.definition.method",
+        "punctuation.decorator",
         "entity.name.function"
       ],
       "settings": {
         "foreground": "#58CDE8"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.parameters"
+      ],
+      "settings": {
+        "foreground": "#58CDE8BF"
       }
     },
     {
@@ -925,8 +945,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#A29BDF",
-        "fontStyle": "italic"
+        "foreground": "#A29BDF"
       }
     },
     {
@@ -986,6 +1005,7 @@
       "scope": [
         "keyword.control.flow",
         "keyword.control.trycatch",
+        "keyword.control.pseudo-method",
         "variable.function meta.function-call"
       ],
       "settings": {
@@ -995,6 +1015,7 @@
     {
       "scope": [
         "keyword.operator.module",
+        "keyword.control.from",
         "keyword.control.import",
         "keyword.control.export",
         "support.type.object.module"
@@ -1038,7 +1059,8 @@
     },
     {
       "scope": [
-        "meta.brace.square"
+        "meta.brace.square",
+        "punctuation.separator.arguments"
       ],
       "settings": {
         "foreground": "#FFFFFFD4"

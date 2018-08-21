@@ -31,17 +31,5 @@
     "settings": {
         "foreground": "{{commentGrayProminent}}"
     }
-},
-{
-    "scope": [
-        "meta.brace",
-        "punctuation.definition.block", //{} in tsx
-        "punctuation.terminator",
-        // "punctuation.definition",
-        "punctuation.separator",
-        "meta.delimiter"
-    ],
-    "settings": {
-        "foreground": "{{commentGray}}"
-    }
-}]
+}
+]

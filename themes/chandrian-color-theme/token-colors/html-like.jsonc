@@ -186,6 +186,14 @@
     },
     {
         "scope": [
+            "meta.tag.jsx punctuation.definition.tag"
+        ],
+        "settings": {
+            "foreground": "{{booleans}}BF"
+        }
+    },
+    {
+        "scope": [
             "entity.other.attribute-name.jsx"
         ],
         "settings": {
