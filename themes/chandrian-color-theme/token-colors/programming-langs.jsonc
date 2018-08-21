@@ -3,9 +3,11 @@
     {
         "scope": [
             "keyword.other.variable.definition", //$ in powershell
-            "storage.type", //var, const etc
-            "keyword.control.class", //ruby
-            "keyword.control.module", //ruby
+            "meta.class meta.method meta.var storage.type", //var, const etc
+            "storage.type",
+            // "meta.class storage.modifier",
+            "keyword.control.class", //ruby class keyword
+            "keyword.control.module", //ruby module keyworld
         ],
         "settings": {
             "foreground": "{{keywordGray}}"
@@ -26,6 +28,7 @@
             "keyword.other.special-method", //private_class_method in rb
             "meta.definition.method",
             "punctuation.decorator", //@
+            "meta.class meta.method.declaration storage.type", //constructor
             "entity.name.function" //function definition
         ],
         "settings": {
@@ -44,7 +47,7 @@
         "scope": [
             // "meta.function-call",
             "support.function",
-            "meta.function-call",
+            "meta.function-call entity.name.function",
             "variable.function" //function invocation
         ],
         "settings": {
@@ -53,14 +56,15 @@
     },
     {
         "scope": [
+            "support.class",
+            "support.constant",
             "support.class.builtin",// Math.Infinity
             "support.function.builtin",
             "support.function.node",
-
             "constant.language"
         ],
         "settings": {
-            "foreground": "{{mainVariant}}"
+            "foreground": "{{alt3}}"
         }
     },
     {
@@ -86,8 +90,7 @@
             "entity.name.class",
             "entity.name.type.class",
             "variable.other.class",
-            "meta.interface",
-            "support.class"
+            "meta.interface"
         ],
         "settings": {
             "foreground": "{{alt3}}"
@@ -109,7 +112,7 @@
             "meta.type.annotation"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
+            "foreground": "{{mainVariant}}"
         }
     },
     {
@@ -137,8 +140,16 @@
             "variable.other.object" //this.object
         ],
         "settings": {
-            "foreground": "{{text}}"
+            "foreground": "{{mainVariant}}"
             // "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "meta.object-literal.key"
+        ],
+        "settings": {
+            "foreground": "{{alt4}}"
         }
     },
     {
@@ -193,7 +204,14 @@
         ],
         "settings": {
             "foreground": "{{alt1Complentary}}"
-            // , "fontStyle": "italic"
+        }
+    }, 
+    {
+        "scope": [
+            "keyword.other.debugger"
+        ],
+        "settings": {
+            "foreground": "{{important}}"
         }
     }, 
     {

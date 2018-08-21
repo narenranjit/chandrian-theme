@@ -9,14 +9,14 @@
         "mainLight2": "#BCE1FF",
         "mainLightest": "#E4F3FF", //fn params
         
-        "mainVariant": "#9C97FB", //Math.floor
-        "mainAlt": "#58CDE8", //fn definition
-
         "alt1": "#FFCB0D", //ifthen
         "alt1Complentary": "#FF9F1A",//return
-    
-        "alt3": "#60FFF2", //class names
-        "alt4": "#A29BDF", //annotation
+
+        "mainAlt": "#58CDE8", //fn definition, grayish cyan
+        "alt3": "#5BF2E6", //class names, bright cyan
+        
+        "mainVariant": "#9C97FB", //Math.floor, bright purple
+        "alt4": "#A29BDF", //annotation, grayish purple
       
         "commentGray": "#6D7278",
         "commentGrayProminent": "#BEC4CA",

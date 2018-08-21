@@ -178,27 +178,45 @@
 
     {
         "scope": [
-            "meta.tag.jsx"
+            "meta.jsx.children"
         ],
         "settings": {
-            "foreground": "{{booleans}}"
+            "foreground": "{{text}}"
         }
     },
     {
         "scope": [
-            "meta.tag.jsx punctuation.definition.tag"
+            "meta.jsx meta.tag",
+            "source.js meta.tag"
         ],
         "settings": {
-            "foreground": "{{booleans}}BF"
+            "foreground": "{{mainDarker1}}"
         }
     },
     {
         "scope": [
-            "entity.other.attribute-name.jsx"
+            "meta.jsx meta.tag support.class.component"
         ],
         "settings": {
-            "foreground": "{{alt4}}",
-            "fontStyle": "italic"
+            "foreground": "{{alt3}}"
+        }
+    },
+    {
+        "scope": [
+            "meta.jsx meta.tag punctuation.definition.tag"
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}BF"
+        }
+    },
+    {
+        "scope": [
+            "meta.jsx entity.other.attribute-name",
+            "source.js entity.other.attribute-name"
+        ],
+        "settings": {
+            "foreground": "{{alt4}}"
+            // , "fontStyle": "italic"
         }
     }
 ]

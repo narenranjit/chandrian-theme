@@ -5,6 +5,10 @@ import ButtonPanel from './ButtonPanel';
 import Display from './Display'
 
 class App extends React.Component {
+  state = {
+    s: 2
+  }
+
   constructor(props) {
     super(props)
     this.state = {
@@ -69,6 +73,8 @@ class App extends React.Component {
     return (
       <div className="component-app" id="foobar">
         Tacos
+        <label htmlFor="" ></label>
+        <input type="text" disabled={ true }/>
         <Display value={this.state.next || this.state.total || '0'} />
         <ButtonPanel onClick={ this.handleClick } clickHandler={this.handleClick} />
       </div>

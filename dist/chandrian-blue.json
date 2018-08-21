@@ -1,5 +1,5 @@
 {
-  "name": "Chandrian (Blue)",
+  "name": "Chandrian Blue",
   "type": "dark",
   "colors": {
     "editor.background": "#262626",
@@ -569,27 +569,44 @@
     },
     {
       "scope": [
-        "meta.tag.jsx"
+        "meta.jsx.children"
       ],
       "settings": {
-        "foreground": "#CF84BC"
+        "foreground": "#FFFFFFD4"
       }
     },
     {
       "scope": [
-        "meta.tag.jsx punctuation.definition.tag"
+        "meta.jsx meta.tag",
+        "source.js meta.tag"
       ],
       "settings": {
-        "foreground": "#CF84BCBF"
+        "foreground": "#2299FB"
       }
     },
     {
       "scope": [
-        "entity.other.attribute-name.jsx"
+        "meta.jsx meta.tag support.class.component"
       ],
       "settings": {
-        "foreground": "#A29BDF",
-        "fontStyle": "italic"
+        "foreground": "#5BF2E6"
+      }
+    },
+    {
+      "scope": [
+        "meta.jsx meta.tag punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#58CDE8BF"
+      }
+    },
+    {
+      "scope": [
+        "meta.jsx entity.other.attribute-name",
+        "source.js entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#A29BDF"
       }
     },
     {
@@ -843,6 +860,7 @@
     {
       "scope": [
         "keyword.other.variable.definition",
+        "meta.class meta.method meta.var storage.type",
         "storage.type",
         "keyword.control.class",
         "keyword.control.module"
@@ -864,6 +882,7 @@
         "keyword.other.special-method",
         "meta.definition.method",
         "punctuation.decorator",
+        "meta.class meta.method.declaration storage.type",
         "entity.name.function"
       ],
       "settings": {
@@ -881,7 +900,7 @@
     {
       "scope": [
         "support.function",
-        "meta.function-call",
+        "meta.function-call entity.name.function",
         "variable.function"
       ],
       "settings": {
@@ -890,13 +909,15 @@
     },
     {
       "scope": [
+        "support.class",
+        "support.constant",
         "support.class.builtin",
         "support.function.builtin",
         "support.function.node",
         "constant.language"
       ],
       "settings": {
-        "foreground": "#9C97FB"
+        "foreground": "#5BF2E6"
       }
     },
     {
@@ -922,11 +943,10 @@
         "entity.name.class",
         "entity.name.type.class",
         "variable.other.class",
-        "meta.interface",
-        "support.class"
+        "meta.interface"
       ],
       "settings": {
-        "foreground": "#60FFF2"
+        "foreground": "#5BF2E6"
       }
     },
     {
@@ -934,7 +954,7 @@
         "variable.other.property.static"
       ],
       "settings": {
-        "foreground": "#60FFF2BF"
+        "foreground": "#5BF2E6BF"
       }
     },
     {
@@ -944,7 +964,7 @@
         "meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#9C97FB"
       }
     },
     {
@@ -970,7 +990,15 @@
         "variable.other.object"
       ],
       "settings": {
-        "foreground": "#FFFFFFD4"
+        "foreground": "#9C97FB"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#A29BDF"
       }
     },
     {
@@ -1023,6 +1051,14 @@
     },
     {
       "scope": [
+        "keyword.other.debugger"
+      ],
+      "settings": {
+        "foreground": "#FE4A35"
+      }
+    },
+    {
+      "scope": [
         "keyword.operator.module",
         "keyword.control.from",
         "keyword.control.import",
@@ -1053,7 +1089,7 @@
         "keyword.other.new"
       ],
       "settings": {
-        "foreground": "#60FFF27F"
+        "foreground": "#5BF2E67F"
       }
     },
     {
@@ -1096,7 +1132,7 @@
         "variable.language.super"
       ],
       "settings": {
-        "foreground": "#60FFF2"
+        "foreground": "#5BF2E6"
       }
     },
     {

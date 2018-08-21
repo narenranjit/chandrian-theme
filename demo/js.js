@@ -21,6 +21,7 @@ class Sale {
     for (let decorator of this.decoratorsList) {
       this.price = decorator(this.price)
     }
+    debugger;
     return this.price.toFixed(2)
   }
 
