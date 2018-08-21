@@ -289,7 +289,7 @@
         "source.css variable.other.interpolation"
       ],
       "settings": {
-        "foreground": "#FFBF66"
+        "foreground": "#FF9F1A7F"
       }
     },
     {
@@ -588,7 +588,7 @@
         "entity.other.attribute-name.jsx"
       ],
       "settings": {
-        "foreground": "#6DBDFF",
+        "foreground": "#A29BDF",
         "fontStyle": "italic"
       }
     },

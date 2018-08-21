@@ -197,7 +197,7 @@
             "entity.other.attribute-name.jsx"
         ],
         "settings": {
-            "foreground": "{{alt2}}",
+            "foreground": "{{alt4}}",
             "fontStyle": "italic"
         }
     }

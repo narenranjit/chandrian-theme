@@ -244,7 +244,7 @@
             "source.css variable.other.interpolation"
         ],
         "settings": {
-            "foreground": "{{alt1ComplentaryShade1}}"
+            "foreground": "{{alt1Complentary}}7F"
         }
     }
     

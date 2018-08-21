@@ -12,12 +12,8 @@
         "mainVariant": "#9C97FB", //Math.floor
         "mainAlt": "#58CDE8", //fn definition
 
-        "alt2": "#6DBDFF", //main complementary, function invocation
-
         "alt1": "#FFCB0D", //ifthen
         "alt1Complentary": "#FF9F1A",//return
-        "alt1ComplentaryShade1": "#FFBF66",//return
-        "alt1Supplementary": "#CCCA1F",
     
         "alt3": "#60FFF2", //class names
         "alt4": "#A29BDF", //annotation
@@ -28,8 +24,8 @@
     
         "important": "#FE4A35",
     
-        "strings": "#46BD66", //#66A344 -- original, #8BC77F -- too bright
-        "interpolated": "#9FD44E", //E0F69D
+        "strings": "#46BD66",
+        "interpolated": "#9FD44E",
         "number": "#CDA1EB",
         "booleans": "#CF84BC",
         "regex": "#D0C257",
