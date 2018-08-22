@@ -1,5 +1,3 @@
-Features
-
 Cold colors for function definitions, function invocations etc.
 
 Semicolons are essential, they're just 'noise' when you're writing your code.
@@ -21,7 +19,7 @@ Supported syntaxes are _semantically_ colored.
 - Un-recognized tags show up as errors. Lifesaver if you chronically mistype 'form' as 'from' as I do.
 
 ## Attribute Values
-- 'id' and 'class' attribute values are visually more prominent than other attributes.
+- classes are visually more prominent than other attributes, to help visually scan them.
 - 'href', and form 'action' attribute values are 'warm' colors.
 
 ## Attribute Names
@@ -36,17 +34,16 @@ Supported syntaxes are _semantically_ colored.
     * element selectors,
     * class-based / ID selectors
     * attribute selectors
+    * pseduo-elements / pseduo-classes
 - Mis-spelled elements / id-selectors that you forgot the leading '#' for are highlighted in red.
 
-- Different colors for pseudo-elements and pseduo-classes (:hover, :visited etc)
 - Known attribute values (relative / block etc.) are colored while unknown ones are not (position vs positon), to help catch typos.
 - Known property-names (color / margin etc.) are colored while unknown ones are not (colour / magrin), to help catch typos.
 
-- All color-related definitions are shown in white. I recommend turning on VS Code's color preview so you can visually see the color next to it's name.
+- All color definitions are shown in white. I recommend turning on VS Code's color preview so you can visually see the color next to it's name.
 
 - Vendor prefixes are 'noise' and are muted
 - Obsolete properties are shown as errors
-
 - Semicolons, colons are all language noise and are muted
 
 ## JSON Features:
@@ -64,10 +61,10 @@ The single biggest mistake I make with JSON files is adding commas at the end.
 
 ## Markdown:
 
-This theme is designed to enhance readability of Markdown documents and uses a minimum of colors.
+This theme is designed to enhance readability of Markdown documents and hence uses a minimum of colors.
 
-- Header colors lighten the deeper you go to help you keep track of where you are.
-- Italics are italicized, bolds are shown more prominent.
+- Header colors lighten for each heading level, to help you keep track of where you are.
+- Italics are italicized, bolds are brighter.
 - Links and `code` use warm colors
 - De-emphasized urls to minimize visual clutter.
 
@@ -78,7 +75,7 @@ The following rules are were specifically designed for JS/Typescript, but should
 
 The first thing I look for when scanning large blocks of code are how it ends (return / throw), and how it gets there (conditionals / loops). Hence exit keywords and control keywords are assigned bright warm colors to immediately draw your eye to them.
 
-Much as I like my semi-colons and curly braces, they are just noise when I'm reading code and are hence shown in muted grays.
+As much as I like my semi-colons and curly braces, they are just noise when I'm reading code and are hence shown in muted grays.
 
 Comments are also treated as noise and muted. If you disagree, you can always override.
 

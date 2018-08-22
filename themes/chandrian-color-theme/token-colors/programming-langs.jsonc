@@ -250,7 +250,7 @@
             "support.type.object.module",
         ],
         "settings": {
-            "foreground": "{{alt4}}BF"
+            "foreground": "{{alt4}}"
             // , "fontStyle": "italic"
         }
     },
