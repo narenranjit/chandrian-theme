@@ -38,7 +38,7 @@
         ],
         "settings": {
             "foreground": "{{alt4}}"
-            // , "fontStyle": "italic"
+            , "fontStyle": "italic"
         }
     },
     {
@@ -47,7 +47,7 @@
             "markup.heading.setext.1.markdown"
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}",
+            "foreground": "{{mainVariant}}",
             "fontStyle": "bold"
         }
     },
@@ -124,7 +124,8 @@
             "meta.link.reference.def.markdown",
             "string.other.link.title.markdown",
             "string.other.link.description.markdown",
-            "string.other.link.description.title.markdown"
+            "string.other.link.description.title.markdown",
+            "meta.link.inet.markdown markup.underline.link.markdown"
         ],
         "settings": {
             "foreground": "{{alt1}}"
@@ -136,8 +137,8 @@
             "markup.underline.link.image.markdown"
         ],
         "settings": {
-            "foreground": "{{alt1}}7f"
-            //, "fontStyle": "underline"
+            "foreground": "{{commentGrayProminent}}"
+            // , "fontStyle": "underline"
         }
     }, 
     {
@@ -145,7 +146,7 @@
             "constant.other.reference.link.markdown"
         ],
         "settings": {
-            "foreground": "{{alt1}}7f"
+            "foreground": "{{alt1}}"
         }
     }, 
     

@@ -10,7 +10,16 @@
     },
     {
         "scope": [
+            "log.error",
             "log.exception"
+        ],
+        "settings": {
+            "foreground": "{{important}}"
+        }
+    },
+    {
+        "scope": [
+            "log.error"
         ],
         "settings": {
             "foreground": "{{important}}"

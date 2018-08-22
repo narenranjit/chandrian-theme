@@ -1,15 +1,6 @@
 [
     {
         "scope": [
-            "entity.name.tag.structure.any", //HTMl / body
-            "meta.tag.sgml"
-        ],
-        "settings": {
-            "foreground": "{{mainDarker2}}"
-        }
-    },
-    {
-        "scope": [
             "meta.tag",
             "meta.tag.any"
         ],
@@ -75,9 +66,9 @@
     {
         "scope": ["entity.other.attribute-name"],
         "settings": {
-            "foreground": "{{mainVariant}}"
-            // "foreground": "{{alt4}}"
-            // , "fontStyle": "italic"
+            // "foreground": "{{mainVariant}}"
+            "foreground": "{{alt4}}"
+            , "fontStyle": "italic"
         }
     },
     {
@@ -217,7 +208,7 @@
         ],
         "settings": {
             "foreground": "{{alt4}}"
-            // , "fontStyle": "italic"
+            , "fontStyle": "italic"
         }
     }
 ]

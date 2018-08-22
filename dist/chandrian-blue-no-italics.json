@@ -22,13 +22,13 @@
         "comment.block.documentation storage.type.class"
       ],
       "settings": {
-        "foreground": "#6D7278"
+        "foreground": "#809199"
       }
     },
     {
       "name": "Comment",
       "scope": [
-        "comment.block.documentation storage.type.class",
+        "comment.block.documentation",
         "comment.line",
         "comment.block.documentation other.description",
         "punctuation.definition.comment"
@@ -212,7 +212,7 @@
         "source.css punctuation.separator.key-value"
       ],
       "settings": {
-        "foreground": "#6D7278"
+        "foreground": "#809199"
       }
     },
     {
@@ -231,7 +231,7 @@
         "source.css keyword.operator.logical.only.media"
       ],
       "settings": {
-        "foreground": "#708394"
+        "foreground": "#748FA9"
       }
     },
     {
@@ -400,16 +400,7 @@
         "meta.delimiter"
       ],
       "settings": {
-        "foreground": "#6D7278"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.tag.structure.any",
-        "meta.tag.sgml"
-      ],
-      "settings": {
-        "foreground": "#0270C9"
+        "foreground": "#809199"
       }
     },
     {
@@ -480,7 +471,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#9C97FB"
+        "foreground": "#989BDF"
       }
     },
     {
@@ -616,7 +607,7 @@
         "punctuation.separator.dictionary.key-value.json"
       ],
       "settings": {
-        "foreground": "#6D7278"
+        "foreground": "#809199"
       }
     },
     {
@@ -699,7 +690,7 @@
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "#708394"
+        "foreground": "#748FA9"
       }
     },
     {
@@ -722,7 +713,7 @@
         "markup.heading.setext.1.markdown"
       ],
       "settings": {
-        "foreground": "#2299FB"
+        "foreground": "#9C97FB"
       }
     },
     {
@@ -765,7 +756,7 @@
         "beginning.punctuation.definition.list.markdown"
       ],
       "settings": {
-        "foreground": "#708394"
+        "foreground": "#748FA9"
       }
     },
     {
@@ -777,7 +768,7 @@
         "punctuation.definition.italic.markdown"
       ],
       "settings": {
-        "foreground": "#6D7278"
+        "foreground": "#809199"
       }
     },
     {
@@ -788,7 +779,7 @@
         "punctuation.definition.metadata.markdown"
       ],
       "settings": {
-        "foreground": "#6D7278"
+        "foreground": "#809199"
       }
     },
     {
@@ -798,7 +789,8 @@
         "meta.link.reference.def.markdown",
         "string.other.link.title.markdown",
         "string.other.link.description.markdown",
-        "string.other.link.description.title.markdown"
+        "string.other.link.description.title.markdown",
+        "meta.link.inet.markdown markup.underline.link.markdown"
       ],
       "settings": {
         "foreground": "#FFCB0D"
@@ -810,7 +802,7 @@
         "markup.underline.link.image.markdown"
       ],
       "settings": {
-        "foreground": "#FFCB0D7f"
+        "foreground": "#BEC4CA"
       }
     },
     {
@@ -818,7 +810,7 @@
         "constant.other.reference.link.markdown"
       ],
       "settings": {
-        "foreground": "#FFCB0D7f"
+        "foreground": "#FFCB0D"
       }
     },
     {
@@ -834,7 +826,7 @@
         "meta.separator.markdown"
       ],
       "settings": {
-        "foreground": "#708394"
+        "foreground": "#748FA9"
       }
     },
     {
@@ -848,7 +840,16 @@
     },
     {
       "scope": [
+        "log.error",
         "log.exception"
+      ],
+      "settings": {
+        "foreground": "#FE4A35"
+      }
+    },
+    {
+      "scope": [
+        "log.error"
       ],
       "settings": {
         "foreground": "#FE4A35"
@@ -863,7 +864,7 @@
         "keyword.control.module"
       ],
       "settings": {
-        "foreground": "#708394"
+        "foreground": "#748FA9"
       }
     },
     {
@@ -871,7 +872,7 @@
         "keyword.operator.assignment"
       ],
       "settings": {
-        "foreground": "#708394"
+        "foreground": "#748FA9"
       }
     },
     {

@@ -4,7 +4,6 @@
     "colors": {
         "main": "#6DBDFF",
         "mainDarker1": "#2299FB",
-        "mainDarker2": "#0270C9",
         "mainLight1": "#94CFFF",
         "mainLight2": "#BCE1FF",
         "mainLightest": "#E4F3FF", //fn params
@@ -19,9 +18,9 @@
         "alt4": "#989BDF", // grayish purple
         "alt5": "#B09277", // brown, annotation
 
-        "commentGray": "#6D7278",
+        "commentGray": "#809199",
         "commentGrayProminent": "#BEC4CA",
-        "keywordGray": "#708394",
+        "keywordGray": "#748FA9",
     
         "important": "#FE4A35",
     

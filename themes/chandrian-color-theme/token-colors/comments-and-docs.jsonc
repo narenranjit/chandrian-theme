@@ -10,13 +10,13 @@
     ],
     "settings": {
         "foreground": "{{commentGray}}"
-        ,"fontStyle": "italic"
+        ,"fontStyle": ""
     }
 },
 {
     "name": "Comment",
     "scope": [
-        "comment.block.documentation storage.type.class",  //@param
+        "comment.block.documentation",  //@param
         "comment.line",
         "comment.block.documentation other.description", // variable description
         "punctuation.definition.comment"
