@@ -27,7 +27,6 @@
         "scope": [
             "keyword.other.special-method", //private_class_method in rb
             "meta.definition.method",
-            "punctuation.decorator", //@
             "meta.class meta.method.declaration storage.type", //constructor
             "storage.type.function.arrow",
             "entity.name.function" //function definition
@@ -88,11 +87,21 @@
         }
     },
     {
+        "name": "Decorators",
+        "scope": [
+            "punctuation.decorator", //@
+            "meta.decorator meta.function-call entity.name.function",
+            "meta.decorator variable"
+        ],
+        "settings": {
+            "foreground": "{{alt1}}BF"
+        }
+    },
+    {
         "scope": [
             "entity.name.type.interface",
             "entity.name.class",
             "new.expr", //new Foo
-            "meta.decorator meta.function-call entity.name.function",
             "entity.name.type.class",
             "variable.other.class",
             "entity.other.inherited-class",

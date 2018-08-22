@@ -7,8 +7,11 @@
     "level2": {
       "h1": "hello",
       "level4": {
-        "something": true
-      },
+        "something": true,
+        "level5": {
+
+        }
+      }
     }
   },
   "extends": "eslint:recommended",

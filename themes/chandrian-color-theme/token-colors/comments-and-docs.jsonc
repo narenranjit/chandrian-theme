@@ -36,6 +36,7 @@
     }
 },{
     "scope": [
+        "comment.block.documentation keyword",
         "comment.block.documentation entity.name.type.instance" //{string}
     ],
     "settings": {

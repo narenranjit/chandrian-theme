@@ -167,6 +167,15 @@
             "foreground": "{{strings}}"
         }
     },
+    {
+        "scope": [
+            "meta.tag.metadata.doctype",
+            "text.html punctuation.section.embedded"
+        ],
+        "settings": {
+            "foreground": "{{keywordGray}}"
+        }
+    },
 
     {
         "scope": [

@@ -46,6 +46,7 @@
     },
     {
         "scope": [
+            "string.template",
             "string.interpolated"
         ],
         "settings": {
@@ -61,6 +62,14 @@
         ],
         "settings": {
             "foreground": "{{interpolated}}7F"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.definition.template-expression"
+        ],
+        "settings": {
+            "foreground": "{{strings}}"
         }
     },
     {

@@ -46,6 +46,7 @@
     },
     {
       "scope": [
+        "comment.block.documentation keyword",
         "comment.block.documentation entity.name.type.instance"
       ],
       "settings": {
@@ -341,6 +342,7 @@
     },
     {
       "scope": [
+        "string.template",
         "string.interpolated"
       ],
       "settings": {
@@ -356,6 +358,14 @@
       ],
       "settings": {
         "foreground": "#9FD44E7F"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#46BD66"
       }
     },
     {
@@ -560,6 +570,15 @@
     },
     {
       "scope": [
+        "meta.tag.metadata.doctype",
+        "text.html punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#748FA9"
+      }
+    },
+    {
+      "scope": [
         "meta.jsx.children"
       ],
       "settings": {
@@ -632,7 +651,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#6DBDFF"
+        "foreground": "#2299FB"
       }
     },
     {
@@ -650,7 +669,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#2299FB"
+        "foreground": "#58CDE8"
       }
     },
     {
@@ -659,7 +678,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#58CDE8"
+        "foreground": "#6DBDFF"
       }
     },
     {
@@ -879,7 +898,6 @@
       "scope": [
         "keyword.other.special-method",
         "meta.definition.method",
-        "punctuation.decorator",
         "meta.class meta.method.declaration storage.type",
         "storage.type.function.arrow",
         "entity.name.function"
@@ -940,11 +958,21 @@
       }
     },
     {
+      "name": "Decorators",
+      "scope": [
+        "punctuation.decorator",
+        "meta.decorator meta.function-call entity.name.function",
+        "meta.decorator variable"
+      ],
+      "settings": {
+        "foreground": "#FFCB0DBF"
+      }
+    },
+    {
       "scope": [
         "entity.name.type.interface",
         "entity.name.class",
         "new.expr",
-        "meta.decorator meta.function-call entity.name.function",
         "entity.name.type.class",
         "variable.other.class",
         "entity.other.inherited-class",
