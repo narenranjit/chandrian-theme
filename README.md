@@ -84,6 +84,7 @@ Comments are also treated as noise and muted. If you disagree, you can always ov
 
 'function', 'var', 'const' are important definition keywords, but are still more important for the compiler/interpreter than for humans, and hence they're also toned down.
 
-constant variable names (upper-cased variables in JS by convention) are shown brighter than other variable names.
+Variable declarations are brighter than regular variables. If you find this too distracting, add the following to your settings to turn it off:
+
 
 `=` is assigned a contrasting color to `==` so you can immediately catch if typo one for the other.

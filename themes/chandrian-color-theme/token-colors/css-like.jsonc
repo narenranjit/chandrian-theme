@@ -195,7 +195,7 @@
         "scope": [
             "source.css keyword.control.at-rule", //@extend .foo
             "source.css entity.name.function", //@mixin foo()
-            "esource.css entity.other.attribute-name.class.mixin"
+            "source.css entity.other.attribute-name.class.mixin"
         ],
         "settings": {
             "foreground": "{{alt1}}"
@@ -244,7 +244,8 @@
             "source.css variable.other.interpolation"
         ],
         "settings": {
-            "foreground": "{{alt1Complentary}}7F"
+            "foreground": "{{alt1Complentary}}",
+            "fontStyle": "italic"
         }
     }
     

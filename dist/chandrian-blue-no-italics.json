@@ -38,7 +38,14 @@
     {
       "scope": [
         "keyword.other.phpdoc",
-        "comment.block.documentation variable.other",
+        "comment.block.documentation variable.other"
+      ],
+      "settings": {
+        "foreground": "#BEC4CA"
+      }
+    },
+    {
+      "scope": [
         "comment.block.documentation entity.name.type.instance"
       ],
       "settings": {
@@ -214,7 +221,7 @@
         "source.css keyword.control.at-rule.media"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#989BDF"
       }
     },
     {
@@ -231,7 +238,7 @@
       "scope": [
         "source.css keyword.control.at-rule",
         "source.css entity.name.function",
-        "esource.css entity.other.attribute-name.class.mixin"
+        "source.css entity.other.attribute-name.class.mixin"
       ],
       "settings": {
         "foreground": "#FFCB0D"
@@ -279,7 +286,7 @@
         "source.css variable.other.interpolation"
       ],
       "settings": {
-        "foreground": "#FF9F1A7F"
+        "foreground": "#FF9F1A"
       }
     },
     {
@@ -467,7 +474,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#989BDF"
       }
     },
     {
@@ -595,7 +602,7 @@
         "source.js entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#989BDF"
       }
     },
     {
@@ -702,7 +709,7 @@
         "markup.quote.markdown"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#989BDF"
       }
     },
     {
@@ -869,6 +876,7 @@
         "meta.definition.method",
         "punctuation.decorator",
         "meta.class meta.method.declaration storage.type",
+        "storage.type.function.arrow",
         "entity.name.function"
       ],
       "settings": {
@@ -886,11 +894,22 @@
     {
       "scope": [
         "support.function",
+        "meta.function-call",
+        "entity.name.function.invocation",
         "meta.function-call entity.name.function",
+        "meta.method-call entity.name.function",
         "variable.function"
       ],
       "settings": {
         "foreground": "#6DBDFF"
+      }
+    },
+    {
+      "scope": [
+        "meta.var.expr meta.brace.round"
+      ],
+      "settings": {
+        "foreground": "#6DBDFFBF"
       }
     },
     {
@@ -908,14 +927,6 @@
     },
     {
       "scope": [
-        "variable.function.constructor"
-      ],
-      "settings": {
-        "foreground": "#A29BDF"
-      }
-    },
-    {
-      "scope": [
         "meta.function-call.arguments",
         "variable.parameter.function"
       ],
@@ -927,8 +938,11 @@
       "scope": [
         "entity.name.type.interface",
         "entity.name.class",
+        "new.expr",
+        "meta.decorator meta.function-call entity.name.function",
         "entity.name.type.class",
         "variable.other.class",
+        "entity.other.inherited-class",
         "meta.interface"
       ],
       "settings": {
@@ -946,11 +960,11 @@
     {
       "scope": [
         "support.type",
-        "entity.name.type",
+        "punctuation.separator.annotation",
         "meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#9C97FB"
+        "foreground": "#B09277"
       }
     },
     {
@@ -959,11 +973,12 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#989BDF"
       }
     },
     {
       "scope": [
+        "variable.other.property",
         "meta.property.object"
       ],
       "settings": {
@@ -975,7 +990,7 @@
         "variable.other.object"
       ],
       "settings": {
-        "foreground": "#9C97FB"
+        "foreground": "#FFFFFFD4"
       }
     },
     {
@@ -983,7 +998,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#A29BDF"
+        "foreground": "#9C97FB"
       }
     },
     {
@@ -1051,7 +1066,7 @@
         "support.type.object.module"
       ],
       "settings": {
-        "foreground": "#A29BDFBF"
+        "foreground": "#989BDFBF"
       }
     },
     {
@@ -1106,6 +1121,10 @@
     },
     {
       "scope": [
+        "variable.parameter",
+        "meta.definition.variable variable",
+        "variable.other.readwrite.class",
+        "variable.other.readwrite.instance",
         "variable.other.constant"
       ],
       "settings": {

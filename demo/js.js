@@ -1,6 +1,7 @@
 'use strict'
 
 import Foo from './bar';
+const bar = require('doo');
 
 class Sale {
   constructor(price) {
@@ -8,10 +9,10 @@ class Sale {
   }
 
   decorate(decorator, foobar) {
-    const ABC = 1;
+    const abc = 1;
     const DEF = 'HELLO';
     const GHI = true;
-
+    const bar = JSON.parse({});
     Array.isArray('foo');
     if (!Sale[decorator]) throw new Error(`decorator not exist: ${decorator}`)
     this.decoratorsList.push(Sale[decorator])

@@ -29,6 +29,7 @@
             "meta.definition.method",
             "punctuation.decorator", //@
             "meta.class meta.method.declaration storage.type", //constructor
+            "storage.type.function.arrow",
             "entity.name.function" //function definition
         ],
         "settings": {
@@ -45,13 +46,23 @@
     },
     {
         "scope": [
-            // "meta.function-call",
-            "support.function",
+            "support.function", //.keys, .forEach, require
+            "meta.function-call",
+            "entity.name.function.invocation",
             "meta.function-call entity.name.function",
+            "meta.method-call entity.name.function",
             "variable.function" //function invocation
         ],
         "settings": {
             "foreground": "{{main}}"
+        }
+    },
+    {
+        "scope": [
+            "meta.var.expr meta.brace.round"
+        ],
+        "settings": {
+            "foreground": "{{main}}BF"
         }
     },
     {
@@ -69,14 +80,6 @@
     },
     {
         "scope": [
-            "variable.function.constructor"
-        ],
-        "settings": {
-            "foreground": "{{alt4}}"
-        }
-    },
-    {
-        "scope": [
             "meta.function-call.arguments",
             "variable.parameter.function"
         ],
@@ -88,8 +91,11 @@
         "scope": [
             "entity.name.type.interface",
             "entity.name.class",
+            "new.expr", //new Foo
+            "meta.decorator meta.function-call entity.name.function",
             "entity.name.type.class",
             "variable.other.class",
+            "entity.other.inherited-class",
             "meta.interface"
         ],
         "settings": {
@@ -108,11 +114,12 @@
     {
         "scope": [
             "support.type",
-            "entity.name.type",
+            "punctuation.separator.annotation", //-> in python
+            // "entity.name.type",
             "meta.type.annotation"
         ],
         "settings": {
-            "foreground": "{{mainVariant}}"
+            "foreground": "{{alt5}}"
         }
     },
     {
@@ -125,9 +132,10 @@
             , "fontStyle": "italic"
         }
     },
-    //MISC
+    //Object
     {
         "scope": [
+            "variable.other.property",
             "meta.property.object"
         ],
         "settings": {
@@ -140,16 +148,26 @@
             "variable.other.object" //this.object
         ],
         "settings": {
-            "foreground": "{{mainVariant}}"
+            "foreground": "{{text}}"
             // "fontStyle": "italic"
         }
     },
+    // { //FIXME: Can't reliably target object literal {} vs block {}
+    //     "scope": [
+    //         "meta.var meta.block meta.objectliteral punctuation.definition.block" // {} for literals but not block curlies
+    //         // "meta.var meta.objectliteral punctuation.definition.block"
+    //     ],
+    //     "settings": {©∫
+    //         "foreground": "{{text}}"
+    //         // "fontStyle": "italic"
+    //     }
+    // },
     {
         "scope": [
             "meta.object-literal.key"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
+            "foreground": "{{mainVariant}}"
         }
     },
     {
@@ -283,6 +301,10 @@
     },
     {
         "scope": [
+            "variable.parameter",
+            "meta.definition.variable variable",
+            "variable.other.readwrite.class",
+            "variable.other.readwrite.instance",
             "variable.other.constant"
         ],
         "settings": {

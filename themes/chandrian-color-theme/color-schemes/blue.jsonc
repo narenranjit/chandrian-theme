@@ -13,11 +13,12 @@
         "alt1Complentary": "#FF9F1A",//return
 
         "mainAlt": "#58CDE8", //fn definition, grayish cyan
-        "alt3": "#5BF2E6", //class names, bright cyan
+        "alt3": "#5BF2E6", //class names, Promise., bright cyan
         
-        "mainVariant": "#9C97FB", //Math.floor, bright purple
-        "alt4": "#A29BDF", //annotation, grayish purple
-      
+        "mainVariant": "#9C97FB", //this.state.foo, bright purple
+        "alt4": "#989BDF", // grayish purple
+        "alt5": "#B09277", // brown, annotation
+
         "commentGray": "#6D7278",
         "commentGrayProminent": "#BEC4CA",
         "keywordGray": "#708394",
