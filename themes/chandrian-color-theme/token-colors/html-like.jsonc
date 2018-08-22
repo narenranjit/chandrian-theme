@@ -75,7 +75,8 @@
     {
         "scope": ["entity.other.attribute-name"],
         "settings": {
-            "foreground": "{{alt4}}"
+            "foreground": "{{mainVariant}}"
+            // "foreground": "{{alt4}}"
             // , "fontStyle": "italic"
         }
     },
@@ -97,8 +98,8 @@
     },
     {
         "scope": [
-            "meta.attribute.class.html string.quoted.double.html",
-            "meta.attribute.id.html string.quoted.double.html"
+            "meta.attribute.class.html string.quoted.double.html"
+            // ,"meta.attribute.id.html string.quoted.double.html"
         ],
         "settings": {
             "foreground": "{{interpolated}}"
@@ -106,8 +107,8 @@
     },
     {
         "scope": [
-            "meta.attribute.class.html punctuation.definition.string",
-            "meta.attribute.id.html punctuation.definition.string",
+            "meta.attribute.class.html punctuation.definition.string"
+            // ,"meta.attribute.id.html punctuation.definition.string"
         ],
         "settings": {
             "foreground": "{{interpolated}}BF"

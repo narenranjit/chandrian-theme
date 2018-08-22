@@ -480,7 +480,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#989BDF"
+        "foreground": "#9C97FB"
       }
     },
     {
@@ -502,8 +502,7 @@
     },
     {
       "scope": [
-        "meta.attribute.class.html string.quoted.double.html",
-        "meta.attribute.id.html string.quoted.double.html"
+        "meta.attribute.class.html string.quoted.double.html"
       ],
       "settings": {
         "foreground": "#9FD44E"
@@ -511,8 +510,7 @@
     },
     {
       "scope": [
-        "meta.attribute.class.html punctuation.definition.string",
-        "meta.attribute.id.html punctuation.definition.string"
+        "meta.attribute.class.html punctuation.definition.string"
       ],
       "settings": {
         "foreground": "#9FD44EBF"
