@@ -13,7 +13,7 @@
             "source.css entity.name.tag",
         ],
         "settings": {
-            "foreground": "{{mainVariant}}"
+            "foreground": "{{alt3}}"
         }
     },
     {
@@ -21,7 +21,7 @@
             "source.css entity.other.attribute-name"
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}",
+            "foreground": "{{mainLight2}}",
             "fontStyle": ""
         }
     },
@@ -32,7 +32,7 @@
             "source.css punctuation.definition.entity.end.bracket.square"
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}BF"
+            "foreground": "{{mainLight2}}BF"
         }
     },
     {
@@ -40,7 +40,7 @@
             "source.css entity.other.attribute-name.class"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}",
+            "foreground": "{{main}}",
             "fontStyle": ""
         }
     },
@@ -49,7 +49,7 @@
             "source.css entity.other.attribute-name.id"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}",
+            "foreground": "{{main}}",
             "fontStyle": ""
         }
     },
@@ -80,6 +80,24 @@
         }
     },
 
+    //prop name
+    {
+        "scope": [
+            "support.type.property-name"
+        ],
+        "settings": {
+            "foreground": "{{mainVariant}}"
+        }
+    },
+    {
+        "scope": [
+            "support.type.vendored.property-name"
+        ],
+        "settings": {
+            "foreground": "{{mainVariant}}7F"
+        }
+    },
+
     //ATTR Values
     {
         "scope": [
@@ -101,10 +119,10 @@
     },
     {
         "scope": [
-            "source.css support.function.any-method.builtin.url"
+            "source.css support.function"
         ],
         "settings": {
-            "foreground": "{{alt1}}"
+            "foreground": "{{alt1}}BF"
             // ,"fontStyle": "italic"
         }
     },
@@ -134,22 +152,6 @@
         ],
         "settings": {
             "foreground": "{{important}}DF"
-        }
-    },
-    {
-        "scope": [
-            "support.type.property-name"
-        ],
-        "settings": {
-            "foreground": "{{main}}"
-        }
-    },
-    {
-        "scope": [
-            "support.type.vendored.property-name"
-        ],
-        "settings": {
-            "foreground": "{{main}}7F"
         }
     },
     {
@@ -203,7 +205,16 @@
     },
     {
         "scope": [
+            "source.css meta.at-rule.extend"
+        ],
+        "settings": {
+            "foreground": "{{alt3}}"
+        }
+    },
+    {
+        "scope": [
             "source.css variable",
+            "source.css meta.definition.variable variable",
             "source.css variable.other"
         ],
         "settings": {
@@ -229,9 +240,6 @@
     },
     {
         "scope": [
-            "source.css support.function.calc",
-            "source.css meta.function.calc",
-            "source.css support.function.misc",
             "source.css support.function.any-method.builtin",
             "source.css meta.function.variable" //var()
         ],

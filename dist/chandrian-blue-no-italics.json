@@ -65,7 +65,7 @@
         "source.css entity.name.tag"
       ],
       "settings": {
-        "foreground": "#9C97FB"
+        "foreground": "#5BF2E6"
       }
     },
     {
@@ -73,7 +73,7 @@
         "source.css entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#2299FB"
+        "foreground": "#BCE1FF"
       }
     },
     {
@@ -83,7 +83,7 @@
         "source.css punctuation.definition.entity.end.bracket.square"
       ],
       "settings": {
-        "foreground": "#2299FBBF"
+        "foreground": "#BCE1FFBF"
       }
     },
     {
@@ -91,7 +91,7 @@
         "source.css entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#BCE1FF"
+        "foreground": "#6DBDFF"
       }
     },
     {
@@ -99,7 +99,7 @@
         "source.css entity.other.attribute-name.id"
       ],
       "settings": {
-        "foreground": "#BCE1FF"
+        "foreground": "#6DBDFF"
       }
     },
     {
@@ -130,6 +130,22 @@
     },
     {
       "scope": [
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#9C97FB"
+      }
+    },
+    {
+      "scope": [
+        "support.type.vendored.property-name"
+      ],
+      "settings": {
+        "foreground": "#9C97FB7F"
+      }
+    },
+    {
+      "scope": [
         "source.css constant.numeric"
       ],
       "settings": {
@@ -146,10 +162,10 @@
     },
     {
       "scope": [
-        "source.css support.function.any-method.builtin.url"
+        "source.css support.function"
       ],
       "settings": {
-        "foreground": "#FFCB0D"
+        "foreground": "#FFCB0DBF"
       }
     },
     {
@@ -178,22 +194,6 @@
       ],
       "settings": {
         "foreground": "#FE4A35DF"
-      }
-    },
-    {
-      "scope": [
-        "support.type.property-name"
-      ],
-      "settings": {
-        "foreground": "#6DBDFF"
-      }
-    },
-    {
-      "scope": [
-        "support.type.vendored.property-name"
-      ],
-      "settings": {
-        "foreground": "#6DBDFF7F"
       }
     },
     {
@@ -246,7 +246,16 @@
     },
     {
       "scope": [
+        "source.css meta.at-rule.extend"
+      ],
+      "settings": {
+        "foreground": "#5BF2E6"
+      }
+    },
+    {
+      "scope": [
         "source.css variable",
+        "source.css meta.definition.variable variable",
         "source.css variable.other"
       ],
       "settings": {
@@ -271,9 +280,6 @@
     },
     {
       "scope": [
-        "source.css support.function.calc",
-        "source.css meta.function.calc",
-        "source.css support.function.misc",
         "source.css support.function.any-method.builtin",
         "source.css meta.function.variable"
       ],
