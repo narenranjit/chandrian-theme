@@ -37,6 +37,14 @@
     },
     {
         "scope": [
+            "source.css meta.attribute-selector"
+        ],
+        "settings": {
+            "foreground": "{{strings}}"
+        }
+    },
+    {
+        "scope": [
             "source.css entity.other.attribute-name.class"
         ],
         "settings": {

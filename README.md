@@ -1,16 +1,10 @@
-Cold colors for function definitions, function invocations etc.
+# Chandrian VS Code Color Theme
 
-Semicolons are essential, they're just 'noise' when you're writing your code.
+Chandrian is the first semantic syntax highlighter designed for VS Code and Sublime Text. It features a 16-color palette with a mixture of carefully chosen warm, cold, and neutral colors. It’s designed to easily scan large code-bases and highlight errors your linter doesn't catch.
 
-Designed to prevent errors in programming
-
-# Features
-
-Supported syntaxes are _semantically_ colored.
-
-- Actions, or control keywords, use warm colors.  TODO: Image here
-- Definitions and static kewords use cold colors. TODO: Image here
-- Language keywords, and misc. punctuation classified as 'noise' use subdued shades of gray. TODO: Image here
+- Actions, or control keywords, (`throw`, `return` etc.) use warm colors.
+- Function definitions and static kewords use cold colors.
+- Language keywords (`function`,  `var` etc.), and misc. punctuation (semi-colons, curly braces) classified as 'noise' use subdued shades of gray.
 
 ## HTML Features
 
@@ -25,6 +19,8 @@ Supported syntaxes are _semantically_ colored.
 ## Attribute Names
 - Inline event handlers are bright warm colors.
 - `data-` attributes are highlighted.
+
+![Screenshot](screenshots/html.png)
 
 
 ## CSS Features:
@@ -46,6 +42,9 @@ Supported syntaxes are _semantically_ colored.
 - Obsolete properties are shown as errors
 - Semicolons, colons are all language noise and are muted
 
+![Screenshot](screenshots/sass.png)
+
+
 ## JSON Features:
 The biggest problems I have with JSON files are:
 
@@ -58,6 +57,7 @@ This theme solves that by
 The single biggest mistake I make with JSON files is adding commas at the end.
 - Bright error colors to let you catch track down issues in malformed json
 
+![Screenshot](screenshots/json.png)
 
 ## Markdown:
 
@@ -68,10 +68,11 @@ This theme is designed to enhance readability of Markdown documents and hence us
 - Links and `code` use warm colors
 - De-emphasized urls to minimize visual clutter.
 
+![Screenshot](screenshots/markdown.png)
 
 ## Programming Languages:
 
-The following rules are were specifically designed for JS/Typescript, but should apply to most languages. If something looks off for a specific language, PRs are welcome.
+The following rules are were specifically designed for JS/Typescript, but should apply to most languages. 
 
 The first thing I look for when scanning large blocks of code are how it ends (return / throw), and how it gets there (conditionals / loops). Hence exit keywords and control keywords are assigned bright warm colors to immediately draw your eye to them.
 
@@ -83,5 +84,9 @@ Comments are also treated as noise and muted. If you disagree, you can always ov
 
 Variable declarations are brighter than regular variables. If you find this too distracting, add the following to your settings to turn it off:
 
-
 `=` is assigned a contrasting color to `==` so you can immediately catch if typo one for the other.
+
+![Screenshot](screenshots/js.png)
+![Screenshot](screenshots/python.png)
+
+If something looks off for a specific language, PRs are welcome.

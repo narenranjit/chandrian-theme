@@ -5,8 +5,16 @@
   "version": "0.0.1",
   "publisher": "narenranjit",
   "icon": "icon.png",
+  "galleryBanner": {
+		"color": "#262626",
+		"theme": "dark"
+	},
   "engines": {
     "vscode": "^1.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narenranjit/chandrian-theme.git"
   },
   "categories": [
     "Themes"
