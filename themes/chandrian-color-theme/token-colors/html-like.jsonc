@@ -216,7 +216,7 @@
             "source.js entity.other.attribute-name"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
+            "foreground": "{{mainVariant}}"
             , "fontStyle": "italic"
         }
     }
