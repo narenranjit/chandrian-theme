@@ -91,7 +91,8 @@
     //prop name
     {
         "scope": [
-            "support.type.property-name"
+            "source.css support.type.property-name",
+            "source.css meta.property-list entity.name.tag" //otherwise colors cursor and content
         ],
         "settings": {
             "foreground": "{{mainVariant}}"
