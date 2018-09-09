@@ -27,7 +27,7 @@
         "scope": [
             "keyword.other.special-method", //private_class_method in rb
             "meta.definition.method",
-            "meta.class meta.method.declaration storage.type", //constructor
+            // "meta.class meta.method.declaration storage.type", //constructor. FIXME: Also matches fns within class methods
             "storage.type.function.arrow",
             "entity.name.function" //function definition
         ],
