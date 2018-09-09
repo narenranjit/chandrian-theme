@@ -89,6 +89,14 @@
     },
     {
       "scope": [
+        "source.css meta.attribute-selector"
+      ],
+      "settings": {
+        "foreground": "#46BD66"
+      }
+    },
+    {
+      "scope": [
         "source.css entity.other.attribute-name.class"
       ],
       "settings": {
@@ -131,7 +139,8 @@
     },
     {
       "scope": [
-        "support.type.property-name"
+        "source.css support.type.property-name",
+        "source.css meta.property-list entity.name.tag"
       ],
       "settings": {
         "foreground": "#9C97FB"
@@ -554,7 +563,8 @@
     },
     {
       "scope": [
-        "punctuation.definition.tag"
+        "punctuation.definition.tag",
+        "punctuation.definition.tag source.css"
       ],
       "settings": {
         "foreground": "#2299FBBF"
@@ -616,7 +626,7 @@
         "source.js entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#989BDF"
+        "foreground": "#9C97FB"
       }
     },
     {
@@ -687,7 +697,16 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "undefined"
+        "foreground": "#94CFFF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BCE1FF"
       }
     },
     {
@@ -898,7 +917,6 @@
       "scope": [
         "keyword.other.special-method",
         "meta.definition.method",
-        "meta.class meta.method.declaration storage.type",
         "storage.type.function.arrow",
         "entity.name.function"
       ],

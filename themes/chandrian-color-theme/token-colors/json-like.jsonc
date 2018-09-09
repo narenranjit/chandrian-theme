@@ -66,16 +66,16 @@
           "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
         ],
         "settings": {
-          "foreground": "{{mainLighter1}}"
+          "foreground": "{{mainLight1}}"
         }
       }
-      // ,{
-      //   "name": "JSON Key - Level 5",
-      //   "scope": [
-      //     "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      //   ],
-      //   "settings": {
-      //     "foreground": "{{mainLightest}}"
-      //   }
-      // }
+      ,{
+        "name": "JSON Key - Level 5",
+        "scope": [
+          "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "{{mainLight2}}"
+        }
+      }
 ]
