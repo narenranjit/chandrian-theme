@@ -119,7 +119,7 @@ export default function combineReducers(reducers) {
     const key = reducerKeys[i]
 
     if (process.env.NODE_ENV !== 'production') {
-      if (typeof reducers[key] === 'undefined') {
+      if (typeof reducers[key] === 'undefined') { //Some comment
         warning(`No reducer provided for key "${key}"`)
       }
     }

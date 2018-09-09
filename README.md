@@ -1,92 +1,107 @@
 # Chandrian VS Code Color Theme
 
-Chandrian is the first semantic syntax highlighter designed for VS Code and Sublime Text. It features a 16-color palette with a mixture of carefully chosen warm, cold, and neutral colors. It’s designed to easily scan large code-bases and highlight errors your linter doesn't catch.
+Chandrian is a **semantic** syntax highlighting theme, designed to make scanning large code-bases easier and to highlight errors your linter doesn't catch. It features a 16-color palette with a mixture of carefully chosen warm, cold, and neutral colors. The colors are categorized into:
 
-- Actions, or control keywords, (`throw`, `return` etc.) use warm colors.
-- Function definitions and static kewords use cold colors.
-- Language keywords (`function`,  `var` etc.), and misc. punctuation (semi-colons, curly braces) classified as 'noise' use subdued shades of gray.
+- Warm Colors for **action** keywords - `throw`, `return` in programming languages, links in Markdown files.
+- Cold colors for **definitions** - Function names, variable values etc.
+- Muted neutral colors for punctuation, comments, and anything else which detracts from the code.
 
-## HTML Features
+All colors have a contrast ratio of at least 4.5:1 and meet the criteria for "AA" accessibility level defined by the Web Content Accessibility Guidelines (WCAG). 
 
-### Tags
-- Different colors for Block vs Inline Elements vs. input elements
-- Un-recognized tags show up as errors. Lifesaver if you chronically mistype 'form' as 'from' as I do.
+# Features
 
-## Attribute Values
-- classes are visually more prominent than other attributes, to help visually scan them.
-- 'href', and form 'action' attribute values are 'warm' colors.
+## Programming languages
 
-## Attribute Names
-- Inline event handlers are bright warm colors.
-- `data-` attributes are highlighted.
+The colors for programming languages are designed to ease congnitive parsing of large blocks of code. 
 
-![Screenshot](screenshots/html.png)
-
-
-## CSS Features:
-
-### Selectors 
-- Different colors for different selector-types:
-    * element selectors,
-    * class-based / ID selectors
-    * attribute selectors
-    * pseduo-elements / pseduo-classes
-- Mis-spelled elements / id-selectors that you forgot the leading '#' for are highlighted in red.
-
-- Known attribute values (relative / block etc.) are colored while unknown ones are not (position vs positon), to help catch typos.
-- Known property-names (color / margin etc.) are colored while unknown ones are not (colour / magrin), to help catch typos.
-
-- All color definitions are shown in white. I recommend turning on VS Code's color preview so you can visually see the color next to it's name.
-
-- Vendor prefixes are 'noise' and are muted
-- Obsolete properties are shown as errors
-- Semicolons, colons are all language noise and are muted
-
-![Screenshot](screenshots/sass.png)
-
-
-## JSON Features:
-The biggest problems I have with JSON files are:
-
-1. I get lost in the nesting and have trouble keeping track of where I am
-2. Trailing commas
-
-This theme solves that by
-- Each nested key-value combination is assigned a different color combination, to help keep track of where you are in deeploy nested JSON structures (up to 5 levels. If you have to deal with structures deeper nesting you have my sympathies).
-- Commas are visually more prominent.
-The single biggest mistake I make with JSON files is adding commas at the end.
-- Bright error colors to let you catch track down issues in malformed json
-
-![Screenshot](screenshots/json.png)
-
-## Markdown:
-
-This theme is designed to enhance readability of Markdown documents and hence uses a minimum of colors.
-
-- Header colors lighten for each heading level, to help you keep track of where you are.
-- Italics are italicized, bolds are brighter.
-- Links and `code` use warm colors
-- De-emphasized urls to minimize visual clutter.
-
-![Screenshot](screenshots/markdown.png)
-
-## Programming Languages:
-
-The following rules are were specifically designed for JS/Typescript, but should apply to most languages. 
-
-The first thing I look for when scanning large blocks of code are how it ends (return / throw), and how it gets there (conditionals / loops). Hence exit keywords and control keywords are assigned bright warm colors to immediately draw your eye to them.
-
-As much as I like my semi-colons and curly braces, they are just noise when I'm reading code and are hence shown in muted grays.
-
-Comments are also treated as noise and muted. If you disagree, you can always override.
-
-'function', 'var', 'const' are important definition keywords, but are still more important for the compiler/interpreter than for humans, and hence they're also toned down.
-
-Variable declarations are brighter than regular variables. If you find this too distracting, add the following to your settings to turn it off:
-
-`=` is assigned a contrasting color to `==` so you can immediately catch if typo one for the other.
+- Exit keywords (`return`/`throw`) and control keywords (`if`, `for` etc.) are assigned complementary warm colors bright enough to immediately catch your eye on a quick scan through.
+- Function definitions / functional calls / property names are assigned complementary cold colors.
+- Semi-colons, curly-braces etc are important for the compiler but are just visual noise for humans, and are hence shown in muted colors.
+- Comments are important and helpful, but secondary to the actual code and are also muted.
+- 'function', 'var', 'const' and other language keywords also toned down.
+- Variable declarations are brighter than regular variables. I'm on the fence about if this helps or distracts (opinions welcome on Github issues); see notes below for instructions on turning this off. 
+- `=` is assigned a contrasting color to `==` so you can immediately catch if typo one for the other.
 
 ![Screenshot](screenshots/js.png)
 ![Screenshot](screenshots/python.png)
 
-If something looks off for a specific language, PRs are welcome.
+These rules should apply to most languages but were specifically designed for JS/Typescript. If something looks in a specific language, issues/ PRs are welcome.
+
+## HTML
+
+- Different colors for Block vs Inline Elements vs. input elements.
+- Classes are the most commonly used attribute and are shown visually more prominent than others, to help visually scan.
+- `href`, form `action` attribute values, and inline event handlers  are treated as action triggers and assigned brighter 'warm' colors.
+- `data-` attributes are highlighted.
+
+- Un-recognized tags show up as errors. Lifesaver if you chronically mistype 'form' as 'from' as I do.
+- Ambersands which should be escaped.
+
+![Screenshot](screenshots/html.png)
+
+## CSS
+
+- Different selector-types (element selectors / id selectors / attribute selectors/ pseduo-classes) are assigned different colors.
+- Color definitions are shown in white. I recommend turning on VS Code's color preview so you can visually see the color next to its name.
+- Mixins / variables / built-in functions are treated as actions and shown in warm colors.
+- Vendor prefixes are 'noise' and are muted.
+- Semicolons, colons etc. are all language noise and are muted.
+
+- Mis-spelled elements / id-selectors that you forgot the leading '#' for are highlighted in red.
+- Known attribute values (relative / block etc.) are colored while unknown ones are not (position vs positon), to help catch typos.
+- Known property-names (color / margin etc.) are colored while unknown ones are not, providing immediate feedback if you get it wrong.
+- Obsolete properties are also shown as errors.
+
+![Screenshot](screenshots/sass.png)
+
+## JSON
+Common issues when working with large JSON files are:
+
+1. Losing track of what level of nesting you're in, while parsing deeply-nested JSON.
+2. Accidental trailing commas.
+3. Missing a matching `}` somewhere.
+
+This theme solves that by:
+- Assigning each nested key-value pair is a different color combination, to help keep track of where you are (up to 5 levels. If you have to deal with structures deeper than that you have my sympathies).
+- Making trailing commas visually more prominent.
+- Using bright error colors to let you catch track down issues with malformed json.
+
+![Screenshot](screenshots/json.png)
+
+## Markdown
+This theme is designed to enhance readability of Markdown documents and hence uses a minimum of colors in Markdown files.
+
+- Header colors lighten for each heading level, to help you keep track of where you are.
+- Italics are italicized, bolds are brighter.
+- Links and `code` use warm colors
+- De-emphasized urls minimize visual clutter.
+
+![Screenshot](screenshots/markdown.png)
+
+## VS Code Editor styling
+
+Minimal changes has been made to the styling of VS Code itself, primarily:
+
+- Changed the obnoxious blue of the activity bar to a more unobtrusive gray. 
+- Muted whitespace characters and other invisibles.
+
+## Misc. notes:
+
+### Theme variants / font suggestions
+
+The default theme incorporates italics and works best with a font like Operator Mono / Danke Mono. There's also a non-italic variant for everything else - I recommend the excellent Source Code Pro.
+
+### How to turn off highlights for variable definitions
+Add the following to your VS Code settings:
+```json
+"editor.tokenColorCustomizations": {
+    "[Chandrian Blue]": {
+        "textMateRules": [{
+            "scope": [
+                "meta.definition.variable variable",
+                "variable.other.constant"
+            ],
+            "settings": {
+                "foreground": "#FFFFFFD4"
+            }}]}}
+```
