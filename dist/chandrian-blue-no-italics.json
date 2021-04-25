@@ -1012,10 +1012,19 @@
       "scope": [
         "support.type",
         "punctuation.separator.annotation",
+        "meta.type.parameters",
         "meta.type.annotation"
       ],
       "settings": {
         "foreground": "#B09277"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.typeparameters"
+      ],
+      "settings": {
+        "foreground": "#856E5A"
       }
     },
     {

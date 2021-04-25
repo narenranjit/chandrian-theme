@@ -125,10 +125,19 @@
             "support.type",
             "punctuation.separator.annotation", //-> in python
             // "entity.name.type",
+            "meta.type.parameters",
             "meta.type.annotation"
         ],
         "settings": {
             "foreground": "{{alt5}}"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.definition.typeparameters"
+        ],
+        "settings": {
+            "foreground": "{{alt5Supplementary}}"
         }
     },
     {
@@ -247,7 +256,7 @@
             "keyword.control.from",
             "keyword.control.import", //keyword.control.import.tsx,
             "keyword.control.export",
-            "support.type.object.module",
+            "support.type.object.module"
         ],
         "settings": {
             "foreground": "{{alt4}}"

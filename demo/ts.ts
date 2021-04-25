@@ -12,6 +12,7 @@ function dontReassignFields() {
 }
 
 export function namedActionDecorator(name: string) {
+  const foo = useState<doo>()
   return function(target, prop, descriptor: BabelDescriptor) {
       if (descriptor) {
           if (process.env.NODE_ENV !== "production" && descriptor.get !== undefined) {

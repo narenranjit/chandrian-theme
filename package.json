@@ -6,9 +6,9 @@
   "publisher": "narenranjit",
   "icon": "icon.png",
   "galleryBanner": {
-		"color": "#262626",
-		"theme": "dark"
-	},
+    "color": "#262626",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.24.0"
   },
