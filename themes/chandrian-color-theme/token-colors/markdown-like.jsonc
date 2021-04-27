@@ -7,6 +7,15 @@
             "foreground": "{{textProminent}}"
         }
     },
+
+    {
+        "scope": [
+            "meta.paragraph.markdown"
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+        }
+    },
     {
         "scope": [
             "markup.italic.markdown"
@@ -39,6 +48,15 @@
         "settings": {
             "foreground": "{{alt4}}"
             , "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.definition.list.begin.markdown",
+            "markup.list.numbered.markdown"
+        ],
+        "settings": {
+            "foreground": "{{alt5}}"
         }
     },
     {
