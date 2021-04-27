@@ -116,5 +116,13 @@
         "settings": {
             "foreground": "{{commentGray}}"
         }
+    },
+    {
+        "scope": [
+            "punctuation"
+        ],
+        "settings": {
+            "foreground": "{{keywordGray}}"
+        }
     }
 ]

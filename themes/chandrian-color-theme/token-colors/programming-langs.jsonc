@@ -15,7 +15,7 @@
     },
     {
         "scope": [
-            "keyword.operator.assignment"
+            "keyword.operator.assignment",
         ],
         "settings": {
             "foreground": "{{keywordGray}}"
@@ -58,7 +58,8 @@
     },
     {
         "scope": [
-            "meta.var.expr meta.brace.round"
+            "meta.var.expr meta.brace.round",
+            "punctuation.definition.arguments"
         ],
         "settings": {
             "foreground": "{{main}}BF"
@@ -303,7 +304,7 @@
     {
         "scope": [
             "meta.brace.square",
-            "punctuation.separator.arguments"
+            "punctuation.separator.arguments",
         ],
         "settings": {
             "foreground": "{{text}}"
