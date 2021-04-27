@@ -1,0 +1,18 @@
+[
+    {
+        "scope": [
+            "variable.other.positional" //$1 in shells
+        ],
+        "settings": {
+            "foreground": "{{alt4}}"
+        }
+    },
+    {
+        "scope": [
+            "variable.other.normal.shell" 
+        ],
+        "settings": {
+            "foreground": "{{mainVariant}}"
+        }
+    }
+]

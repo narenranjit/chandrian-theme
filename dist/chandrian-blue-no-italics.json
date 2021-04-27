@@ -424,6 +424,14 @@
     },
     {
       "scope": [
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#748FA9"
+      }
+    },
+    {
+      "scope": [
         "meta.tag",
         "meta.tag.any"
       ],
@@ -719,6 +727,14 @@
     },
     {
       "scope": [
+        "meta.paragraph.markdown"
+      ],
+      "settings": {
+        "foreground": "#FFFFFFD4"
+      }
+    },
+    {
+      "scope": [
         "markup.italic.markdown"
       ],
       "settings": {}
@@ -743,6 +759,15 @@
       ],
       "settings": {
         "foreground": "#989BDF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "markup.list.numbered.markdown"
+      ],
+      "settings": {
+        "foreground": "#B09277"
       }
     },
     {
@@ -878,6 +903,22 @@
     },
     {
       "scope": [
+        "log.date"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": [
+        "log.constant"
+      ],
+      "settings": {
+        "foreground": "#989BDF"
+      }
+    },
+    {
+      "scope": [
         "log.error",
         "log.exception"
       ],
@@ -947,7 +988,8 @@
     },
     {
       "scope": [
-        "meta.var.expr meta.brace.round"
+        "meta.var.expr meta.brace.round",
+        "punctuation.definition.arguments"
       ],
       "settings": {
         "foreground": "#6DBDFFBF"
@@ -1205,6 +1247,22 @@
       ],
       "settings": {
         "color": "#FFFFFFD4"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.positional"
+      ],
+      "settings": {
+        "foreground": "#989BDF"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.normal.shell"
+      ],
+      "settings": {
+        "foreground": "#9C97FB"
       }
     }
   ]
