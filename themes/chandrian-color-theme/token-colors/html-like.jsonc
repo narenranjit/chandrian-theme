@@ -46,13 +46,23 @@
             "foreground": "{{mainLight2}}"
         }
     },
+    
+    {
+        "scope": [
+            "meta.tag.custom"
+        ],
+        "settings": {
+            "foreground": "{{alt3}}"
+        }
+    },
+    
         {
         "scope": [
-            //Doesn't work
+            "meta.tag.other.unrecognized",
             "meta.tag.inline entity.name.tag meta.tag.structure entity.name.tag"
         ],
         "settings": {
-            "foreground": "{{important}}"
+            "foreground": "{{mainLightest}}",
         }
     },
     {
@@ -89,7 +99,8 @@
     },
     {
         "scope": [
-            "meta.attribute.class.html string.quoted.double.html"
+            "meta.attribute.class.html string.quoted.double.html",
+            "meta.attribute.style.html string.quoted.double.html source.css"
             // ,"meta.attribute.id.html string.quoted.double.html"
         ],
         "settings": {
@@ -98,11 +109,23 @@
     },
     {
         "scope": [
-            "meta.attribute.class.html punctuation.definition.string"
+            "meta.attribute.class.html punctuation.definition.string",
+            "meta.attribute.style.html punctuation.definition.string source.css-ignored-vscode",
+            "meta.attribute.style.html punctuation.definition.string"
             // ,"meta.attribute.id.html punctuation.definition.string"
         ],
         "settings": {
             "foreground": "{{interpolated}}BF"
+        }
+    },
+    {
+        "scope": [
+            "meta.tag.structure.svg entity.name.tag",
+            "meta.tag.object.img entity.name.tag",
+            // ,"meta.attribute.id.html punctuation.definition.string"
+        ],
+        "settings": {
+            "foreground": "{{mainLight2}}"
         }
     },
 

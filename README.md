@@ -29,13 +29,12 @@ These rules should apply to most languages but were specifically designed for JS
 
 ## HTML
 
-- Different colors for Block vs Inline Elements vs. input elements.
-- Classes are the most commonly used attribute and are shown visually more prominent than others, to help visually scan.
+- Different colors for Block / Inline / Input elements / Web components.
+- Classes are the most commonly used attribute and are shown more prominent than others, to help visually scan.
 - `href`, form `action` attribute values, and inline event handlers  are treated as action triggers and assigned brighter 'warm' colors.
 - `data-` attributes are highlighted.
-
-- Un-recognized tags show up as errors. Lifesaver if you chronically mistype 'form' as 'from' as I do.
-- Ambersands which should be escaped.
+- Un-recognized tags show up brightly. Lifesaver if you chronically mistype 'form' as 'from' as I do.
+- Errors, like say an extra angled `<` before a div are highlighted in red, as you can quickly see/scan from the screenshot.
 
 ![Screenshot](screenshots/html.png)
 
