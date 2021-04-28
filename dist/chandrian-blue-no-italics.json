@@ -788,7 +788,7 @@
         "markup.list.numbered.markdown"
       ],
       "settings": {
-        "foreground": "#B09277"
+        "foreground": "#B37970"
       }
     },
     {
@@ -1053,11 +1053,8 @@
       "scope": [
         "entity.name.class",
         "new.expr",
-        "entity.name.type.class",
         "variable.other.class",
-        "entity.other.inherited-class",
-        "meta.interface",
-        "meta.type.declaration"
+        "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#5BF2E6"
@@ -1076,11 +1073,28 @@
         "support.type",
         "punctuation.separator.annotation",
         "meta.return.type entity.name.type",
-        "meta.type.parameters",
         "meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#B09277"
+        "foreground": "#B37970"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.class",
+        "meta.interface",
+        "meta.type.declaration"
+      ],
+      "settings": {
+        "foreground": "#B3A170"
+      }
+    },
+    {
+      "scope": [
+        "meta.type.parameters"
+      ],
+      "settings": {
+        "foreground": "#9C816A"
       }
     },
     {
@@ -1088,7 +1102,7 @@
         "punctuation.definition.typeparameters"
       ],
       "settings": {
-        "foreground": "#856E5A"
+        "foreground": "#9C816A"
       }
     },
     {
@@ -1165,6 +1179,7 @@
     {
       "scope": [
         "keyword.control.flow",
+        "keyword.control.default",
         "keyword.control.trycatch",
         "keyword.control.pseudo-method",
         "variable.function meta.function-call"

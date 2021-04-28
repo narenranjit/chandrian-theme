@@ -102,11 +102,8 @@
         "scope": [
             "entity.name.class",
             "new.expr", //new Foo
-            "entity.name.type.class",
             "variable.other.class",
             "entity.other.inherited-class",
-            "meta.interface",
-            "meta.type.declaration"
         ],
         "settings": {
             "foreground": "{{alt3}}"
@@ -126,11 +123,29 @@
             "support.type",//type definition, return tpe
             "punctuation.separator.annotation", //-> in python
             "meta.return.type entity.name.type",
-            "meta.type.parameters",
+            // "meta.type.parameters",
             "meta.type.annotation",
         ],
         "settings": {
             "foreground": "{{alt5}}"
+        }
+    },
+    {
+        "scope": [
+            "entity.name.type.class",
+            "meta.interface",
+            "meta.type.declaration"
+        ],
+        "settings": {
+            "foreground": "{{alt5Prominent}}"
+        }
+    },
+    {
+        "scope": [
+            "meta.type.parameters",
+        ],
+        "settings": {
+            "foreground": "{{alt5Supplementary}}"
         }
     },
     {
@@ -235,6 +250,7 @@
     {
         "scope": [
             "keyword.control.flow",
+            "keyword.control.default",
             "keyword.control.trycatch",
             "keyword.control.pseudo-method", //ruby yields
             "variable.function meta.function-call"

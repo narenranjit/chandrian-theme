@@ -17,8 +17,9 @@
         "mainVariant": "#9C97FB", //this.state.foo, bright purple
         "alt4": "#989BDF", // grayish purple
         
-        "alt5": "#B09277", // brown, annotation
-        "alt5Supplementary": "#856E5A",
+        "alt5": "#B37970", // brown-ish red, annotation
+        "alt5Prominent": "#B3A170", // Type declaration
+        "alt5Supplementary": "#9C816A",
 
         "commentGray": "#809199",
         "commentGrayProminent": "#BEC4CA",
