@@ -40,7 +40,10 @@
   "author": "Naren Ranjit",
   "license": "ISC",
   "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "json-templates": "^2.0.0",
-    "jsonc-parser": "^2.0.1"
+    "jsonc-parser": "^2.0.1",
+    "prettier": "^2.2.1"
   }
 }
