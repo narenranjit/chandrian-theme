@@ -37,6 +37,14 @@
     },
     {
         "scope": [
+            "source.css punctuation.definition", //#, .
+        ],
+        "settings": {
+            "foreground": "{{mainLight1}}BF"
+        }
+    },
+    {
+        "scope": [
             "source.css meta.attribute-selector"
         ],
         "settings": {
@@ -50,6 +58,14 @@
         "settings": {
             "foreground": "{{main}}",
             "fontStyle": ""
+        }
+    },
+    {
+        "scope": [
+            "source.css entity.other.attribute-name.parent-selector punctuation.definition"
+        ],
+        "settings": {
+            "foreground": "{{alt1}}BF"
         }
     },
     {
@@ -103,7 +119,7 @@
             "support.type.vendored.property-name"
         ],
         "settings": {
-            "foreground": "{{mainVariant}}7F"
+            "foreground": "{{mainVariant}}BF"
         }
     },
 
@@ -186,6 +202,7 @@
     {
         "scope": [
             "source.css keyword.control.at-rule.import",
+            "source.css keyword.control.at-rule punctuation.definition",
             "source.css keyword.control.at-rule.media"
         ],
         "settings": {
