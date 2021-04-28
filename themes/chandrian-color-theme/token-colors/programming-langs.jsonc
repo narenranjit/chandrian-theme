@@ -100,13 +100,13 @@
     },
     {
         "scope": [
-            "entity.name.type.interface",
             "entity.name.class",
             "new.expr", //new Foo
             "entity.name.type.class",
             "variable.other.class",
             "entity.other.inherited-class",
-            "meta.interface"
+            "meta.interface",
+            "meta.type.declaration"
         ],
         "settings": {
             "foreground": "{{alt3}}"
@@ -123,11 +123,11 @@
     },
     {
         "scope": [
-            "support.type",
+            "support.type",//type definition, return tpe
             "punctuation.separator.annotation", //-> in python
-            // "entity.name.type",
+            "meta.return.type entity.name.type",
             "meta.type.parameters",
-            "meta.type.annotation"
+            "meta.type.annotation",
         ],
         "settings": {
             "foreground": "{{alt5}}"

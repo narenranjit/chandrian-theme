@@ -1051,13 +1051,13 @@
     },
     {
       "scope": [
-        "entity.name.type.interface",
         "entity.name.class",
         "new.expr",
         "entity.name.type.class",
         "variable.other.class",
         "entity.other.inherited-class",
-        "meta.interface"
+        "meta.interface",
+        "meta.type.declaration"
       ],
       "settings": {
         "foreground": "#5BF2E6"
@@ -1075,6 +1075,7 @@
       "scope": [
         "support.type",
         "punctuation.separator.annotation",
+        "meta.return.type entity.name.type",
         "meta.type.parameters",
         "meta.type.annotation"
       ],

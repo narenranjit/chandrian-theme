@@ -11,7 +11,7 @@ function dontReassignFields() {
   fail(process.env.NODE_ENV !== "production" && "@action fields are not reassignable")
 }
 
-export function namedActionDecorator(name: string) {
+export function namedActionDecorator(name: BabelDescriptor) {
   const foo = useState<doo>()
   return function(target, prop, descriptor: BabelDescriptor) {
       if (descriptor) {
