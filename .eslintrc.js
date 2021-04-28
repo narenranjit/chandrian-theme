@@ -6,6 +6,7 @@ module.exports = {
   env: {
     es6: true,
   },
+  ignorePatterns: ["demo/screenshottable/*.*"],
   rules: {
     "prettier/prettier": "warn",
   },

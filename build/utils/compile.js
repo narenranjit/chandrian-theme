@@ -9,6 +9,16 @@ function parseContents(fileName, colors) {
   return parsed;
 }
 
+function stripTransparency(colorList) {
+  return colorList.map((col) => {
+    const dupe = Object.assign({}, col);
+    if (dupe.settings && dupe.settings.foreground) {
+      dupe.settings.foreground = dupe.settings.foreground.slice(0, 7);
+    }
+    return dupe;
+  });
+}
+
 function stripItalics(colorList) {
   return colorList.map((col) => {
     const dupe = Object.assign({}, col);
@@ -67,17 +77,32 @@ module.exports = function compile(paths) {
 
     const opFile = `${paths.OP_PATH}/${outputFileName}.json`;
     fs.writeFileSync(opFile, JSON.stringify(base, null, 2), "utf8");
+    console.log("Writing", opFile);
 
     const deitalicized = Object.assign({}, base, {
       name: `Chandrian ${scheme.name} (no italics)`,
       tokenColors: stripItalics(base.tokenColors),
     });
+    const italicsPath = `${paths.OP_PATH}/${outputFileName}-no-italics.json`;
     fs.writeFileSync(
-      `${paths.OP_PATH}/${outputFileName}-no-italics.json`,
+      italicsPath,
       JSON.stringify(deitalicized, null, 2),
       "utf8"
     );
+    console.log("Writing", italicsPath);
 
-    console.log("Build complete. Writing ", opFile);
+    const highContrast = Object.assign({}, base, {
+      name: `Chandrian ${scheme.name} High Contrast`,
+      tokenColors: stripTransparency(base.tokenColors),
+    });
+    const highContrastPath = `${paths.OP_PATH}/${outputFileName}-high-contrast.json`;
+    fs.writeFileSync(
+      highContrastPath,
+      JSON.stringify(highContrast, null, 2),
+      "utf8"
+    );
+    console.log("Writing", highContrastPath);
+
+    console.log("Build complete.");
   });
 };

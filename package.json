@@ -30,6 +30,11 @@
         "label": "Chandrian Blue (no italics)",
         "uiTheme": "vs-dark",
         "path": "./dist/chandrian-blue-no-italics.json"
+      },
+      {
+        "label": "Chandrian Blue (High Contrast)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/chandrian-blue-high-contrast.json"
       }
     ]
   },
