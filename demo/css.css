@@ -62,7 +62,7 @@ input.foobar[disabled] {
 }
 
 .navigation .messages-menu li:not(:last-child) {
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid rgb(212, 163, 163);
   border-bottom: 1px soli #ffffff;
   margin-bottom: 15px;
 }

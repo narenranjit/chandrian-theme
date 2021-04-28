@@ -253,6 +253,15 @@
         ],
         "settings": {
             "foreground": "{{alt1}}"
+        }
+    },
+    {
+        "scope": [
+            "keyword.control.case",
+            "keyword.control.default",
+        ],
+        "settings": {
+            "foreground": "{{alt1}}BF"
             // , "fontStyle": "italic"
         }
     },
@@ -268,7 +277,8 @@
     {
         "scope": [
             "keyword.control.flow",
-            "keyword.control.default",
+            "keyword.control.return",
+            "keyword.control.break",
             "keyword.control.trycatch",
             "keyword.control.pseudo-method", //ruby yields
             "variable.function meta.function-call"
@@ -355,10 +365,10 @@
     },
     {
         "scope": [
-            // "keyword.operator.class"//-> in php
+            "keyword.operator.class"//-> in php
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}DF"
+            "foreground": "{{alt4}}"
         }
     },
     {

@@ -103,6 +103,14 @@
     },
     {
       "scope": [
+        "source.css punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#94CFFFBF"
+      }
+    },
+    {
+      "scope": [
         "source.css meta.attribute-selector"
       ],
       "settings": {
@@ -116,6 +124,14 @@
       "settings": {
         "foreground": "#6DBDFF",
         "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "source.css entity.other.attribute-name.parent-selector punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#FFCB0DBF"
       }
     },
     {
@@ -167,7 +183,7 @@
         "support.type.vendored.property-name"
       ],
       "settings": {
-        "foreground": "#9C97FB7F"
+        "foreground": "#9C97FBBF"
       }
     },
     {
@@ -246,6 +262,7 @@
     {
       "scope": [
         "source.css keyword.control.at-rule.import",
+        "source.css keyword.control.at-rule punctuation.definition",
         "source.css keyword.control.at-rule.media"
       ],
       "settings": {
@@ -1214,8 +1231,18 @@
     },
     {
       "scope": [
+        "keyword.control.case",
+        "keyword.control.default"
+      ],
+      "settings": {
+        "foreground": "#FFCB0DBF"
+      }
+    },
+    {
+      "scope": [
         "keyword.control.flow",
-        "keyword.control.default",
+        "keyword.control.return",
+        "keyword.control.break",
         "keyword.control.trycatch",
         "keyword.control.pseudo-method",
         "variable.function meta.function-call"
@@ -1294,9 +1321,11 @@
       "settings": {}
     },
     {
-      "scope": [],
+      "scope": [
+        "keyword.operator.class"
+      ],
       "settings": {
-        "foreground": "#2299FBDF"
+        "foreground": "#989BDF"
       }
     },
     {

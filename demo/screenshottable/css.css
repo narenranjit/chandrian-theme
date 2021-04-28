@@ -1,0 +1,22 @@
+element {
+  --main-bg-color: brown;
+}
+
+body {
+  font-size: var(--font_size_base);
+  line-height: calc(100% - 100);
+}
+
+.navigation .messages-menu {
+  width: 300px;
+  padding: 10%;
+  padding-top: 25px;
+}
+
+[data-initial]:not(input) {
+  opacity: 1;
+  transition: opacity 200ms linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}

@@ -1,11 +1,8 @@
 import React, { useState } from "react"
-type Foo = {
-  d: boolean
-  e: ()=> void
-}
 interface Props {
   children: (x: number, y: number) => JSX.Element | null
 }
+
 const Mouse: React.FC<Props> = ({ children }) => {
   const [state, setState] = useState({
     x: 0,
