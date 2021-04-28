@@ -1,0 +1,20 @@
+{
+  "displayName": "Chandrian",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chandrian Blue",
+        "uiTheme": "vs-dark",
+        "path": "./dist/chandrian-blue.json"
+      },
+      {
+        "label": "Chandrian Blue (no italics)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/chandrian-blue-no-italics.json"
+      }
+    ]
+  }
+}

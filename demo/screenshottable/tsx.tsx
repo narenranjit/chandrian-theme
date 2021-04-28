@@ -3,7 +3,7 @@ interface Props {
   children: (x: number, y: number) => JSX.Element | null
 }
 
-const Mouse: React.FC<Props> = ({ children }) => {
+function Mouse({ children }: Props) {
   const [state, setState] = useState({
     x: 0,
     y: 0,

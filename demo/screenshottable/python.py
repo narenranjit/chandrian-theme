@@ -27,14 +27,3 @@ class AppAssertionCredentials(AssertionCredentials):
                 content += (' This can occur if a VM was created'
                             ' with no service account or scopes.')
             raise HttpAccessTokenRefreshError(content, status=response.status)
-
-    @property
-    def serialization_data(self):
-        raise NotImplementedError(
-            'Cannot serialize credentials for GCE service accounts.')
-
-    def create_scoped_required(self):
-        return not self.scope
-
-    def create_scoped(self, scopes):
-        return AppAssertionCredentials(scopes, **self.kwargs)
