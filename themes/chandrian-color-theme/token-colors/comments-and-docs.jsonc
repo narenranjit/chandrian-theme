@@ -6,7 +6,6 @@
         "punctuation.definition.comment",
         "string.quoted.docstring",
         "string.quoted.docstring punctuation.definition.string",
-        "comment.block.documentation storage.type.class"  //@param
     ],
     "settings": {
         "foreground": "{{commentGray}}"
@@ -27,7 +26,8 @@
 },
 {
     "scope": [
-        "keyword.other.phpdoc",
+        "keyword.other.phpdoc", //@param
+        "comment.block.documentation storage.type",
         "comment.block.documentation variable.other" //variable name in jsdoc
     ],
     "settings": {
@@ -37,10 +37,17 @@
 },{
     "scope": [
         "comment.block.documentation keyword",
-        "comment.block.documentation entity.name.type.instance" //{string}
     ],
     "settings": {
         "foreground": "{{commentGrayProminent}}",
+        "fontStyle": ""
+    }
+},{
+    "scope": [
+        "comment.block.documentation entity.name.type.instance" //{string}
+    ],
+    "settings": {
+        "foreground": "{{alt5}}",
         "fontStyle": ""
     }
 }

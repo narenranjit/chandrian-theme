@@ -1,4 +1,8 @@
 import React, { useState } from "react"
+type Foo = {
+  d: boolean
+  e: ()=> void
+}
 interface Props {
   children: (x: number, y: number) => JSX.Element | null
 }

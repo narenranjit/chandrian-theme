@@ -7,7 +7,7 @@ import {
   fail
 } from "../internal"
 
-function dontReassignFields() {
+function dontReassignFields():BabelDescriptor  {
   fail(process.env.NODE_ENV !== "production" && "@action fields are not reassignable")
 }
 
@@ -46,6 +46,10 @@ export function namedActionDecorator(name: BabelDescriptor) {
   }
 }
 
+async function foo () {
+  await Promise.resolve(1)
+}
+
 export function actionFieldDecorator(name: string) {
   // Simple property that writes on first invocation to the current instance
   return function(target, prop, descriptor) {
@@ -80,6 +84,7 @@ export function boundActionDecorator(target, propertyName, descriptor, applyToIn
                   propertyName,
                   descriptor.value || descriptor.initializer.call(this)
               )
+              const foo = (1+ 2) /2
               return this[propertyName]
           },
           set: dontReassignFields
@@ -90,6 +95,7 @@ export function boundActionDecorator(target, propertyName, descriptor, applyToIn
       enumerable: false,
       configurable: true,
       set(v) {
+          Promise.resolve(2)
           defineBoundAction(this, propertyName, v)
       },
       get() {

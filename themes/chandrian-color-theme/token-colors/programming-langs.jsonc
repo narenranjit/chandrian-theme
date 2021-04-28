@@ -37,14 +37,6 @@
     },
     {
         "scope": [
-            "punctuation.definition.parameters",
-        ],
-        "settings": {
-            "foreground": "{{mainAlt}}BF"
-        }
-    },
-    {
-        "scope": [
             "support.function", //.keys, .forEach, require
             "meta.function-call",
             "entity.name.function.invocation",
@@ -58,7 +50,17 @@
     },
     {
         "scope": [
+            // "meta.function.expression meta.brace.round", //also catches if blocks
+            "meta.method.declaration meta.brace.round", //all paranthesis within a method, excluding if/switch etc
+        ],
+        "settings": {
+            "foreground": "{{main}}BF"
+        }
+    },
+    {
+        "scope": [
             "meta.var.expr meta.brace.round",
+            "punctuation.definition.parameters",
             "punctuation.definition.arguments"
         ],
         "settings": {
@@ -90,9 +92,12 @@
     {
         "name": "Decorators",
         "scope": [
+            "punctuation.definition.decorator", //@
             "punctuation.decorator", //@
             "meta.decorator meta.function-call entity.name.function",
-            "meta.decorator variable"
+            "meta.decorator variable",
+            "entity.name.function.decorator", //@uti.foo in python
+            "meta.function.decorator", //@foo in python
         ],
         "settings": {
             "foreground": "{{alt1}}BF"
@@ -103,6 +108,7 @@
             "entity.name.class",
             "new.expr", //new Foo
             "variable.other.class",
+            "entity.name.type.class",
             "entity.other.inherited-class",
         ],
         "settings": {
@@ -118,9 +124,14 @@
             "foreground": "{{alt3}}BF"
         }
     },
+    //type annotations
     {
         "scope": [
-            "support.type",//type definition, return tpe
+            "meta.function.parameter.typehinted storage.type", //php type hints in fn params
+            "meta.other.type.phpdoc support.class", 
+            "meta.other.type.phpdoc keyword.other", 
+
+            "meta.function.parameters support.type",//param1: int in python
             "punctuation.separator.annotation", //-> in python
             "meta.return.type entity.name.type",
             // "meta.type.parameters",
@@ -132,7 +143,14 @@
     },
     {
         "scope": [
-            "entity.name.type.class",
+            "keyword.operator.type.annotation"//:
+        ],
+        "settings": {
+            "foreground": "{{alt5}}DF"
+        }
+    },
+    {
+        "scope": [
             "meta.interface",
             "meta.type.declaration"
         ],
@@ -142,7 +160,7 @@
     },
     {
         "scope": [
-            "meta.type.parameters",
+            "meta.type.parameters"
         ],
         "settings": {
             "foreground": "{{alt5Supplementary}}"
@@ -238,15 +256,15 @@
             // , "fontStyle": "italic"
         }
     },
-    {
-        "scope": [
-            "keyword.control.conditional",
-            "keyword.control.switch"
-        ],
-        "settings": {
-            // "fontStyle": "italic"
-        }
-    },
+    // {
+    //     "scope": [
+    //         "keyword.control.conditional",
+    //         "keyword.control.switch"
+    //     ],
+    //     "settings": {
+    //         // "fontStyle": "italic"
+    //     }
+    // },
     {
         "scope": [
             "keyword.control.flow",
@@ -273,6 +291,7 @@
             "keyword.control.from",
             "keyword.control.import", //keyword.control.import.tsx,
             "keyword.control.export",
+            "storage.type.function.python", //#special case def in python since it looks too similar to comments otherwise
             "support.type.object.module"
         ],
         "settings": {
@@ -328,6 +347,22 @@
     },
     {
         "scope": [
+            "punctuation.definition.variable"//$ in $this
+        ],
+        "settings": {
+            // "foreground": "{{mainDarker1}}DF"
+        }
+    },
+    {
+        "scope": [
+            // "keyword.operator.class"//-> in php
+        ],
+        "settings": {
+            "foreground": "{{mainDarker1}}DF"
+        }
+    },
+    {
+        "scope": [
             "variable"
         ],
         "settings": {
@@ -356,7 +391,8 @@
     }, 
     {
         "scope": [
-            "variable.language.this"
+            "variable.language.this",
+            "variable.language.special.self",
         ],
         "settings": {
             "color": "{{text}}",
