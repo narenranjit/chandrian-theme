@@ -1,8 +1,6 @@
 {
   "displayName": "Chandrian",
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {

@@ -1,7 +1,8 @@
 export default class Foobar {
 
   /**
-   * Does important wokrk
+   * Does important work
+   *
    * @param {number[]} fancyArg
    * @returns  {string[]}
    */

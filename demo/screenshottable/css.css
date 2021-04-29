@@ -15,3 +15,17 @@ body {
   -ms-transform: translateZ(0);
   transform: translateZ(0);
 }
+
+.navigation .messages-menu li:not(:last-child) {
+  border-bottom: 1px solid rgb(212, 163, 163);
+  border-bottom: 1px soli #ffffff;
+  margin-bottom: 15px;
+}
+
+div:after {
+  content: "Foo";
+  position: relative !important;
+}
+a:hover {
+  display: none;
+}
