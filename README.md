@@ -1,6 +1,6 @@
 # Chandrian VS Code Color Theme
 
-Chandrian is a **semantic** syntax highlighting theme, designed to make scanning large code-bases easier and to highlight errors your linter doesn't catch. It features a 16-color palette with a mixture of carefully chosen warm, cold, and neutral colors. The colors are categorized into:
+Chandrian is a **semantic** syntax highlighting theme, designed explicitly to make scanning large code-bases easier and to make errors more obvious. It features a 16-color palette with a mixture of carefully chosen warm, cold, and neutral colors. The colors are broadly categorized into:
 
 - Warm Colors for **action** keywords - `throw`, `return` in programming languages, links in Markdown files.
 - Cold colors for **definitions** - Function names, variable values etc.
@@ -23,7 +23,7 @@ The colors for programming languages are designed to ease congnitive parsing of 
 - `=` is assigned a contrasting color to `==` so you can immediately catch if typo one for the other.
 
 ![Screenshot](screenshots/js.png)
-![Screenshot](screenshots/python.png)
+![Screenshot](screenshots/ts.png)
 
 These rules should apply to most languages but were specifically designed for JS/Typescript. If something looks in a specific language, issues/ PRs are welcome.
 
@@ -45,8 +45,6 @@ These rules should apply to most languages but were specifically designed for JS
 - Mixins / variables / built-in functions are treated as actions and shown in warm colors.
 - Vendor prefixes are 'noise' and are muted.
 - Semicolons, colons etc. are all language noise and are muted.
-
-- Mis-spelled elements / id-selectors that you forgot the leading '#' for are highlighted in red.
 - Known attribute values (relative / block etc.) are colored while unknown ones are not (position vs positon), to help catch typos.
 - Known property-names (color / margin etc.) are colored while unknown ones are not, providing immediate feedback if you get it wrong.
 - Obsolete properties are also shown as errors.
@@ -87,7 +85,6 @@ Minimal changes has been made to the styling of VS Code itself, primarily:
 ## Misc. notes:
 
 ### Theme variants / font suggestions
-
 The default theme incorporates italics and works best with a font like Operator Mono / Danke Mono. There's also a non-italic variant for everything else - I recommend the excellent Source Code Pro.
 
 ### How to turn off highlights for variable definitions
@@ -104,3 +101,7 @@ Add the following to your VS Code settings:
                 "foreground": "#FFFFFFD4"
             }}]}}
 ```
+
+## Other misc. screenshots
+![Screenshot](screenshots/python.png)
+![Screenshot](screenshots/php.png)
