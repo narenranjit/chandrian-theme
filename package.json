@@ -2,7 +2,7 @@
   "name": "chandrian",
   "displayName": "Chandrian",
   "description": "A semantic color theme for VS Code",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "narenranjit",
   "icon": "icon.png",
   "galleryBanner": {
