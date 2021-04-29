@@ -1,0 +1,32 @@
+@import "variables";
+
+$primary-color-dark:   #0288D1;
+$primary-color-text:   #FFFFFF;
+
+#main-link {
+    line-height: inherit;
+    margin-top: 0;
+
+    a {
+        color: $primary-text-color;
+        &:hover {
+            font-weight: inherit !important;
+            color: $accent-color;
+            text-decoration: none;
+        }
+    }
+}
+.input input[type="text"] {
+  display: none;
+  height: 100vh;
+}
+.button {
+    box-shadow: none;
+    transition: box-shadow 150ms linear;
+    &:hover {
+        box-shadow: $box-shadow-level3;
+    }
+    +.button {
+        margin-left: 10px;
+    }
+}

@@ -1,5 +1,4 @@
 <?php
-
 class LoginLinkController extends Controller
 {
   private function actionAndRedirect(String $result, User $user, array $queryParams)
@@ -23,7 +22,6 @@ class LoginLinkController extends Controller
                 $defaultRedirectUrl = $dbFilename ? '/file/' . $dbFilename . QueryParamUtility::getQueryParamsURL($request, $excludedQueryParams) : $defaultRedirectUrl;
                 break;
         }
-
         return $returnResponse;
     }
 }
