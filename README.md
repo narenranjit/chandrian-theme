@@ -23,9 +23,10 @@ The colors for programming languages are designed to ease congnitive parsing of 
 - `=` is assigned a contrasting color to `==` so you can immediately catch if typo one for the other.
 
 ![Screenshot](screenshots/js.png)
+
 ![Screenshot](screenshots/ts.png)
 
-These rules should apply to most languages but were specifically designed for JS/Typescript. If something looks in a specific language, issues/ PRs are welcome.
+These rules should apply to most languages but were specifically designed for JS/Typescript. If something looks off in a particular language, issues/ PRs are welcome.
 
 ## HTML
 
@@ -34,7 +35,7 @@ These rules should apply to most languages but were specifically designed for JS
 - `href`, form `action` attribute values, and inline event handlers  are treated as action triggers and assigned brighter 'warm' colors.
 - `data-` attributes are highlighted.
 - Un-recognized tags show up brightly. Lifesaver if you chronically mistype 'form' as 'from' as I do.
-- Errors, like say an extra angled `<` before a div are highlighted in red, as you can quickly see/scan from the screenshot.
+- Errors, like say an extra angled `<` before an element are highlighted in red, as you can quickly see/scan from the screenshot.
 
 ![Screenshot](screenshots/html.png)
 
@@ -104,4 +105,5 @@ Add the following to your VS Code settings:
 
 ## Other misc. screenshots
 ![Screenshot](screenshots/python.png)
+
 ![Screenshot](screenshots/php.png)
