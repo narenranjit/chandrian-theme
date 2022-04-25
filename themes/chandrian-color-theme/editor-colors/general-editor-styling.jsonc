@@ -1,9 +1,0 @@
-{
-    "editor.background": "#262626",
-    "editor.lineHighlightBackground": "#313131",
-    "editorWhitespace.foreground": "#353434",
-    "editor.foreground": "#FFFFFF",
-    "statusBar.background": "#303030",
-    "editor.findMatchHighlightBackground": "#584FEADF",
-    "editorLink.activeForeground": "{{alt1}}"
-}

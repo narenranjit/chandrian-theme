@@ -3,7 +3,7 @@
 	"displayName": "Chandrian",
 	"description": "A semantic color theme for VS Code",
 	"version": "1.0.0",
-	"publisher": "narenranjit",
+	"publisher": "jackkenney",
 	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#262626",
@@ -14,7 +14,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/narenranjit/chandrian-theme.git"
+		"url": "https://github.com/JackKenney/chandrian-theme.git"
 	},
 	"categories": [
 		"Themes"
@@ -22,34 +22,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Chandrian Blue",
+				"label": "Solarized Dark Chandrian",
 				"uiTheme": "vs-dark",
-				"path": "./dist/chandrian-blue.json"
+				"path": "./dist/solarized-dark-chandrian.json"
 			},
 			{
-				"label": "Chandrian Blue (no italics)",
-				"uiTheme": "vs-dark",
-				"path": "./dist/chandrian-blue-no-italics.json"
-			},
-			{
-				"label": "Chandrian Blue (High Contrast)",
-				"uiTheme": "vs-dark",
-				"path": "./dist/chandrian-blue-high-contrast.json"
-			},
-			{
-				"label": "Chandrian LightBlue",
+				"label": "Solarized Light Chandrian",
 				"uiTheme": "vs",
-				"path": "./dist/chandrian-lightblue.json"
-			},
-			{
-				"label": "Chandrian LightBlue (no italics)",
-				"uiTheme": "vs",
-				"path": "./dist/chandrian-lightblue-no-italics.json"
-			},
-			{
-				"label": "Chandrian LightBlue (High Contrast)",
-				"uiTheme": "vs",
-				"path": "./dist/chandrian-lightblue-high-contrast.json"
+				"path": "./dist/solarized-light-chandrian.json"
 			}
 		]
 	},
@@ -71,6 +51,6 @@
 		"id": "7dfaf8b2-d8bd-4b8d-b1ee-e038d3999b7c",
 		"publisherDisplayName": "Naren Ranjit",
 		"publisherId": "a9ed8cc4-30e3-4f8b-8a29-3d217543d76a",
-		"isPreReleaseVersion": false
+		"isPreReleaseVersion": true
 	}
 }

@@ -1,0 +1,20 @@
+{
+    "editor.background": "{{background}}",
+    "editor.lineHighlightBackground": "{{backgroundLight}}",
+    "editorWhitespace.foreground": "#353434",
+    "editor.foreground": "#FFFFFF",
+    "editor.findMatchHighlightBackground": "{{backgroundLight}}",
+    "editorLink.activeForeground": "{{alt1}}",
+    "statusBar.background": "#002B36",
+    "panel.background": "#002B36",
+    "window.activeBorder": "#002B36",
+    "window.inactiveBorder": "#073642",
+    "dropdown.background": "#073642",
+    "dropdown.listBackground": "#002B36",
+    "dropdown.border": "#",
+    "dropdown.foreground": "#",
+    "activityBar.background": "#073642",
+    "sideBar.background": "{{backgroundDark}}",
+    "editorGroupHeader.tabsBackground": "{{main}}"
+    // "tab.unfocusedInactiveBackground": "#002B36"
+}

@@ -2,11 +2,17 @@ const fs = require("fs");
 const jsonc = require("jsonc-parser");
 const template = require("json-templates");
 
-function parseContents(fileName, colors) {
-  const contents = fs.readFileSync(fileName, "utf8");
-  const templated = template(contents)(colors);
+function parseTemplateString(preimage, colors) {
+  const templated = template(preimage)(colors);
   const parsed = jsonc.parse(templated);
   return parsed;
+}
+
+function parseContents(fileName, colors) {
+  const contents = fs.readFileSync(fileName, "utf8");
+  // console.log("preimage")
+  // console.log(contents)
+  return parseTemplateString(contents, colors);
 }
 
 function stripTransparency(colorList) {
@@ -29,20 +35,26 @@ function stripItalics(colorList) {
 module.exports = function compile(paths) {
   const colorSchemeFiles = fs.readdirSync(paths.COLOR_SCHEMES_FOLDER);
   colorSchemeFiles.forEach((fileName) => {
+    const solarizedContents = fs.readFileSync(
+      `${paths.basePath}/solarized-palette.jsonc`, "utf8"
+    );
+    const solarizedColors = jsonc.parse(solarizedContents);
     const contents = fs.readFileSync(
       `${paths.COLOR_SCHEMES_FOLDER}/${fileName}`,
       "utf8"
     );
     const scheme = jsonc.parse(contents);
-    // console.log(scheme, contents);
     const base = {
-      name: `Chandrian ${scheme.name}`,
+      name: `${scheme.name} Chandrian`,
       type: scheme.type,
       colors: {},
       tokenColors: [],
     };
-    const colors = scheme.colors;
-    const outputFileName = `chandrian-${scheme.name.toLowerCase()}`;
+
+    const preTemplateColors = scheme.colors;
+    const colors = parseTemplateString(JSON.stringify(preTemplateColors), solarizedColors);
+
+    const outputFileName = `${scheme.name.toLowerCase()}-chandrian`;
 
     let generalStyleFiles = fs.readdirSync(paths.GENERAL_STYLES_FOLDER);
     generalStyleFiles = generalStyleFiles.filter((fname,i) => {
@@ -85,30 +97,6 @@ module.exports = function compile(paths) {
     const opFile = `${paths.OP_PATH}/${outputFileName}.json`;
     fs.writeFileSync(opFile, JSON.stringify(base, null, 2), "utf8");
     console.log("Writing", opFile);
-
-    const deitalicized = Object.assign({}, base, {
-      name: `Chandrian ${scheme.name} (no italics)`,
-      tokenColors: stripItalics(base.tokenColors),
-    });
-    const italicsPath = `${paths.OP_PATH}/${outputFileName}-no-italics.json`;
-    fs.writeFileSync(
-      italicsPath,
-      JSON.stringify(deitalicized, null, 2),
-      "utf8"
-    );
-    console.log("Writing", italicsPath);
-
-    const highContrast = Object.assign({}, base, {
-      name: `Chandrian ${scheme.name} High Contrast`,
-      tokenColors: stripTransparency(base.tokenColors),
-    });
-    const highContrastPath = `${paths.OP_PATH}/${outputFileName}-high-contrast.json`;
-    fs.writeFileSync(
-      highContrastPath,
-      JSON.stringify(highContrast, null, 2),
-      "utf8"
-    );
-    console.log("Writing", highContrastPath);
 
     console.log("Build complete.");
   });
