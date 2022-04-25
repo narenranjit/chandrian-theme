@@ -44,7 +44,14 @@ module.exports = function compile(paths) {
     const colors = scheme.colors;
     const outputFileName = `chandrian-${scheme.name.toLowerCase()}`;
 
-    const generalStyleFiles = fs.readdirSync(paths.GENERAL_STYLES_FOLDER);
+    let generalStyleFiles = fs.readdirSync(paths.GENERAL_STYLES_FOLDER);
+    generalStyleFiles = generalStyleFiles.filter((fname,i) => {
+        if (scheme.type == "light")
+          return fname.includes("light") // only keep light files
+        if (scheme.type == "dark")
+          return !fname.includes("light") // ignore light files
+      })
+      
     const generalColors = generalStyleFiles.reduce((accum, fileName) => {
       const contents = parseContents(
         `${paths.GENERAL_STYLES_FOLDER}/${fileName}`,
