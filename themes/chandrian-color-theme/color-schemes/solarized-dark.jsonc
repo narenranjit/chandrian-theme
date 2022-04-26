@@ -9,7 +9,7 @@
         "backgroundDark2": "{{base04}}",
         "backgroundLight": "{{base01}}33",
         "backgroundLight2": "{{base01}}AA",
-        "mainDarker1": "{{base1}}",
+        "mainDarker1": "{{brightGreen}}",
         "main": "{{brightBlue}}",
         "mainLight1": "{{base2}}",
         "mainLight2": "{{base2}}",

@@ -2,35 +2,35 @@
     "name": "solarized-light",
     "type": "light",
     "colors": {
+        "text": "{{base02}}",
+        "textProminent": "{{base02}}",
         "background": "{{base2}}",
         "backgroundDark": "{{base2}}",
         "backgroundDark2": "{{base3}}",
-        "backgroundLight": "{{base1}}88",
+        "backgroundLight": "{{base1}}33",
         "backgroundLight2": "{{base1}}AA",
-        "mainDarker1": "{{base02}}AA",
-        "main": "{{base01}}",
-        "mainLight1": "{{base02}}",
-        "mainLight2": "{{base02}}",
-        "mainLightest": "{{base02}}", //fn params
-        "alt1": "{{yellow}}", //ifthen
-        "alt1Complentary": "{{yellow}}", //return
-        "mainAlt": "{{cyan}}", //fn definition, grayish cyan
-        "alt3": "{{blue}}", //class names, Promise., bright cyan
-        "mainVariant": "{{violet}}", //this.state.foo, bright purple
-        "alt4": "{{violet}}", // grayish purple
-        "alt5": "{{red}}", // brown-ish red, annotation
+        "mainDarker1": "{{darkGreen}}",
+        "main": "{{darkBlue}}",
+        "mainLight1": "{{base2}}",
+        "mainLight2": "{{base2}}",
+        "mainLightest": "{{base2}}", //fn params
+        "alt1": "{{darkYellow}}", //ifthen
+        "alt1Complentary": "{{darkYellow}}", //return
+        "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan
+        "alt3": "{{darkBlue}}", //class names, Promise., bright darkCyan
+        "mainVariant": "{{darkGreen}}", //this.state.foo, bright purple
+        "alt4": "{{darkViolet}}", // grayish purple
+        "alt5": "{{darkCyan}}", // brown-ish red, annotation
         "alt5Prominent": "{{orange}}", // Type declaration
-        "alt5Supplementary": "{{orange}}88",
-        "commentGray": "{{base0}}",
-        "commentGrayProminent": "{{base01}}",
-        "keywordGray": "{{violet}}",
-        "important": "{{red}}",
-        "strings": "{{cyan}}",
-        "interpolated": "{{green}}",
-        "number": "{{magenta}}",
+        "alt5Supplementary": "{{orange}}",
+        "commentGray": "{{base01}}",
+        "commentGrayProminent": "{{base1}}",
+        "keywordGray": "{{darkGreen}}",
+        "important": "{{darkRed}}",
+        "strings": "{{darkCyan}}",
+        "interpolated": "{{darkGreen}}",
+        "number": "{{darkViolet}}",
         "booleans": "{{magenta}}",
-        "regex": "{{yellow}}",
-        "text": "{{base01}}",
-        "textProminent": "{{base01}}"
+        "regex": "{{darkYellow}}",
     }
 }

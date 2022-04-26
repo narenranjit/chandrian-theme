@@ -1,34 +1,44 @@
 {
+    // general
     "foreground": "{{text}}",
-    "editor.background": "{{backgroundDark2}}",
-    "editor.lineHighlightBackground": "{{backgroundLight}}",
-    "editorWhitespace.foreground": "{{backgroundLight2}}",
+    // windows
+    "window.activeBorder": "{{backgroundLight}}",
+    "window.inactiveBorder": "{{backgroundLight}}",
+    // tabs
+    "tab.unfocusedInactiveBackground": "{{background}}",
+    // terminal
+    "terminal.background": "{{backgroundDark2}}",
+    "terminal.foreground": "{{text}}",
+    // editor
     "editor.foreground": "{{text}}",
+    "editor.background": "{{backgroundDark2}}",
+    "editorWhitespace.foreground": "{{backgroundLight2}}",
+    "editor.lineHighlightBackground": "{{backgroundLight}}",
     "editor.findMatchHighlightBackground": "{{backgroundLight}}",
     "editorLink.activeForeground": "{{alt1}}",
     "editorLineNumber.activeForeground": "{{mainLight1}}",
+    "editorGroupHeader.tabsBackground": "{{background}}",
+    "editorGroupHeader.tabsForeground": "{{text}}",
+    "editorLineNumber.foreground": "{{text}}",
+    "editorBracketMatch.background": "{{backgroundLight}}",
+    "editorBracketMatch.border": "{{backgroundLight2}}",
+    // status bar
     "statusBar.background": "{{background}}",
     "statusBar.foreground": "{{text}}",
+    // activity bar
+    "activityBar.background": "{{background}}",
+    "activityBar.foreground": "{{text}}",
+    // panel
     "panel.background": "{{background}}",
-    "window.activeBorder": "{{backgroundLight}}",
-    "window.inactiveBorder": "{{backgroundLight}}",
+    // side bar
+    "sideBar.background": "{{backgroundDark}}",
+    "sideBar.foreground": "{{text}}",
+    "sideBar.border": "{{background}}",
+    // dropdowns
     "dropdown.background": "{{background}}",
     "dropdown.listBackground": "{{background}}",
     "dropdown.border": "{{backgroundLight}}",
     "dropdown.foreground": "{{text}}",
-    "activityBar.background": "{{background}}",
-    "activityBar.foreground": "{{text}}",
-    "sideBar.background": "{{backgroundDark}}",
-    "sideBar.foreground": "{{text}}",
-    "sideBar.border": "{{background}}",
-    "editorGroupHeader.tabsBackground": "{{background}}",
-    "editorGroupHeader.tabsForeground": "{{text}}",
-    "editorLineNumber.foreground": "{{mainDarker1}}",
-    "tab.unfocusedInactiveBackground": "{{background}}",
-    "editorBracketMatch.background": "{{backgroundLight}}",
-    "editorBracketMatch.border": "{{backgroundLight2}}",
-    "terminal.background": "{{backgroundDark2}}",
-    "terminal.foreground": "{{text}}"
 }
 // {
 //     "editor.background": "#262626",
