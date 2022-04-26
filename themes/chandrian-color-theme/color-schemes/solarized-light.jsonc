@@ -2,30 +2,35 @@
     "name": "solarized-light",
     "type": "light",
     "colors": {
-        "main": "#005499",
-        "mainDarker1": "#057ee1",
-        "mainLight1": "#003866",
-        "mainLight2": "#002a4d",
-        "mainLightest": "#000e1a", //fn params
-        "alt1": "#BF6000", //ifthen
-        "alt1Complentary": "#e68600", //return
-        "mainAlt": "#00649d", //fn definition, grayish cyan
-        "alt3": "#1F7699", //class names, Promise., bright cyan
-        "mainVariant": "#080462", //this.state.foo, bright purple
-        "alt4": "#6b1e80", // grayish purple
-        "alt5": "#864f46", // brown-ish red, annotation
-        "alt5Prominent": "#867546", // Type declaration
-        "alt5Supplementary": "#997e66",
-        "commentGray": "#56676f",
-        "commentGrayProminent": "#434343",
-        "keywordGray": "#57748e",
-        "important": "#cb1501",
-        "strings": "#007040",
-        "interpolated": "#72a428",
-        "number": "#5a3274",
-        "booleans": "#81326d",
-        "regex": "#9f922d",
-        "text": "#252525D4",
-        "textProminent": "#252525"
+        "background": "{{base2}}",
+        "backgroundDark": "{{base2}}",
+        "backgroundDark2": "{{base3}}",
+        "backgroundLight": "{{base1}}88",
+        "backgroundLight2": "{{base1}}AA",
+        "mainDarker1": "{{base02}}AA",
+        "main": "{{base01}}",
+        "mainLight1": "{{base02}}",
+        "mainLight2": "{{base02}}",
+        "mainLightest": "{{base02}}", //fn params
+        "alt1": "{{yellow}}", //ifthen
+        "alt1Complentary": "{{yellow}}", //return
+        "mainAlt": "{{cyan}}", //fn definition, grayish cyan
+        "alt3": "{{blue}}", //class names, Promise., bright cyan
+        "mainVariant": "{{violet}}", //this.state.foo, bright purple
+        "alt4": "{{violet}}", // grayish purple
+        "alt5": "{{red}}", // brown-ish red, annotation
+        "alt5Prominent": "{{orange}}", // Type declaration
+        "alt5Supplementary": "{{orange}}88",
+        "commentGray": "{{base0}}",
+        "commentGrayProminent": "{{base01}}",
+        "keywordGray": "{{violet}}",
+        "important": "{{red}}",
+        "strings": "{{cyan}}",
+        "interpolated": "{{green}}",
+        "number": "{{magenta}}",
+        "booleans": "{{magenta}}",
+        "regex": "{{yellow}}",
+        "text": "{{base01}}",
+        "textProminent": "{{base01}}"
     }
 }

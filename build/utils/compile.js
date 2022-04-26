@@ -57,12 +57,12 @@ module.exports = function compile(paths) {
     const outputFileName = `${scheme.name.toLowerCase()}-chandrian`;
 
     let generalStyleFiles = fs.readdirSync(paths.GENERAL_STYLES_FOLDER);
-    generalStyleFiles = generalStyleFiles.filter((fname,i) => {
-        if (scheme.type == "light")
-          return fname.includes("light") // only keep light files
-        if (scheme.type == "dark")
-          return !fname.includes("light") // ignore light files
-      })
+    // generalStyleFiles = generalStyleFiles.filter((fname,i) => {
+    //     if (scheme.type == "light")
+    //       return fname.includes("light") // only keep light files
+    //     if (scheme.type == "dark")
+    //       return !fname.includes("light") // ignore light files
+    //   })
       
     const generalColors = generalStyleFiles.reduce((accum, fileName) => {
       const contents = parseContents(

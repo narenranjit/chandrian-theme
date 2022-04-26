@@ -21,7 +21,6 @@
             "foreground": "{{keywordGray}}"
         }
     },
-
     //functions
     {
         "scope": [
@@ -37,7 +36,6 @@
     },
     {
         "scope": [
-            "support.function", //.keys, .forEach, require
             "meta.function-call",
             "entity.name.function.invocation",
             "meta.function-call entity.name.function",
@@ -46,6 +44,14 @@
         ],
         "settings": {
             "foreground": "{{main}}"
+        }
+    },
+    {
+        "scope": [
+            "support.function" //.keys, .forEach, require
+        ],
+        "settings": {
+            "foreground": "{{mainAlt}}"
         }
     },
     {
@@ -71,7 +77,7 @@
         "scope": [
             "support.class",
             "support.constant",
-            "support.class.builtin",// Math.Infinity
+            "support.class.builtin", // Math.Infinity
             "support.function.builtin",
             "support.function.node",
             "constant.language"
@@ -118,7 +124,6 @@
     {
         "scope": [
             "variable.other.property.static"
-
         ],
         "settings": {
             "foreground": "{{alt3}}BF"
@@ -128,10 +133,9 @@
     {
         "scope": [
             "meta.function.parameter.typehinted storage.type", //php type hints in fn params
-            "meta.other.type.phpdoc support.class", 
-            "meta.other.type.phpdoc keyword.other", 
-
-            "meta.function.parameters support.type",//param1: int in python
+            "meta.other.type.phpdoc support.class",
+            "meta.other.type.phpdoc keyword.other",
+            "meta.function.parameters support.type", //param1: int in python
             "punctuation.separator.annotation", //-> in python
             "meta.return.type entity.name.type",
             // "meta.type.parameters",
@@ -143,7 +147,7 @@
     },
     {
         "scope": [
-            "keyword.operator.type.annotation"//:
+            "keyword.operator.type.annotation" //:
         ],
         "settings": {
             "foreground": "{{alt5}}DF"
@@ -180,8 +184,8 @@
             "storage.modifier"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
-            , "fontStyle": "italic"
+            "foreground": "{{alt4}}",
+            "fontStyle": "italic"
         }
     },
     //Object
@@ -230,7 +234,6 @@
             "foreground": "{{mainAlt}}"
         }
     },
-
     //keywords
     {
         "scope": [
@@ -241,7 +244,7 @@
             "keyword.operator.comparison"
         ],
         "settings": {
-            "foreground": "{{alt1}}BF"
+            "foreground": "{{alt1}}"
         }
     },
     {
@@ -249,7 +252,6 @@
             "keyword",
             "keyword.control",
             "keyword.operator.ternary"
-
         ],
         "settings": {
             "foreground": "{{alt1}}"
@@ -286,7 +288,7 @@
         "settings": {
             "foreground": "{{alt1Complentary}}"
         }
-    }, 
+    },
     {
         "scope": [
             "keyword.other.debugger"
@@ -294,7 +296,7 @@
         "settings": {
             "foreground": "{{important}}"
         }
-    }, 
+    },
     {
         "scope": [
             "keyword.operator.module",
@@ -322,7 +324,7 @@
     {
         "scope": "support.class.error",
         "settings": {
-            // "foreground": ""
+            "foreground": "{{important}}"
         }
     },
     {
@@ -331,16 +333,15 @@
             "keyword.other.new"
         ],
         "settings": {
-            "foreground": "{{alt3}}7F"
+            "foreground": "{{alt3}}EE"
         }
     },
-
     //variables
     {
         "scope": [
             "meta.function-call.without-arguments",
-            "meta.function-call.method.without-arguments"
-            , "meta.brace.round"
+            "meta.function-call.method.without-arguments",
+            "meta.brace.round"
         ],
         "settings": {
             "foreground": "{{mainLightest}}b4"
@@ -357,7 +358,7 @@
     },
     {
         "scope": [
-            "punctuation.definition.variable"//$ in $this
+            "punctuation.definition.variable" //$ in $this
         ],
         "settings": {
             // "foreground": "{{mainDarker1}}DF"
@@ -365,7 +366,7 @@
     },
     {
         "scope": [
-            "keyword.operator.class"//-> in php
+            "keyword.operator.class" //-> in php
         ],
         "settings": {
             "foreground": "{{alt4}}"
@@ -398,7 +399,7 @@
         "settings": {
             "foreground": "{{alt3}}"
         }
-    }, 
+    },
     {
         "scope": [
             "variable.language.this",

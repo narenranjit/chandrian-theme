@@ -2,33 +2,66 @@
     "name": "solarized-dark",
     "type": "dark",
     "colors": {
-        "background": "#073642",
-        "backgroundDark": "#002B36",
-        "backgroundLight": "#586e75",
-        "main": "{{base3}}",
-        "mainDarker1": "#2299FB",
-        "mainLight1": "#94CFFF",
-        "mainLight2": "#BCE1FF",
-        "mainLightest": "#E4F3FF", //fn params
-        "alt1": "#FFCB0D", //ifthen
-        "alt1Complentary": "#FF9F1A", //return
-        "mainAlt": "#58CDE8", //fn definition, grayish cyan
-        "alt3": "#5BF2E6", //class names, Promise., bright cyan
-        "mainVariant": "#9C97FB", //this.state.foo, bright purple
-        "alt4": "#989BDF", // grayish purple
-        "alt5": "#B37970", // brown-ish red, annotation
-        "alt5Prominent": "#B3A170", // Type declaration
-        "alt5Supplementary": "#9C816A",
-        "commentGray": "#809199",
-        "commentGrayProminent": "#BEC4CA",
-        "keywordGray": "#748FA9",
-        "important": "#FE4A35",
-        "strings": "#46BD66",
-        "interpolated": "#9FD44E",
-        "number": "#CDA1EB",
-        "booleans": "#CF84BC",
-        "regex": "#D0C257",
-        "text": "#FFFFFFD4",
-        "textProminent": "#FFFFFF"
+        "background": "{{base02}}",
+        "backgroundDark": "{{base03}}",
+        "backgroundDark2": "{{base04}}",
+        "backgroundLight": "{{base01}}33",
+        "backgroundLight2": "{{base01}}AA",
+        "mainDarker1": "{{base0}}AA",
+        "main": "{{base1}}",
+        "mainLight1": "{{base2}}",
+        "mainLight2": "{{base2}}",
+        "mainLightest": "{{base2}}", //fn params
+        "alt1": "{{yellow}}", //ifthen
+        "alt1Complentary": "{{yellow}}", //return
+        "mainAlt": "{{blue}}", //fn definition, grayish cyan
+        "alt3": "{{blue}}", //class names, Promise., bright cyan
+        "mainVariant": "{{green}}", //this.state.foo, bright purple
+        "alt4": "{{violet}}", // grayish purple
+        "alt5": "{{cyan}}", // brown-ish red, annotation
+        "alt5Prominent": "{{orange}}", // Type declaration
+        "alt5Supplementary": "{{orange}}",
+        "commentGray": "{{base0}}",
+        "commentGrayProminent": "{{base1}}",
+        "keywordGray": "{{green}}",
+        "important": "{{red}}",
+        "strings": "{{cyan}}",
+        "interpolated": "{{green}}",
+        "number": "{{magenta}}",
+        "booleans": "{{magenta}}",
+        "regex": "{{yellow}}",
+        "text": "{{base1}}",
+        "textProminent": "{{base2}}"
     }
 }
+// {
+//     "name": "Blue",
+//     "type": "dark",
+//     "colors": {
+//         "main": "#6DBDFF",
+//         "mainDarker1": "#2299FB",
+//         "mainLight1": "#94CFFF",
+//         "mainLight2": "#BCE1FF",
+//         "mainLightest": "#E4F3FF", //fn params
+//         "alt1": "#FFCB0D", //ifthen
+//         "alt1Complentary": "#FF9F1A",//return
+//         "mainAlt": "#58CDE8", //fn definition, grayish cyan
+//         "alt3": "#5BF2E6", //class names, Promise., bright cyan
+//         "mainVariant": "#9C97FB", //this.state.foo, bright purple
+//         "alt4": "#989BDF", // grayish purple
+//         "alt5": "#B37970", // brown-ish red, annotation
+//         "alt5Prominent": "#B3A170", // Type declaration
+//         "alt5Supplementary": "#9C816A",
+//         "commentGray": "#809199",
+//         "commentGrayProminent": "#BEC4CA",
+//         "keywordGray": "#748FA9",
+//         "important": "#FE4A35",
+//         "strings": "#46BD66",
+//         "interpolated": "#9FD44E",
+//         "number": "#CDA1EB",
+//         "booleans": "#CF84BC",
+//         "regex": "#D0C257",
+//         "text": "#FFFFFFD4",
+//         "textProminent": "#FFFFFF"
+//     }
+// }
