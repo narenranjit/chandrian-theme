@@ -2,40 +2,40 @@
     "name": "solarized-dark",
     "type": "dark",
     "colors": {
+        "text": "{{base1}}",
+        "textProminent": "{{base1}}",
         "background": "{{base02}}",
         "backgroundDark": "{{base03}}",
         "backgroundDark2": "{{base04}}",
         "backgroundLight": "{{base01}}33",
         "backgroundLight2": "{{base01}}AA",
-        "mainDarker1": "{{base0}}AA",
-        "main": "{{base1}}",
+        "mainDarker1": "{{base1}}",
+        "main": "{{brightBlue}}",
         "mainLight1": "{{base2}}",
         "mainLight2": "{{base2}}",
         "mainLightest": "{{base2}}", //fn params
-        "alt1": "{{yellow}}", //ifthen
-        "alt1Complentary": "{{yellow}}", //return
-        "mainAlt": "{{blue}}", //fn definition, grayish cyan
-        "alt3": "{{blue}}", //class names, Promise., bright cyan
-        "mainVariant": "{{green}}", //this.state.foo, bright purple
-        "alt4": "{{violet}}", // grayish purple
-        "alt5": "{{cyan}}", // brown-ish red, annotation
-        "alt5Prominent": "{{orange}}", // Type declaration
-        "alt5Supplementary": "{{orange}}",
+        "alt1": "{{brightYellow}}", //ifthen
+        "alt1Complentary": "{{brightYellow}}", //return
+        "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
+        "alt3": "{{brightBlue}}", //class names, Promise., bright cyan
+        "mainVariant": "{{brightGreen}}", //this.state.foo, bright purple
+        "alt4": "{{brightViolet}}", // grayish purple
+        "alt5": "{{brightCyan}}", // brown-ish red, annotation
+        "alt5Prominent": "{{brightOrange}}", // Type declaration
+        "alt5Supplementary": "{{brightOrange}}",
         "commentGray": "{{base0}}",
         "commentGrayProminent": "{{base1}}",
-        "keywordGray": "{{green}}",
-        "important": "{{red}}",
-        "strings": "{{cyan}}",
-        "interpolated": "{{green}}",
-        "number": "{{magenta}}",
-        "booleans": "{{magenta}}",
-        "regex": "{{yellow}}",
-        "text": "{{base1}}",
-        "textProminent": "{{base2}}"
+        "keywordGray": "{{brightGreen}}",
+        "important": "{{brightRed}}",
+        "strings": "{{brightCyan}}",
+        "interpolated": "{{brightGreen}}",
+        "number": "{{brightViolet}}",
+        "booleans": "{{brightMagenta}}",
+        "regex": "{{brightYellow}}",
     }
 }
 // {
-//     "name": "Blue",
+//     "name": "brightBlue",
 //     "type": "dark",
 //     "colors": {
 //         "main": "#6DBDFF",
@@ -45,11 +45,11 @@
 //         "mainLightest": "#E4F3FF", //fn params
 //         "alt1": "#FFCB0D", //ifthen
 //         "alt1Complentary": "#FF9F1A",//return
-//         "mainAlt": "#58CDE8", //fn definition, grayish cyan
-//         "alt3": "#5BF2E6", //class names, Promise., bright cyan
+//         "mainAlt": "#58CDE8", //fn definition, grayish brightCyan
+//         "alt3": "#5BF2E6", //class names, Promise., bright brightCyan
 //         "mainVariant": "#9C97FB", //this.state.foo, bright purple
 //         "alt4": "#989BDF", // grayish purple
-//         "alt5": "#B37970", // brown-ish red, annotation
+//         "alt5": "#B37970", // brown-ish brightRed, annotation
 //         "alt5Prominent": "#B3A170", // Type declaration
 //         "alt5Supplementary": "#9C816A",
 //         "commentGray": "#809199",

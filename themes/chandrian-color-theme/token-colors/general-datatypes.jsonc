@@ -29,7 +29,9 @@
     {
         "scope": [
             "constant.language.null",
-            "constant.language.undefined"
+            "constant.language.undefined",
+            "constant.language",
+            "constant.language.boolean"
         ],
         "settings": {
             "fontStyle": "italic",
@@ -38,7 +40,8 @@
     },
     {
         "scope": [
-            "constant.language.boolean"
+            "constant.language.boolean",
+            "constant.language"
         ],
         "settings": {
             "foreground": "{{booleans}}"
@@ -52,7 +55,7 @@
         "settings": {
             "foreground": "{{interpolated}}"
         }
-    }, 
+    },
     {
         "scope": [
             "keyword.other.substitution.begin",
@@ -96,7 +99,7 @@
         "settings": {
             "foreground": "{{regex}}"
         }
-    }, 
+    },
     {
         "scope": [
             "constant.other.object.key" //What's this?

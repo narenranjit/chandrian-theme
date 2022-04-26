@@ -80,10 +80,18 @@
             "support.class.builtin", // Math.Infinity
             "support.function.builtin",
             "support.function.node",
-            "constant.language"
         ],
         "settings": {
             "foreground": "{{alt3}}"
+        }
+    },
+    {
+        "scope": [
+            "constant.language",
+            "constant.language.booleans",
+        ],
+        "settings": {
+            "foreground": "{{booleans}}",
         }
     },
     {

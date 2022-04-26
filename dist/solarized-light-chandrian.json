@@ -121,7 +121,7 @@
         "source.css punctuation.definition.entity.end.bracket.square"
       ],
       "settings": {
-        "foreground": "#073642BF"
+        "foreground": "#073642"
       }
     },
     {
@@ -395,7 +395,9 @@
     {
       "scope": [
         "constant.language.null",
-        "constant.language.undefined"
+        "constant.language.undefined",
+        "constant.language",
+        "constant.language.boolean"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -404,7 +406,8 @@
     },
     {
       "scope": [
-        "constant.language.boolean"
+        "constant.language.boolean",
+        "constant.language"
       ],
       "settings": {
         "foreground": "#d33682"
@@ -733,7 +736,8 @@
     },
     {
       "scope": [
-        "constant.language.json"
+        "constant.language.json",
+        "constant.language"
       ],
       "settings": {
         "foreground": "#d33682"
@@ -1097,11 +1101,19 @@
         "support.constant",
         "support.class.builtin",
         "support.function.builtin",
-        "support.function.node",
-        "constant.language"
+        "support.function.node"
       ],
       "settings": {
         "foreground": "#268bd2"
+      }
+    },
+    {
+      "scope": [
+        "constant.language",
+        "constant.language.booleans"
+      ],
+      "settings": {
+        "foreground": "#d33682"
       }
     },
     {

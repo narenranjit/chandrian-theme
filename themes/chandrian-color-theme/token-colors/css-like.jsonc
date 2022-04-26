@@ -32,7 +32,7 @@
             "source.css punctuation.definition.entity.end.bracket.square"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}BF"
+            "foreground": "{{mainLight2}}", //"{{mainLight2}}BF"
         }
     },
     {
@@ -79,7 +79,7 @@
     },
     {
         "scope": [
-            "source.css entity.name.tag.reference"//&
+            "source.css entity.name.tag.reference" //&
         ],
         "settings": {
             "foreground": "{{mainLightest}}"
@@ -103,7 +103,6 @@
             "foreground": "{{mainAlt}}BF"
         }
     },
-
     //prop name
     {
         "scope": [
@@ -122,7 +121,6 @@
             "foreground": "{{mainVariant}}BF"
         }
     },
-
     //ATTR Values
     {
         "scope": [
@@ -198,7 +196,7 @@
         "settings": {
             "foreground": "{{commentGray}}"
         }
-    }, 
+    },
     {
         "scope": [
             "source.css keyword.control.at-rule.import",
@@ -282,5 +280,4 @@
             "fontStyle": "italic"
         }
     }
-    
 ]

@@ -10,8 +10,6 @@ function parseTemplateString(preimage, colors) {
 
 function parseContents(fileName, colors) {
   const contents = fs.readFileSync(fileName, "utf8");
-  // console.log("preimage")
-  // console.log(contents)
   return parseTemplateString(contents, colors);
 }
 
@@ -57,13 +55,7 @@ module.exports = function compile(paths) {
     const outputFileName = `${scheme.name.toLowerCase()}-chandrian`;
 
     let generalStyleFiles = fs.readdirSync(paths.GENERAL_STYLES_FOLDER);
-    // generalStyleFiles = generalStyleFiles.filter((fname,i) => {
-    //     if (scheme.type == "light")
-    //       return fname.includes("light") // only keep light files
-    //     if (scheme.type == "dark")
-    //       return !fname.includes("light") // ignore light files
-    //   })
-      
+
     const generalColors = generalStyleFiles.reduce((accum, fileName) => {
       const contents = parseContents(
         `${paths.GENERAL_STYLES_FOLDER}/${fileName}`,
@@ -73,15 +65,6 @@ module.exports = function compile(paths) {
       return accum;
     }, {});
     base.colors = generalColors;
-
-    // const semanticFiles = fs.readdirSync(paths.SEMANTICS_FOLDER);
-    // const semanticColors = semanticFiles.reduce((accum, fileName)=> {
-    //     const contents = parseContents(`${paths.SEMANTICS_FOLDER}/${fileName}`, colors);
-    //     Object.assign(accum, contents);
-    //     return accum;
-    // }, {});
-    // base.semanticHighlighting = true
-    // base.semanticTokenColors = semanticColors;
 
     const codeStyleFiles = fs.readdirSync(paths.CODE_STYLES_FOLDER);
     const codeColors = codeStyleFiles.reduce((accum, fileName) => {

@@ -9,12 +9,20 @@
     "base2": "#ded8c5", // tan
     "base3": "#eee8d5", // white
     "base4": "#fdf6e3", // brwhite
-    "yellow": "#b58900", // yellow FFCB0D
+    "yellow": "#b58900", // yellow
+    "brightYellow": "#c59900", // bryellow 
     "orange": "#cb4b16", // brred
+    "brightOrange": "#eb6b26", //brorange
     "red": "#dc322f", // red
+    "brightRed": "ff554f", // brbrred
     "magenta": "#d33682", // magenta
+    "brightMagenta": "#f95682", // brbrmagenta
     "violet": "#6c71c4", // brmagenta
+    "brightViolet": "#9d84d4", //brviolet
     "blue": "#268bd2", // blue
+    "brightBlue": "#2695f2", // brblue
     "cyan": "#2aa198", // cyan
+    "brightCyan": "#2ab1a8", // brcyan
     "green": "#859900", // green
+    "brightGreen": "#859B00", // brgreen
 }
