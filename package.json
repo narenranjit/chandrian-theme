@@ -1,7 +1,7 @@
 {
-	"name": "chandrian",
-	"displayName": "Chandrian",
-	"description": "A semantic color theme for VS Code",
+	"name": "solarized-chandrian",
+	"displayName": "Solarized Chandrian",
+	"description": "A semantic solarized color theme for VS Code",
 	"version": "1.0.0",
 	"publisher": "jackkenney",
 	"icon": "icon.png",
@@ -37,7 +37,7 @@
 		"build": "node ./build/compile-themes.js",
 		"watch": "node ./build/watch-and-compile.js"
 	},
-	"author": "Naren Ranjit",
+	"author": "Jack Kenney",
 	"license": "ISC",
 	"devDependencies": {
 		"esbuild": "^0.14.38",
@@ -48,9 +48,9 @@
 		"prettier": "^2.2.1"
 	},
 	"__metadata": {
-		"id": "7dfaf8b2-d8bd-4b8d-b1ee-e038d3999b7c",
-		"publisherDisplayName": "Naren Ranjit",
-		"publisherId": "a9ed8cc4-30e3-4f8b-8a29-3d217543d76a",
+		"id": "",
+		"publisherDisplayName": "Jack Kenney",
+		"publisherId": "",
 		"isPreReleaseVersion": true
 	}
 }
