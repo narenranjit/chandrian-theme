@@ -2,7 +2,7 @@
 	"name": "solarized-chandrian",
 	"displayName": "Solarized Chandrian",
 	"description": "A semantic solarized color theme for VS Code",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "jackkenney",
 	"icon": "icon.png",
 	"galleryBanner": {
@@ -48,9 +48,9 @@
 		"prettier": "^2.2.1"
 	},
 	"__metadata": {
-		"id": "",
+		"id": "6575abf0-45af-4b6d-9817-7ca26dd3a221",
 		"publisherDisplayName": "Jack Kenney",
-		"publisherId": "",
-		"isPreReleaseVersion": true
+		"publisherId": "1dc2f25d-3729-4c37-88b4-85b9e483d1d2",
+		"isPreReleaseVersion": false
 	}
 }
