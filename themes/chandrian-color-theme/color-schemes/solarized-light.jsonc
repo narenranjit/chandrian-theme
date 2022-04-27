@@ -6,9 +6,9 @@
         "textProminent": "{{base02}}",
         "background": "{{base2}}",
         "backgroundDark": "{{base2}}",
-        "backgroundDark2": "{{base3}}",
+        "backgroundDarker": "{{base3}}",
         "backgroundLight": "{{base1}}33",
-        "backgroundLight2": "{{base1}}AA",
+        "backgroundLighter": "{{base1}}AA",
         "mainDarker1": "{{darkGreen}}",
         "main": "{{darkBlue}}",
         "mainLight1": "{{base2}}",
@@ -32,5 +32,11 @@
         "number": "{{darkViolet}}",
         "booleans": "{{magenta}}",
         "regex": "{{darkYellow}}",
+        // simple colors
+        "red": "{{darkRed}}",
+        "yellow": "{{darkYellow}}",
+        "paleYellow": "{{darkYellow}}",
+        "green": "{{darkGreen}}",
+        "orange": "{{darkOrange}}",
     }
 }

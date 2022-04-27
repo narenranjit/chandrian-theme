@@ -6,46 +6,75 @@
     "window.inactiveBorder": "{{backgroundLight}}",
     // tabs
     "tab.unfocusedInactiveBackground": "{{background}}",
+    "tab.unfocusedActiveBackground": "{{backgroundDark}}",
+    "tab.activeForeground": "{{text}}",
+    "tab.inactiveForeground": "{{text}}",
+    "tab.activeBackground": "{{backgroundDarker}}",
+    "tab.inactiveBackground": "{{backgroundDark}}",
+    "tab.activeModifiedBorder": "{{paleYellow}}",
+    "tab.inactiveModifiedBorder": "{{paleYellow}}",
     // terminal
-    "terminal.background": "{{backgroundDark2}}",
+    "terminal.background": "{{backgroundDarker}}",
     "terminal.foreground": "{{text}}",
     // editor
     "editor.foreground": "{{text}}",
-    "editor.background": "{{backgroundDark2}}",
-    "editorWhitespace.foreground": "{{backgroundLight2}}",
+    "editor.background": "{{backgroundDarker}}",
     "editor.lineHighlightBackground": "{{backgroundLight}}",
-    "editor.findMatchHighlightBackground": "{{backgroundLight}}",
-    "editorLink.activeForeground": "{{alt1}}",
+    "editorLineNumber.foreground": "{{text}}",
     "editorLineNumber.activeForeground": "{{mainLight1}}",
+    "editorWhitespace.foreground": "{{backgroundLighter}}",
+    "editorIndentGuide.background": "{{backgroundLighter}}",
+    "editor.findMatchHighlightBackground": "{{backgroundLight}}",
+    "editorBracketMatch.background": "{{backgroundLight}}",
+    "editorBracketMatch.border": "{{backgroundLighter}}",
+    "editorLink.activeForeground": "{{alt1}}",
+        // editor ruler
+        "editorOverviewRuler.addedForeground": "{{green}}",
+        "editorOverviewRuler.modifiedForeground": "{{yellow}}",
+        "editorOverviewRuler.deletedForeground": "{{red}}",
+        "editorOverviewRuler.errorForeground": "{{orange}}",
+    "editorRuler.foreground": "{{backgroundLight}}",
+        // editor group
+    "editorGroup.emptyBackground": "{{background}}",
     "editorGroupHeader.tabsBackground": "{{background}}",
     "editorGroupHeader.tabsForeground": "{{text}}",
-    "editorLineNumber.foreground": "{{text}}",
-    "editorBracketMatch.background": "{{backgroundLight}}",
-    "editorBracketMatch.border": "{{backgroundLight2}}",
+        // side by side
+    "sideBySideEditor.verticalBorder": "{{backgroundLight}}",
+    "sideBySideEditor.horizontalBorder": "{{backgroundLight}}",
     // status bar
     "statusBar.background": "{{background}}",
     "statusBar.foreground": "{{text}}",
     // activity bar
     "activityBar.background": "{{background}}",
     "activityBar.foreground": "{{text}}",
+    "activityBarBadge.background": "{{main}}",
     // panel
     "panel.background": "{{background}}",
     // side bar
-    "sideBar.background": "{{backgroundDark}}",
+    "sideBarTitle.foreground": "{{textProminent}}",
     "sideBar.foreground": "{{text}}",
+    "sideBar.background": "{{backgroundDark}}",
     "sideBar.border": "{{background}}",
+    "sideBarSectionHeader.foreground": "{{text}}",
+    "sideBarSectionHeader.background": "{{backgroundLight}}",
+    // minimap
+    "minimapGutter.addedBackground": "{{green}}",
+    "minimapGutter.modifiedBackground": "{{yellow}}",
+    "minimapGutter.deletedBackground": "{{red}}",
+    // peek view
+    "peekViewEditor.background": "{{backgroundDarker}}",
+    "peekViewEditorGutter.background": "{{backgroundDark}}",
+    "peekViewResult.background": "{{backgroundDark}}",
+    "peekViewResult.foreground": "{{text}}",
+    "peekViewTitle.background": "{{background}}",
     // dropdowns
     "dropdown.background": "{{background}}",
-    "dropdown.listBackground": "{{background}}",
+    "dropdown.listBackground": "{{backgroundDark}}",
     "dropdown.border": "{{backgroundLight}}",
     "dropdown.foreground": "{{text}}",
+    // git
+    "gitDecoration.addedResourceForeground": "{{green}}",
+    "gitDecoration.modifiedResourceForeground": "{{yellow}}",
+    "gitDecoration.deletedResourceForeground": "{{red}}",    
+    "gitDecoration.renamedResourceForeground": "{{orange}}",    
 }
-// {
-//     "editor.background": "#262626",
-//     "editor.lineHighlightBackground": "#313131",
-//     "editorWhitespace.foreground": "#353434",
-//     "editor.foreground": "#FFFFFF",
-//     "statusBar.background": "#303030",
-//     "editor.findMatchHighlightBackground": "#584FEADF",
-//     "editorLink.activeForeground": "{{alt1}}"
-// }
