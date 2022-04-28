@@ -56,6 +56,22 @@
     },
     {
         "scope": [
+            "support.function.macro" // @decoration
+        ],
+        "settings": {
+            "foreground": "{{alt5}}"
+        }
+    },
+    {
+        "scope": [
+            "support.type" // Type
+        ],
+        "settings": {
+            "foreground": "{{alt5Prominent}}",
+        }
+    },
+    {
+        "scope": [
             // "meta.function.expression meta.brace.round", //also catches if blocks
             "meta.method.declaration meta.brace.round", //all paranthesis within a method, excluding if/switch etc
         ],
@@ -67,10 +83,20 @@
         "scope": [
             "meta.var.expr meta.brace.round",
             "punctuation.definition.parameters",
-            "punctuation.definition.arguments"
+            "punctuation.definition.arguments",
         ],
         "settings": {
             "foreground": "{{main}}BF"
+        }
+    },
+    {
+        "scope": [
+            "punctuation.terminator",
+            "punctuation.separator",
+            "punctuation",
+        ],
+        "settings": {
+            "foreground": "{{textProminent}}"
         }
     },
     {

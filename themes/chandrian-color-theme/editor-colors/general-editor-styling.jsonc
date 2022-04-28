@@ -1,6 +1,7 @@
 {
     // general
     "foreground": "{{text}}",
+    "background": "{{background}}",
     // windows
     "window.activeBorder": "{{backgroundLight}}",
     "window.inactiveBorder": "{{backgroundLight}}",
@@ -21,7 +22,7 @@
     "editor.background": "{{backgroundDarker}}",
     "editor.lineHighlightBackground": "{{backgroundLight}}",
     "editorLineNumber.foreground": "{{text}}",
-    "editorLineNumber.activeForeground": "{{mainLight1}}",
+    "editorLineNumber.activeForeground": "{{textProminent}}",
     "editorWhitespace.foreground": "{{backgroundLighter}}",
     "editorIndentGuide.background": "{{backgroundLighter}}",
     "editor.findMatchHighlightBackground": "{{backgroundLight}}",
@@ -46,10 +47,12 @@
     "statusBar.foreground": "{{text}}",
     // activity bar
     "activityBar.background": "{{background}}",
-    "activityBar.foreground": "{{text}}",
+    "activityBar.foreground": "{{textProminent}}",
+    "activityBar.inactiveForeground": "{{text}}",
     "activityBarBadge.background": "{{main}}",
     // panel
     "panel.background": "{{background}}",
+    "panel.forground": "{{text}}",
     // side bar
     "sideBarTitle.foreground": "{{textProminent}}",
     "sideBar.foreground": "{{text}}",

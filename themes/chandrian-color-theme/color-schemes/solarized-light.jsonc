@@ -3,17 +3,17 @@
     "type": "light",
     "colors": {
         "text": "{{base02}}",
-        "textProminent": "{{base02}}",
+        "textProminent": "{{darkBlue}}",
         "background": "{{base2}}",
-        "backgroundDark": "{{base2}}",
-        "backgroundDarker": "{{base3}}",
+        "backgroundDark": "{{base3}}",
+        "backgroundDarker": "{{base4}}",
         "backgroundLight": "{{base1}}33",
         "backgroundLighter": "{{base1}}AA",
         "mainDarker1": "{{darkGreen}}",
         "main": "{{darkBlue}}",
-        "mainLight1": "{{base2}}",
-        "mainLight2": "{{base2}}",
-        "mainLightest": "{{base2}}", //fn params
+        "mainLight1": "{{base02}}",
+        "mainLight2": "{{base03}}",
+        "mainLightest": "{{base04}}", //fn params
         "alt1": "{{darkYellow}}", //ifthen
         "alt1Complentary": "{{darkYellow}}", //return
         "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan

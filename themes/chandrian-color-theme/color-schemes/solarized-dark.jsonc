@@ -3,7 +3,7 @@
     "type": "dark",
     "colors": {
         "text": "{{base1}}",
-        "textProminent": "{{base1}}",
+        "textProminent": "{{base2}}E0",
         "background": "{{base02}}",
         "backgroundDark": "{{base03}}",
         "backgroundDarker": "{{base04}}",
@@ -12,17 +12,17 @@
         "mainDarker1": "{{brightGreen}}",
         "main": "{{brightBlue}}",
         "mainLight1": "{{base2}}",
-        "mainLight2": "{{base2}}",
-        "mainLightest": "{{base2}}", //fn params
+        "mainLight2": "{{base3}}",
+        "mainLightest": "{{base4}}", //fn params
         "alt1": "{{brightYellow}}", //ifthen
         "alt1Complentary": "{{brightYellow}}", //return
         "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
-        "alt3": "{{brightBlue}}", //class names, Promise., bright cyan
+        "alt3": "{{brightCyan}}", //class names, Promise., bright cyan
         "mainVariant": "{{brightGreen}}", //this.state.foo, bright purple
-        "alt4": "{{brightViolet}}", // grayish purple
-        "alt5": "{{brightCyan}}", // brown-ish red, annotation
-        "alt5Prominent": "{{brightOrange}}", // Type declaration
-        "alt5Supplementary": "{{brightOrange}}",
+        "alt4": "{{magenta}}", // grayish purple
+        "alt5": "{{violet}}", // brown-ish red, annotation
+        "alt5Prominent": "{{brightViolet}}", // Type declaration
+        "alt5Supplementary": "{{brightRed}}",
         "commentGray": "{{base0}}",
         "commentGrayProminent": "{{base1}}",
         "keywordGray": "{{brightGreen}}",
