@@ -1,6 +1,6 @@
-## 1.0.0
-- Type annotations have been greatly improved, both in terms of color pallete, and patterns we identify; `useState<boolean>` was shown in white before, and is not correctly shown in the appropriate type color.
-- Misc. html and CSS improvements
+## 1.0.x
+- Color scheme is being improved incremementally to ensure there is good color contrast
+and theme consistency between the light and dark themes.
 
-## 0.0.1
+## 1.0.0
 - Initial release

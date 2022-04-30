@@ -15,7 +15,7 @@
     "tab.activeModifiedBorder": "{{paleYellow}}",
     "tab.inactiveModifiedBorder": "{{paleYellow}}",
     // terminal
-    "terminal.background": "{{backgroundDarker}}",
+    "terminal.background": "{{terminalBackground}}",
     "terminal.foreground": "{{text}}",
     // editor
     "editor.foreground": "{{text}}",
@@ -29,17 +29,17 @@
     "editorBracketMatch.background": "{{backgroundLight}}",
     "editorBracketMatch.border": "{{backgroundLighter}}",
     "editorLink.activeForeground": "{{alt1}}",
-        // editor ruler
-        "editorOverviewRuler.addedForeground": "{{green}}",
-        "editorOverviewRuler.modifiedForeground": "{{yellow}}",
-        "editorOverviewRuler.deletedForeground": "{{red}}",
-        "editorOverviewRuler.errorForeground": "{{orange}}",
+    // editor ruler
+    "editorOverviewRuler.addedForeground": "{{green}}",
+    "editorOverviewRuler.modifiedForeground": "{{yellow}}",
+    "editorOverviewRuler.deletedForeground": "{{red}}",
+    "editorOverviewRuler.errorForeground": "{{orange}}",
     "editorRuler.foreground": "{{backgroundLight}}",
-        // editor group
+    // editor group
     "editorGroup.emptyBackground": "{{background}}",
     "editorGroupHeader.tabsBackground": "{{background}}",
     "editorGroupHeader.tabsForeground": "{{text}}",
-        // side by side
+    // side by side
     "sideBySideEditor.verticalBorder": "{{backgroundLight}}",
     "sideBySideEditor.horizontalBorder": "{{backgroundLight}}",
     // status bar
@@ -78,6 +78,6 @@
     // git
     "gitDecoration.addedResourceForeground": "{{green}}",
     "gitDecoration.modifiedResourceForeground": "{{yellow}}",
-    "gitDecoration.deletedResourceForeground": "{{red}}",    
-    "gitDecoration.renamedResourceForeground": "{{orange}}",    
+    "gitDecoration.deletedResourceForeground": "{{red}}",
+    "gitDecoration.renamedResourceForeground": "{{orange}}",
 }

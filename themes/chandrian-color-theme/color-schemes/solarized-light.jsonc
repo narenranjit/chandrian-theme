@@ -7,7 +7,8 @@
         "background": "{{base2}}",
         "backgroundDark": "{{base3}}",
         "backgroundDarker": "{{base4}}",
-        "backgroundLight": "{{base1}}33",
+        "terminalBackground": "{{base3}}",
+        "backgroundLight": "{{base3}}",
         "backgroundLighter": "{{base1}}AA",
         "mainDarker1": "{{darkGreen}}",
         "main": "{{darkBlue}}",
@@ -21,7 +22,7 @@
         "mainVariant": "{{darkGreen}}", //this.state.foo, bright purple
         "alt4": "{{darkViolet}}", // grayish purple
         "alt5": "{{darkCyan}}", // brown-ish red, annotation
-        "alt5Prominent": "{{orange}}", // Type declaration
+        "alt5Prominent": "{{darkGreen}}", // Type declaration
         "alt5Supplementary": "{{orange}}",
         "commentGray": "{{base01}}",
         "commentGrayProminent": "{{base1}}",
