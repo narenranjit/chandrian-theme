@@ -126,7 +126,7 @@
             "variable.parameter.function"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}"
+            "foreground": "{{textMostIntense}}"
         }
     },
     {
@@ -378,7 +378,7 @@
             "meta.brace.round"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}b4"
+            "foreground": "{{textMostIntense}}b4"
         }
     },
     {
@@ -395,7 +395,7 @@
             "punctuation.definition.variable" //$ in $this
         ],
         "settings": {
-            // "foreground": "{{mainDarker1}}DF"
+            // "foreground": "{{mainMild}}DF"
         }
     },
     {

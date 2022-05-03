@@ -2,24 +2,24 @@
     "name": "solarized-light",
     "type": "light",
     "colors": {
+        "textMild": "{{base01}}",
         "text": "{{base02}}",
-        "textProminent": "{{darkBlue}}",
-        "background": "{{base2}}",
-        "backgroundDark": "{{base3}}",
-        "backgroundDarker": "{{base4}}",
+        "textProminent": "{{base00}}",
+        "textIntense": "{{base03}}",
+        "textMostIntense": "{{base04}}", //fn params
         "terminalBackground": "{{base3}}",
-        "backgroundLight": "{{base3}}",
-        "backgroundLighter": "{{base1}}AA",
-        "mainDarker1": "{{darkGreen}}",
+        "backgroundMostIntense": "{{base4}}",
+        "backgroundIntense": "{{base3}}",
+        "background": "{{base2}}",
+        "backgroundMild": "{{base3}}",
+        "backgroundMostMild": "{{base1}}AA",
+        "mainMild": "{{darkGreen}}",
         "main": "{{darkBlue}}",
-        "mainLight1": "{{base02}}",
-        "mainLight2": "{{base03}}",
-        "mainLightest": "{{base04}}", //fn params
+        "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan
+        "mainVariant": "{{darkGreen}}", //this.state.foo, bright purple
         "alt1": "{{darkYellow}}", //ifthen
         "alt1Complentary": "{{darkYellow}}", //return
-        "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan
         "alt3": "{{darkBlue}}", //class names, Promise., bright darkCyan
-        "mainVariant": "{{darkGreen}}", //this.state.foo, bright purple
         "alt4": "{{darkViolet}}", // grayish purple
         "alt5": "{{darkCyan}}", // brown-ish red, annotation
         "alt5Prominent": "{{darkGreen}}", // Type declaration
@@ -39,5 +39,9 @@
         "paleYellow": "{{darkYellow}}",
         "green": "{{darkGreen}}",
         "orange": "{{darkOrange}}",
+        "blue": "{{darkBlue}}",
+        "magenta": "{{darkMagenta}}",
+        "cyan": "{{darkCyan}}",
+        "white": "#FFFFFF",
     }
 }

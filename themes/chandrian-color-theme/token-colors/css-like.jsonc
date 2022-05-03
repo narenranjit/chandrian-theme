@@ -21,7 +21,7 @@
             "source.css entity.other.attribute-name"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}",
+            "foreground": "{{textIntense}}",
             "fontStyle": ""
         }
     },
@@ -32,7 +32,7 @@
             "source.css punctuation.definition.entity.end.bracket.square"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}", //"{{mainLight2}}BF"
+            "foreground": "{{textIntense}}", //"{{textIntense}}BF"
         }
     },
     {
@@ -40,7 +40,7 @@
             "source.css punctuation.definition", //#, .
         ],
         "settings": {
-            "foreground": "{{mainLight1}}BF"
+            "foreground": "{{text}}BF"
         }
     },
     {
@@ -82,7 +82,7 @@
             "source.css entity.name.tag.reference" //&
         ],
         "settings": {
-            "foreground": "{{mainLightest}}"
+            "foreground": "{{textMostIntense}}"
         }
     },
     {

@@ -14,7 +14,7 @@
             "meta.tag.block.any"
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}"
+            "foreground": "{{mainMild}}"
         }
     },
     {
@@ -34,7 +34,7 @@
             "meta.tag.structure.input entity.name.tag"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}"
+            "foreground": "{{textIntense}}"
         }
     },
     {
@@ -43,10 +43,9 @@
             "meta.tag.inline.a"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}"
+            "foreground": "{{textIntense}}"
         }
     },
-    
     {
         "scope": [
             "meta.tag.custom"
@@ -55,14 +54,13 @@
             "foreground": "{{alt3}}"
         }
     },
-    
-        {
+    {
         "scope": [
             "meta.tag.other.unrecognized",
             "meta.tag.inline entity.name.tag meta.tag.structure entity.name.tag"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}",
+            "foreground": "{{textMostIntense}}",
         }
     },
     {
@@ -74,11 +72,13 @@
         }
     },
     {
-        "scope": ["entity.other.attribute-name"],
+        "scope": [
+            "entity.other.attribute-name"
+        ],
         "settings": {
             // "foreground": "{{mainVariant}}"
-            "foreground": "{{alt4}}"
-            , "fontStyle": "italic"
+            "foreground": "{{alt4}}",
+            "fontStyle": "italic"
         }
     },
     {
@@ -91,7 +91,9 @@
         }
     },
     {
-        "scope": ["meta.attribute.data-x entity.other.attribute-name.html"],
+        "scope": [
+            "meta.attribute.data-x entity.other.attribute-name.html"
+        ],
         "settings": {
             "foreground": "{{booleans}}"
             // ,"fontStyle": "italic"
@@ -125,10 +127,9 @@
             // ,"meta.attribute.id.html punctuation.definition.string"
         ],
         "settings": {
-            "foreground": "{{mainLight2}}"
+            "foreground": "{{textIntense}}"
         }
     },
-
     {
         "scope": [
             "meta.attribute.href.html string.quoted.double.html",
@@ -147,7 +148,6 @@
             "foreground": "{{alt1}}7F"
         }
     },
-
     { //Hrefs in links aren't action items
         "scope": [
             "meta.tag.metadata.link.void.html meta.attribute.href.html string.quoted.double.html",
@@ -180,7 +180,7 @@
             "punctuation.definition.tag source.css", //Otherwise matches < in </style>
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}BF"
+            "foreground": "{{mainMild}}BF"
         }
     },
     {
@@ -200,7 +200,6 @@
             "foreground": "{{keywordGray}}"
         }
     },
-
     {
         "scope": [
             "meta.jsx.children"
@@ -215,7 +214,7 @@
             "source.js meta.tag"
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}"
+            "foreground": "{{mainMild}}"
         }
     },
     {
@@ -240,8 +239,8 @@
             "source.js entity.other.attribute-name"
         ],
         "settings": {
-            "foreground": "{{mainVariant}}"
-            , "fontStyle": "italic"
+            "foreground": "{{mainVariant}}",
+            "fontStyle": "italic"
         }
     }
 ]

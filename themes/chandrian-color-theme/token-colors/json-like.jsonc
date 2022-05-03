@@ -32,7 +32,7 @@
       "source.json meta.structure.dictionary.json support.type.property-name.json"
     ],
     "settings": {
-      "foreground": "{{mainDarker1}}"
+      "foreground": "{{mainMild}}"
     }
   },
   {
@@ -68,7 +68,7 @@
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
     ],
     "settings": {
-      "foreground": "{{mainLight1}}"
+      "foreground": "{{text}}"
     }
   },
   {
@@ -77,7 +77,7 @@
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
     ],
     "settings": {
-      "foreground": "{{mainLight2}}"
+      "foreground": "{{textIntense}}"
     }
   }
 ]

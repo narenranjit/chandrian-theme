@@ -2,19 +2,19 @@
     "name": "solarized-dark",
     "type": "dark",
     "colors": {
-        "text": "{{base1}}",
+        "textMild": "{{base1}}",
+        "text": "{{base2}}",
         "textProminent": "{{base2}}E0",
+        "textIntense": "{{base3}}",
+        "textMostIntense": "{{base4}}", //fn params
         "background": "{{base02}}",
-        "backgroundDark": "{{base03}}",
-        "backgroundDarker": "{{base04}}",
+        "backgroundIntense": "{{base03}}",
+        "backgroundMostIntense": "{{base04}}",
         "terminalBackground": "{{base04}}",
-        "backgroundLight": "{{base03}}",
-        "backgroundLighter": "{{base01}}AA",
-        "mainDarker1": "{{brightGreen}}",
+        "backgroundMild": "{{base03}}",
+        "backgroundMostMild": "{{base01}}AA",
+        "mainMild": "{{brightGreen}}",
         "main": "{{brightBlue}}",
-        "mainLight1": "{{base2}}",
-        "mainLight2": "{{base3}}",
-        "mainLightest": "{{base4}}", //fn params
         "alt1": "{{brightYellow}}", //ifthen
         "alt1Complentary": "{{brightYellow}}", //return
         "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
@@ -36,8 +36,12 @@
         // simple colors
         "red": "{{brightRed}}",
         "yellow": "{{brightYellow}}",
-        "paleYellow": "{{darkYellow}}",
+        "paleYellow": "{{brightYellow}}",
         "green": "{{brightGreen}}",
         "orange": "{{brightOrange}}",
+        "blue": "{{brightBlue}}",
+        "magenta": "{{brightMagenta}}",
+        "cyan": "{{brightCyan}}",
+        "white": "#FFFFFF",
     }
 }

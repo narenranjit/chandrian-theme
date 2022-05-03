@@ -7,7 +7,6 @@
             "foreground": "{{textProminent}}"
         }
     },
-
     {
         "scope": [
             "meta.paragraph.markdown"
@@ -46,8 +45,8 @@
             "markup.quote.markdown"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
-            , "fontStyle": "italic"
+            "foreground": "{{alt4}}",
+            "fontStyle": "italic"
         }
     },
     {
@@ -75,7 +74,7 @@
             "markup.heading.setext.2.markdown"
         ],
         "settings": {
-            "foreground": "{{mainDarker1}}"
+            "foreground": "{{mainMild}}"
         }
     },
     {
@@ -91,7 +90,7 @@
             "heading.4.markdown"
         ],
         "settings": {
-            "foreground": "{{mainLight1}}"
+            "foreground": "{{text}}"
         }
     },
     {
@@ -100,7 +99,7 @@
             "heading.6.markdown"
         ],
         "settings": {
-            "foreground": "{{mainLightest}}"
+            "foreground": "{{textMostIntense}}"
         }
     },
     {
@@ -158,7 +157,7 @@
             "foreground": "{{commentGrayProminent}}"
             // , "fontStyle": "underline"
         }
-    }, 
+    },
     {
         "scope": [
             "constant.other.reference.link.markdown"
@@ -166,8 +165,7 @@
         "settings": {
             "foreground": "{{alt1}}"
         }
-    }, 
-    
+    },
     {
         "scope": [
             "markup.inline.raw.string.markdown"
