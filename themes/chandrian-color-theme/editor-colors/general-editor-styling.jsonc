@@ -2,10 +2,19 @@
     // general
     "foreground": "{{text}}",
     "background": "{{background}}",
-    "focusBorder": "{{backgroundIntense}}",
-    "widget.shadow": "{{backgroundIntense}}",
+    "focusBorder": "{{backgroundMostMild}}",
+    "widget.shadow": "{{backgroundMild}}",
+    // lists
+    "list.hoverBackground": "{{backgroundMostIntense}}",
+    "list.dropBackground": "{{backgroundMostIntense}}",
+    "list.hoverForeground": "{{text}}",
+    "list.inactiveSelectionBackground": "{{backgroundMostIntense}}",
+    "list.inactiveSelectionForeground": "{{text}}",
+    "list.activeSelectionBackground": "{{backgroundMostIntense}}",
+    "list.activeSelectionForeground": "{{text}}",
     // buttons
     "button.hoverBackground": "{{backgroundMostIntense}}",
+    "button.secondaryHoverBackground": "{{backgroundMostIntense}}",
     "checkbox.background": "{{backgroundIntense}}",
     // toolbars (everywhere)
     "toolbar.hoverBackground": "{{backgroundMostIntense}}",
@@ -15,9 +24,11 @@
     //input
     "input.foreground": "{{text}}",
     "input.background": "{{backgroundIntense}}",
-    "input.border": "{{backgroundMostIntense}}",
+    "input.border": "{{backgroundMostMild}}",
     "input.placeholderForeground": "{{textMild}}",
     "inputOption.activeBackground": "{{backgroundMostIntense}}",
+    "inputOption.activeBorder": "{{backgroundMostIntense}}",
+    "inputOption.hoverBorder": "{{backgroundMostIntense}}",
     "inputOption.hoverBackground": "{{backgroundMostIntense}}",
     // windows
     "window.activeBorder": "{{backgroundMild}}",
@@ -29,8 +40,8 @@
     "tab.inactiveForeground": "{{text}}",
     "tab.activeBackground": "{{backgroundMostIntense}}",
     "tab.inactiveBackground": "{{backgroundIntense}}",
-    "tab.activeModifiedBorder": "{{paleYellow}}",
-    "tab.inactiveModifiedBorder": "{{paleYellow}}",
+    "tab.activeModifiedBorder": "{{yellow}}",
+    "tab.inactiveModifiedBorder": "{{yellow}}",
     // quick input
     "pickerGroup.border": "{{backgroundIntense}}",
     "pickerGroup.foreground": "{{text}}",
@@ -38,9 +49,12 @@
     "quickInput.background": "{{background}}",
     "quickInput.foreground": "{{text}}",
     "quickInputTitle.background": "{{background}}",
-    "quickInputList.focusIconForeground": "{{text}}",
     "quickInputList.focusForeground": "{{text}}",
-    "quickInputList.focusBackground": "{{backgroundMostIntense}}",
+    "quickInputList.focusIconForeground": "{{textProminent}}",
+    "quickInputList.focusBackground": "{{backgroundIntense}}",
+    // keybinding labels
+    "keybindingLabel.background": "{{backgroundMild}}",
+    "keybindingLabel.foreground": "{{text}}",
     // terminal
     "terminal.background": "{{terminalBackground}}",
     "terminal.foreground": "{{text}}",
@@ -91,12 +105,16 @@
     "editorLightBulb.foreground": "{{yellow}}",
     "editorLightBulbAutoFix.foreground": "{{orange}}",
     // editor widgets
+    "editorWidget.foreground": "{{text}}",
     "editorWidget.background": "{{background}}",
     "editorWidget.border": "{{backgroundMild}}",
     // editor suggest
-    "editorSuggestWidget.foreground": "{{cyan}}",
-    "editorSuggestWidget.focusHighlightForeground": "{{backgroundMild}}",
+    "editorSuggestWidget.border": "{{backgroundMostIntense}}",
+    "editorSuggestWidget.foreground": "{{text}}",
+    "editorSuggestWidget.focusHighlightForeground": "{{main}}",
     "editorSuggestWidget.highlightForeground": "{{cyan}}",
+    "editorSuggestWidget.selectedForeground": "{{text}}",
+    "editorSuggestWidget.selectedIconForeground": "{{text}}",
     "editorSuggestWidget.selectedBackground": "{{backgroundMild}}",
     // side by side
     "sideBySideEditor.verticalBorder": "{{backgroundMild}}",

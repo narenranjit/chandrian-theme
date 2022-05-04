@@ -36,7 +36,6 @@
         // simple colors
         "red": "{{brightRed}}",
         "yellow": "{{brightYellow}}",
-        "paleYellow": "{{brightYellow}}",
         "green": "{{brightGreen}}",
         "orange": "{{brightOrange}}",
         "blue": "{{brightBlue}}",
