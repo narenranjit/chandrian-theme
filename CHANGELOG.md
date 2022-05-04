@@ -3,6 +3,8 @@
 Color scheme is being improved incremementally to ensure there is good color contrast
 and theme consistency between the light and dark themes.
 
+- a black background version of the dark theme
+- make highlighting stand out more
 - fix widget colors and hover colors
 - adjust color naming to be more intuitive for light/dark
 - update theme consistency

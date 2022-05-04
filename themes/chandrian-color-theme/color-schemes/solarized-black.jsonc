@@ -1,0 +1,46 @@
+{
+    "name": "solarized-black",
+    "type": "dark",
+    "colors": {
+        "textMild": "{{base1}}",
+        "text": "{{base2}}",
+        "textProminent": "{{base2}}E0",
+        "textIntense": "{{base3}}",
+        "textMostIntense": "{{base4}}", //fn params
+        "background": "{{base-2}}",
+        "backgroundIntense": "{{base-3}}",
+        "backgroundMostIntense": "{{base-4}}",
+        "terminalBackground": "{{base-4}}",
+        "backgroundMild": "{{base-3}}",
+        "backgroundMostMild": "{{base-1}}AA",
+        "mainMild": "{{green}}",
+        "main": "{{blue}}",
+        "alt1": "{{yellow}}", //ifthen
+        "alt1Complentary": "{{yellow}}", //return
+        "mainAlt": "{{blue}}", //fn definition, grayish cyan
+        "alt3": "{{cyan}}", //class names, Promise., bright cyan
+        "mainVariant": "{{green}}", //this.state.foo, bright purple
+        "alt4": "{{magenta}}", // grayish purple
+        "alt5": "{{violet}}", // brown-ish red, annotation
+        "alt5Prominent": "{{violet}}", // Type declaration
+        "alt5Supplementary": "{{red}}",
+        "commentGray": "{{base0}}",
+        "commentGrayProminent": "{{base1}}",
+        "keywordGray": "{{green}}",
+        "important": "{{red}}",
+        "strings": "{{cyan}}",
+        "interpolated": "{{green}}",
+        "number": "{{violet}}",
+        "booleans": "{{magenta}}",
+        "regex": "{{yellow}}",
+        // simple colors
+        "red": "{{red}}",
+        "yellow": "{{yellow}}",
+        "green": "{{green}}",
+        "orange": "{{orange}}",
+        "blue": "{{blue}}",
+        "magenta": "{{magenta}}",
+        "cyan": "{{cyan}}",
+        "white": "#FFFFFF",
+    }
+}

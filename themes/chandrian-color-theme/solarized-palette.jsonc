@@ -1,4 +1,8 @@
 {
+    "base-4": "#1e1e1e", // background black
+    "base-3": "#252526", // menu black
+    "base-2": "#383b3d", // fringe black
+    "base-1": "#555555", // sidebar black
     "base04": "#102530", // deepblack
     "base03": "#002b36", // brblack
     "base02": "#073642", // black

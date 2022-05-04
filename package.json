@@ -22,6 +22,11 @@
 	"contributes": {
 		"themes": [
 			{
+				"label": "Solarized Black Chandrian",
+				"uiTheme": "vs-dark",
+				"path": "./dist/solarized-black-chandrian.json"
+			},
+			{
 				"label": "Solarized Dark Chandrian",
 				"uiTheme": "vs-dark",
 				"path": "./dist/solarized-dark-chandrian.json"
