@@ -43,7 +43,7 @@
     "tab.activeModifiedBorder": "{{yellow}}",
     "tab.inactiveModifiedBorder": "{{yellow}}",
     // quick input
-    "pickerGroup.border": "{{backgroundIntense}}",
+    "pickerGroup.border": "{{backgroundMostIntense}}",
     "pickerGroup.foreground": "{{text}}",
     "pickerGroup.background": "{{backgroundIntense}}",
     "quickInput.background": "{{background}}",
@@ -51,7 +51,7 @@
     "quickInputTitle.background": "{{background}}",
     "quickInputList.focusForeground": "{{text}}",
     "quickInputList.focusIconForeground": "{{textProminent}}",
-    "quickInputList.focusBackground": "{{backgroundIntense}}",
+    "quickInputList.focusBackground": "{{backgroundMostIntense}}",
     // keybinding labels
     "keybindingLabel.background": "{{backgroundMild}}",
     "keybindingLabel.foreground": "{{text}}",
