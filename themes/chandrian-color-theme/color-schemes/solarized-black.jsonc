@@ -14,15 +14,15 @@
         "backgroundMild": "{{base-3}}",
         "backgroundMostMild": "{{base-1}}AA",
         "mainMild": "{{green}}",
-        "main": "{{blue}}",
-        "alt1": "{{yellow}}", //ifthen
-        "alt1Complentary": "{{yellow}}", //return
-        "mainAlt": "{{blue}}", //fn definition, grayish cyan
+        "main": "{{brightBlue}}",
+        "alt1": "{{brightYellow}}", //ifthen
+        "alt1Complentary": "{{brightYellow}}", //return
+        "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
         "alt3": "{{cyan}}", //class names, Promise., bright cyan
         "mainVariant": "{{green}}", //this.state.foo, bright purple
-        "alt4": "{{magenta}}", // grayish purple
-        "alt5": "{{violet}}", // brown-ish red, annotation
-        "alt5Prominent": "{{violet}}", // Type declaration
+        "alt4": "{{brightMagenta}}", // grayish purple
+        "alt5": "{{brightViolet}}", // brown-ish red, annotation
+        "alt5Prominent": "{{brightViolet}}", // Type declaration
         "alt5Supplementary": "{{red}}",
         "commentGray": "{{base0}}",
         "commentGrayProminent": "{{base1}}",
@@ -30,16 +30,16 @@
         "important": "{{red}}",
         "strings": "{{cyan}}",
         "interpolated": "{{green}}",
-        "number": "{{violet}}",
-        "booleans": "{{magenta}}",
-        "regex": "{{yellow}}",
+        "number": "{{brightViolet}}",
+        "booleans": "{{brightMagenta}}",
+        "regex": "{{brightYellow}}",
         // simple colors
         "red": "{{red}}",
-        "yellow": "{{yellow}}",
+        "yellow": "{{brightYellow}}",
         "green": "{{green}}",
         "orange": "{{orange}}",
-        "blue": "{{blue}}",
-        "magenta": "{{magenta}}",
+        "brightBlue": "{{brightBlue}}",
+        "brightMagenta": "{{brightMagenta}}",
         "cyan": "{{cyan}}",
         "white": "#FFFFFF",
     }
