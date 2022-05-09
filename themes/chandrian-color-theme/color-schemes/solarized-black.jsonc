@@ -13,34 +13,35 @@
         "terminalBackground": "{{base-4}}",
         "backgroundMild": "{{base-3}}",
         "backgroundMostMild": "{{base-1}}AA",
-        "mainMild": "{{green}}",
+        "mainMild": "{{brightGreen}}",
         "main": "{{brightBlue}}",
         "alt1": "{{brightYellow}}", //ifthen
         "alt1Complentary": "{{brightYellow}}", //return
         "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
-        "alt3": "{{cyan}}", //class names, Promise., bright cyan
-        "mainVariant": "{{green}}", //this.state.foo, bright purple
+        "alt3": "{{brightCyan}}", //class names, Promise., bright cyan
+        "mainVariant": "{{brightGreen}}", //this.state.foo, bright purple
         "alt4": "{{brightMagenta}}", // grayish purple
         "alt5": "{{brightViolet}}", // brown-ish red, annotation
         "alt5Prominent": "{{brightViolet}}", // Type declaration
         "alt5Supplementary": "{{red}}",
         "commentGray": "{{base0}}",
         "commentGrayProminent": "{{base1}}",
-        "keywordGray": "{{green}}",
+        "keywordGray": "{{brightGreen}}",
         "important": "{{red}}",
-        "strings": "{{cyan}}",
-        "interpolated": "{{green}}",
+        "strings": "{{brightCyan}}",
+        "interpolated": "{{brightGreen}}",
         "number": "{{brightViolet}}",
         "booleans": "{{brightMagenta}}",
         "regex": "{{brightYellow}}",
         // simple colors
-        "red": "{{red}}",
         "yellow": "{{brightYellow}}",
-        "green": "{{green}}",
-        "orange": "{{orange}}",
-        "brightBlue": "{{brightBlue}}",
-        "brightMagenta": "{{brightMagenta}}",
-        "cyan": "{{cyan}}",
+        "orange": "{{brightOrange}}",
+        "red": "{{brightRed}}",
+        "magenta": "{{brightMagenta}}",
+        "violet": "{{brightViolet}}",
+        "blue": "{{brightBlue}}",
+        "cyan": "{{brightCyan}}",
+        "green": "{{brightGreen}}",
         "white": "#FFFFFF",
     }
 }

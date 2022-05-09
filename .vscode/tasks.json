@@ -4,7 +4,7 @@
         {
             "type": "npm",
             "script": "watch",
-            "isBackground": true,
+            "isBackground": false,
             "presentation": {
                 "panel": "new",
                 "reveal": "always"

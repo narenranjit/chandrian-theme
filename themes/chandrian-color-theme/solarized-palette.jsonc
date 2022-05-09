@@ -30,11 +30,11 @@
     "brightViolet": "#9d84d4", //brviolet
     "darkBlue": "#066bb2", //dblue
     "blue": "#268bd2", // blue
-    "brightBlue": "#2695f2", // brblue
+    "brightBlue": "#46A5FF", // brblue
     "darkCyan": "#0a7385", //dcyan
     "cyan": "#2aa198", // cyan
     "brightCyan": "#2ab1a8", // brcyan
     "darkGreen": "#507300", //dgreen
     "green": "#859900", // green
-    "brightGreen": "#859B00", // brgreen
+    "brightGreen": "#85A930", // brgreen
 }

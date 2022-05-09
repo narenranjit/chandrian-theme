@@ -5,7 +5,7 @@ compile(paths);
 
 fs.watch(paths.basePath, {
     recursive: true
-}, (evt, fileName)=> {
+}, (evt, fileName) => {
     console.log('Changed', fileName);
     compile(paths);
 });
