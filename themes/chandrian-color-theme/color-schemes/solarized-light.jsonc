@@ -12,7 +12,7 @@
         "backgroundIntense": "{{base3}}",
         "background": "{{base2}}",
         "backgroundMild": "{{base3}}",
-        "backgroundMostMild": "{{base1}}AA",
+        "backgroundMostMild": "{{base00}}",
         "mainMild": "{{darkGreen}}",
         "main": "{{darkBlue}}",
         "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan

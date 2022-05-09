@@ -12,7 +12,7 @@
         "backgroundMostIntense": "{{base04}}",
         "terminalBackground": "{{base04}}",
         "backgroundMild": "{{base03}}",
-        "backgroundMostMild": "{{base01}}AA",
+        "backgroundMostMild": "{{base00}}",
         "mainMild": "{{brightGreen}}",
         "main": "{{brightBlue}}",
         "alt1": "{{brightYellow}}", //ifthen
