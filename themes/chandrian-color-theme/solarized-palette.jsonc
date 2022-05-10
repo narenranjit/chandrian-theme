@@ -10,6 +10,7 @@
     "base00": "#657b83", // bryellow
     "base0": "#839496", // brblue
     "base1": "#93a1a1", // brcyan
+    "base1-5": "#beb8a5", // dark tan
     "base2": "#ded8c5", // tan
     "base3": "#eee8d5", // white
     "base4": "#fdf6e3", // brwhite

@@ -39,6 +39,7 @@
         "green": "{{brightGreen}}",
         "orange": "{{brightOrange}}",
         "blue": "{{brightBlue}}",
+        "darkBlue": "{{darkBlue}}",
         "magenta": "{{brightMagenta}}",
         "cyan": "{{brightCyan}}",
         "white": "#FFFFFF",

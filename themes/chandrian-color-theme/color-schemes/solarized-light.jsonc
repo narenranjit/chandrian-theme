@@ -11,8 +11,8 @@
         "backgroundMostIntense": "{{base4}}",
         "backgroundIntense": "{{base3}}",
         "background": "{{base2}}",
-        "backgroundMild": "{{base3}}",
-        "backgroundMostMild": "{{base00}}",
+        "backgroundMild": "{{base2}}",
+        "backgroundMostMild": "{{base1-5}}",
         "mainMild": "{{darkGreen}}",
         "main": "{{darkBlue}}",
         "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan
@@ -39,6 +39,7 @@
         "green": "{{darkGreen}}",
         "orange": "{{darkOrange}}",
         "blue": "{{darkBlue}}",
+        "darkBlue": "{{darkBlue}}",
         "magenta": "{{darkMagenta}}",
         "cyan": "{{darkCyan}}",
         "white": "#FFFFFF",
