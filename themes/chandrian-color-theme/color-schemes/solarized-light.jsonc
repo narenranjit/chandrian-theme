@@ -2,9 +2,9 @@
     "name": "solarized-light",
     "type": "light",
     "colors": {
-        "textMild": "{{base01}}",
+        "textMostMild": "{{base01}}",
         "text": "{{base02}}",
-        "textProminent": "{{base00}}",
+        "textIntense": "{{base00}}",
         "textIntense": "{{base03}}",
         "textMostIntense": "{{base04}}", //fn params
         "terminalBackground": "{{base3}}",
@@ -13,19 +13,19 @@
         "background": "{{base2}}",
         "backgroundMild": "{{base2}}",
         "backgroundMostMild": "{{base1-5}}",
+        "commentGray": "{{base00}}",
+        "commentGrayProminent": "{{base01}}",
         "mainMild": "{{darkGreen}}",
         "main": "{{darkBlue}}",
         "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan
-        "mainVariant": "{{darkGreen}}", //this.state.foo, bright purple
-        "alt1": "{{darkYellow}}", //ifthen
-        "alt1Complentary": "{{darkYellow}}", //return
-        "alt3": "{{darkBlue}}", //class names, Promise., bright darkCyan
-        "alt4": "{{darkViolet}}", // grayish purple
-        "alt5": "{{darkCyan}}", // brown-ish red, annotation
-        "alt5Prominent": "{{darkGreen}}", // Type declaration
-        "alt5Supplementary": "{{orange}}",
-        "commentGray": "{{base01}}",
-        "commentGrayProminent": "{{base1}}",
+        "keys": "{{darkGreen}}", //this.state.foo, bright purple
+        "structural": "{{darkYellow}}", //ifthen
+        "structural": "{{darkYellow}}", //return
+        "interfaces": "{{darkBlue}}", //class names, Promise., bright darkCyan
+        "attributes": "{{darkMagenta}}", // grayish purple
+        "types": "{{darkViolet}}", // brown-ish red, annotation
+        "types": "{{darkViolet}}", // Type declaration
+        "alt5Supplementary": "{{darkOrange}}",
         "keywordGray": "{{darkGreen}}",
         "important": "{{darkRed}}",
         "strings": "{{darkCyan}}",

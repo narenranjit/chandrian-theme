@@ -1,54 +1,57 @@
-[{
-    "name": "Comment",
-    "scope": [
-        "comment",
-        "comment.block.documentation other.description", // variable description
-        "punctuation.definition.comment",
-        "string.quoted.docstring",
-        "string.quoted.docstring punctuation.definition.string",
-    ],
-    "settings": {
-        "foreground": "{{commentGray}}"
-        ,"fontStyle": ""
+[
+    {
+        "name": "Comment",
+        "scope": [
+            "comment",
+            "comment.block.documentation other.description", // variable description
+            "punctuation.definition.comment",
+            "string.quoted.docstring",
+            "string.quoted.docstring punctuation.definition.string",
+        ],
+        "settings": {
+            "foreground": "{{commentGray}}",
+            "fontStyle": ""
+        }
+    },
+    {
+        "name": "Comment",
+        "scope": [
+            "comment.block.documentation", //@param
+            "comment.line",
+            "comment.block.documentation other.description", // variable description
+            "punctuation.definition.comment"
+        ],
+        "settings": {
+            "fontStyle": "italic"
+        }
+    },
+    {
+        "scope": [
+            "keyword.other.phpdoc", //@param
+            "comment.block.documentation storage.type",
+            "comment.block.documentation variable.other" //variable name in jsdoc
+        ],
+        "settings": {
+            "foreground": "{{commentGrayProminent}}",
+            "fontStyle": ""
+        }
+    },
+    {
+        "scope": [
+            "comment.block.documentation keyword",
+        ],
+        "settings": {
+            "foreground": "{{commentGrayProminent}}",
+            "fontStyle": ""
+        }
+    },
+    {
+        "scope": [
+            "comment.block.documentation entity.name.type.instance" //{string}
+        ],
+        "settings": {
+            "foreground": "{{types}}",
+            "fontStyle": ""
+        }
     }
-},
-{
-    "name": "Comment",
-    "scope": [
-        "comment.block.documentation",  //@param
-        "comment.line",
-        "comment.block.documentation other.description", // variable description
-        "punctuation.definition.comment"
-    ],
-    "settings": {
-        "fontStyle": "italic"
-    }
-},
-{
-    "scope": [
-        "keyword.other.phpdoc", //@param
-        "comment.block.documentation storage.type",
-        "comment.block.documentation variable.other" //variable name in jsdoc
-    ],
-    "settings": {
-        "foreground": "{{commentGrayProminent}}",
-        "fontStyle": ""
-    }
-},{
-    "scope": [
-        "comment.block.documentation keyword",
-    ],
-    "settings": {
-        "foreground": "{{commentGrayProminent}}",
-        "fontStyle": ""
-    }
-},{
-    "scope": [
-        "comment.block.documentation entity.name.type.instance" //{string}
-    ],
-    "settings": {
-        "foreground": "{{alt5}}",
-        "fontStyle": ""
-    }
-}
 ]

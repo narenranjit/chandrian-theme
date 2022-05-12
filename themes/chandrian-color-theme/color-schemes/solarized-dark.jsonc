@@ -2,9 +2,9 @@
     "name": "solarized-dark",
     "type": "dark",
     "colors": {
-        "textMild": "{{base1}}",
+        "textMostMild": "{{base1}}",
         "text": "{{base2}}",
-        "textProminent": "{{base2}}E0",
+        "textIntense": "{{base2}}E0",
         "textIntense": "{{base3}}",
         "textMostIntense": "{{base4}}", //fn params
         "background": "{{base02}}",
@@ -13,19 +13,19 @@
         "terminalBackground": "{{base04}}",
         "backgroundMild": "{{base03}}",
         "backgroundMostMild": "{{base00}}",
-        "mainMild": "{{brightGreen}}",
-        "main": "{{brightBlue}}",
-        "alt1": "{{brightYellow}}", //ifthen
-        "alt1Complentary": "{{brightYellow}}", //return
-        "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
-        "alt3": "{{brightCyan}}", //class names, Promise., bright cyan
-        "mainVariant": "{{brightGreen}}", //this.state.foo, bright purple
-        "alt4": "{{magenta}}", // grayish purple
-        "alt5": "{{violet}}", // brown-ish red, annotation
-        "alt5Prominent": "{{brightViolet}}", // Type declaration
-        "alt5Supplementary": "{{brightRed}}",
         "commentGray": "{{base0}}",
         "commentGrayProminent": "{{base1}}",
+        "mainMild": "{{brightGreen}}",
+        "main": "{{brightBlue}}",
+        "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
+        "keys": "{{brightGreen}}", //this.state.foo, bright purple
+        "structural": "{{brightYellow}}", //ifthen
+        "structural": "{{brightYellow}}", //return
+        "interfaces": "{{brightBlue}}", //class names, Promise., bright cyan
+        "attributes": "{{brightMagenta}}", // grayish purple
+        "types": "{{brightViolet}}", // brown-ish red, annotation
+        "types": "{{brightGreen}}", // Type declaration
+        "alt5Supplementary": "{{brightOrange}}",
         "keywordGray": "{{brightGreen}}",
         "important": "{{brightRed}}",
         "strings": "{{brightCyan}}",

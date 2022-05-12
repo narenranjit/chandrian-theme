@@ -2,37 +2,38 @@
     "name": "solarized-black",
     "type": "dark",
     "colors": {
+        // standard text
+        "textMostMild": "{{base0}}",
         "textMild": "{{base1}}",
         "text": "{{base2}}",
-        "textProminent": "{{base2}}E0",
-        "textIntense": "{{base3}}",
-        "textMostIntense": "{{base4}}", //fn params
+        "textIntense": "{{base2}}", //fn params
+        "textMostIntense": "{{base3}}",
+        // background
         "background": "{{base-2}}",
         "backgroundIntense": "{{base-3}}",
         "backgroundMostIntense": "{{base-4}}",
         "terminalBackground": "{{base-4}}",
         "backgroundMild": "{{base-3}}",
         "backgroundMostMild": "{{base00}}",
-        "mainMild": "{{brightGreen}}",
-        "main": "{{brightBlue}}",
-        "alt1": "{{brightYellow}}", //ifthen
-        "alt1Complentary": "{{brightYellow}}", //return
-        "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
-        "alt3": "{{brightCyan}}", //class names, Promise., bright cyan
-        "mainVariant": "{{brightGreen}}", //this.state.foo, bright purple
-        "alt4": "{{brightMagenta}}", // grayish purple
-        "alt5": "{{brightViolet}}", // brown-ish red, annotation
-        "alt5Prominent": "{{brightViolet}}", // Type declaration
-        "alt5Supplementary": "{{red}}",
+        // end basics
         "commentGray": "{{base0}}",
         "commentGrayProminent": "{{base1}}",
-        "keywordGray": "{{brightGreen}}",
-        "important": "{{red}}",
-        "strings": "{{brightCyan}}",
-        "interpolated": "{{brightGreen}}",
+        // begin mayhem coolest to warmest
+        "keywordGray": "{{base0}}",
+        "mainMild": "{{brightCyan}}",
+        "main": "{{brightBlue}}", // doers
+        "mainAlt": "{{brightViolet}}", //fn definition, .keys, grayish cyan
+        "keys": "{{brightCyan}}", //this.state.foo, json keys, bright purple
+        "structural": "{{brightYellow}}", //ifthen, return
+        "types": "{{brightCyan}}", // brown-ish red, types, annotation, Type declaration
+        "interpolated": "{{brightCyan}}",
+        "interfaces": "{{brightBlue}}", //class names, Promise., bright cyan
+        "attributes": "{{brightViolet}}", // grayish purple
+        "strings": "{{brightGreen}}",
+        "regex": "{{brightYellow}}",
         "number": "{{brightViolet}}",
         "booleans": "{{brightMagenta}}",
-        "regex": "{{brightYellow}}",
+        "important": "{{brightRed}}",
         // simple colors
         "yellow": "{{brightYellow}}",
         "orange": "{{brightOrange}}",

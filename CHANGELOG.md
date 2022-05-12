@@ -1,5 +1,6 @@
 ## 1.1.0
 
+- unify accent colors across variants
 - standardize workspace accent colors across themes
 - improve color cohesion
 - a black background version of the dark theme

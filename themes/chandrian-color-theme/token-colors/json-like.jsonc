@@ -23,7 +23,7 @@
       "punctuation.separator.dictionary.pair.json" //,
     ],
     "settings": {
-      "foreground": "{{textProminent}}"
+      "foreground": "{{textIntense}}"
     }
   },
   {
@@ -41,7 +41,7 @@
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
     ],
     "settings": {
-      "foreground": "{{mainVariant}}"
+      "foreground": "{{keys}}"
     }
   },
   {

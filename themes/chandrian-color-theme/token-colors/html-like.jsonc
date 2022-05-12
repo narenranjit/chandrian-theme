@@ -51,7 +51,7 @@
             "meta.tag.custom"
         ],
         "settings": {
-            "foreground": "{{alt3}}"
+            "foreground": "{{interfaces}}"
         }
     },
     {
@@ -76,8 +76,8 @@
             "entity.other.attribute-name"
         ],
         "settings": {
-            // "foreground": "{{mainVariant}}"
-            "foreground": "{{alt4}}",
+            // "foreground": "{{keys}}"
+            "foreground": "{{attributes}}",
             "fontStyle": "italic"
         }
     },
@@ -136,7 +136,7 @@
             "meta.attribute.action.html string.quoted.double.html"
         ],
         "settings": {
-            "foreground": "{{alt1}}BF"
+            "foreground": "{{structural}}BF"
         }
     },
     {
@@ -145,7 +145,7 @@
             "meta.attribute.action.html punctuation.definition.string"
         ],
         "settings": {
-            "foreground": "{{alt1}}7F"
+            "foreground": "{{structural}}7F"
         }
     },
     { //Hrefs in links aren't action items
@@ -162,7 +162,7 @@
             "meta.attribute.event-handler entity.other.attribute-name.html"
         ],
         "settings": {
-            "foreground": "{{alt1Complentary}}"
+            "foreground": "{{structural}}"
         }
     },
     // {
@@ -222,7 +222,7 @@
             "meta.jsx meta.tag support.class.component"
         ],
         "settings": {
-            "foreground": "{{alt3}}"
+            "foreground": "{{interfaces}}"
         }
     },
     {
@@ -239,7 +239,7 @@
             "source.js entity.other.attribute-name"
         ],
         "settings": {
-            "foreground": "{{mainVariant}}",
+            "foreground": "{{keys}}",
             "fontStyle": "italic"
         }
     }

@@ -1,137 +1,121 @@
 [
-    //operators
+    // Jack's additions
     {
+        "name": "Standard text",
         "scope": [
+            "constant.character.escape",
+            "constant.character",
+            "constant.other.color.rgb-value",
+            "constant.other.rgb-value",
+            "constant.other.symbol",
+            "constant.regexp",
+            "constant.sha.git-rebase",
+            "entity.name.function.preprocessor",
+            "entity.name.function",
+            "entity.name.label",
+            "entity.name.operator.custom-literal",
+            "entity.name.operator",
+            "entity.name.tag.css",
+            "entity.name.tag",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.class.mixin.css",
+            "entity.other.attribute-name.id.css",
+            "entity.other.attribute-name.parent-selector.css",
+            "entity.other.attribute-name.pseudo-class.css",
+            "entity.other.attribute-name.pseudo-element.css",
+            "entity.other.attribute-name.scss",
+            "entity.other.attribute-name",
+            "entity.other.inherited-class",
             "keyword.other.variable.definition", //$ in powershell
-            "meta.class meta.method meta.var storage.type", //var, const etc
-            "storage.type",
-            // "meta.class storage.modifier",
+        ],
+        "settings": {
+            "foreground": "{{text}}",
+        }
+    },
+    {
+        "name": "Understated text",
+        "scope": [
+            "punctuation.definition.parameters",
+            "punctuation.definition.arguments",
+            "punctuation.terminator",
+            "punctuation.separator",
+            "punctuation",
+            "punctuation.section.embedded.begin.php",
+            "punctuation.section.embedded.end.php",
+            "punctuation.definition.tag",
+            "punctuation.definition.variable", //$ in $this
+            "punctuation.separator.arguments",
+        ],
+        "settings": {
+            "foreground": "{{text}}BF",
+        }
+    },
+    {
+        "name": "Fainter text",
+        "scope": [
+            "comment",
+            "meta.class storage.modifier",
             "keyword.control.class", //ruby class keyword
             "keyword.control.module", //ruby module keyworld
-        ],
-        "settings": {
-            "foreground": "{{keywordGray}}"
-        }
-    },
-    {
-        "scope": [
             "keyword.operator.assignment",
+            "meta.function.expression meta.brace.round", //also catches if blocks
+            "meta.method.declaration meta.brace.round", //all paranthesis within a method, excluding if/switch etc
+            "meta.var.expr meta.brace.round",
+            "source.coffee.embedded",
+            "source.cpp keyword.operator.new",
+            "source.css.less entity.other.attribute-name.id",
+            "source.groovy.embedded",
+            "source.powershell variable.other.member",
+            "storage.modifier.import.java",
+            "storage.modifier.package.java",
+            "storage.modifier",
+            "string.unquoted.label",
+            "strong",
+            "meta.brace.round",
+            "meta.brace.square",
+            "meta.diff.header",
+            "meta.embedded",
+            "meta.function-call.arguments",
+            "meta.function-call.method.without-arguments",
+            "meta.function-call.without-arguments",
+            "meta.function.parameter.typehinted storage.type", //php type hints in fn params
+            "meta.object-literal.key",
+            "meta.object-literal.key",
+            "meta.preprocessor.numeric",
+            "meta.preprocessor",
+            "meta.property.object",
+            "meta.structure.dictionary.key.python",
         ],
         "settings": {
-            "foreground": "{{keywordGray}}"
-        }
-    },
-    //functions
-    {
-        "scope": [
-            "keyword.other.special-method", //private_class_method in rb
-            "meta.definition.method",
-            // "meta.class meta.method.declaration storage.type", //constructor. FIXME: Also matches fns within class methods
-            "storage.type.function.arrow",
-            "entity.name.function" //function definition
-        ],
-        "settings": {
-            "foreground": "{{mainAlt}}"
+            "foreground": "{{textMild}}",
         }
     },
     {
+        "name": "Functions",
         "scope": [
+            "support.class.console",
+            "support.class.error",
+            "support.function.console",
+            "support.function.git-rebase",
+            "support.function",
             "meta.function-call",
             "entity.name.function.invocation",
             "meta.function-call entity.name.function",
             "meta.method-call entity.name.function",
-            "variable.function" //function invocation
+            "variable.function", //function invocation
+            "keyword.other.special-method", //private_class_method in rb
+            "meta.definition.method",
+            "entity.name.function", //function definition
+            "support.function", //.keys, .forEach, require
         ],
         "settings": {
             "foreground": "{{main}}"
         }
     },
     {
+        "name": "Macros",
         "scope": [
-            "support.function" //.keys, .forEach, require
-        ],
-        "settings": {
-            "foreground": "{{mainAlt}}"
-        }
-    },
-    {
-        "scope": [
-            "support.function.macro" // @decoration
-        ],
-        "settings": {
-            "foreground": "{{alt5}}"
-        }
-    },
-    {
-        "scope": [
-            "support.type" // Type
-        ],
-        "settings": {
-            "foreground": "{{alt5Prominent}}",
-        }
-    },
-    {
-        "scope": [
-            // "meta.function.expression meta.brace.round", //also catches if blocks
-            "meta.method.declaration meta.brace.round", //all paranthesis within a method, excluding if/switch etc
-        ],
-        "settings": {
-            "foreground": "{{main}}BF"
-        }
-    },
-    {
-        "scope": [
-            "meta.var.expr meta.brace.round",
-            "punctuation.definition.parameters",
-            "punctuation.definition.arguments",
-        ],
-        "settings": {
-            "foreground": "{{main}}BF"
-        }
-    },
-    {
-        "scope": [
-            "punctuation.terminator",
-            "punctuation.separator",
-            "punctuation",
-        ],
-        "settings": {
-            "foreground": "{{textProminent}}"
-        }
-    },
-    {
-        "scope": [
-            "support.class",
-            "support.constant",
-            "support.class.builtin", // Math.Infinity
-            "support.function.builtin",
-            "support.function.node",
-        ],
-        "settings": {
-            "foreground": "{{alt3}}"
-        }
-    },
-    {
-        "scope": [
-            "constant.language",
-            "constant.language.booleans",
-        ],
-        "settings": {
-            "foreground": "{{booleans}}",
-        }
-    },
-    {
-        "scope": [
-            "meta.function-call.arguments",
-            "variable.parameter.function"
-        ],
-        "settings": {
-            "foreground": "{{textMostIntense}}"
-        }
-    },
-    {
-        "name": "Decorators",
-        "scope": [
+            "support.function.macro", // @decoration
             "punctuation.definition.decorator", //@
             "punctuation.decorator", //@
             "meta.decorator meta.function-call entity.name.function",
@@ -140,308 +124,276 @@
             "meta.function.decorator", //@foo in python
         ],
         "settings": {
-            "foreground": "{{alt1}}BF"
+            "foreground": "{{types}}"
         }
     },
     {
+        "name": "Class items",
+        "scope": [
+            "support.class",
+            "support.constant",
+            "support.class.builtin", // Math.Infinity
+            "support.function.builtin",
+            "support.function.node",
+            "variable.language",
+        ],
+        "settings": {
+            "foreground": "{{interfaces}}"
+        }
+    },
+    {
+        "name": "Constants and enums",
+        "scope": [
+            "constant.language",
+            "constant.numeric",
+            "constant.language",
+            "constant.language.booleans",
+            "variable.other.constant",
+            "variable.other.enummember",
+            "support.constant.color",
+            "support.constant.dom",
+            "support.constant.font-name",
+            "support.constant.handlebars",
+            "support.constant.json",
+            "support.constant.math",
+            "support.constant.property-value",
+        ],
+        "settings": {
+            "foreground": "{{booleans}}",
+        }
+    },
+    {
+        "name": "Variable and parameter names",
+        "scope": [
+            "meta.definition.variable variable",
+            "variable.css",
+            "variable.language.special.self",
+            "variable.language.super",
+            "variable.language.this",
+            "variable.language.wildcard.java",
+            "variable.other.constant",
+            "variable.other.enummember",
+            "variable.other.less",
+            "variable.other.object",
+            "variable.other.property.static",
+            "variable.other.property",
+            "variable.other.readwrite.class",
+            "variable.other.readwrite.instance",
+            "variable.parameter.function",
+            "variable.parameter",
+            "variable.scss",
+            "variable",
+            "variable",
+            "meta.definition.variable.name",
+            "support.variable",
+            "entity.name.variable",
+        ],
+        "settings": {
+            "foreground": "{{text}}"
+        }
+    },
+    {
+        "name": "Types declaration and references",
+        "scope": [
+            "meta.class meta.method meta.var storage.type", //var, const etc
+            "storage.type",
+            "meta.class meta.method.declaration storage.type",
+            "storage.type.function.arrow",
+            "support.class",
+            "support.type",
+            "entity.name.type",
+            "entity.name.namespace",
+            "entity.other.attribute",
+            "entity.name.scope-resolution",
+            "entity.name.class",
+            "storage.type.numeric.go",
+            "storage.type.byte.go",
+            "storage.type.boolean.go",
+            "storage.type.string.go",
+            "storage.type.uintptr.go",
+            "storage.type.error.go",
+            "storage.type.rune.go",
+            "storage.type.cs",
+            "storage.type.generic.cs",
+            "storage.type.modifier.cs",
+            "storage.type.variable.cs",
+            "storage.type.annotation.java",
+            "storage.type.generic.java",
+            "storage.type.java",
+            "storage.type.object.array.java",
+            "storage.type.primitive.array.java",
+            "storage.type.primitive.java",
+            "storage.type.token.java",
+            "storage.type.groovy",
+            "storage.type.annotation.groovy",
+            "storage.type.parameters.groovy",
+            "storage.type.generic.groovy",
+            "storage.type.object.array.groovy",
+            "storage.type.primitive.array.groovy",
+            "storage.type.primitive.groovy",
+            "meta.function.parameters support.type", //param1: int in python
+            "meta.return.type entity.name.type",
+            "keyword.operator.type.annotation",
+            "meta.type.declaration",
+            "punctuation.separator.annotation", //-> in python
+            // "meta.type.parameters",
+            "meta.type.annotation",
+            "meta.interface",
+            "meta.type.parameters",
+            "punctuation.definition.typeparameters",
+            "meta.other.type.phpdoc support.class",
+            "meta.other.type.phpdoc keyword.other",
+            "storage.type.function.python", //#special case def in python since it looks too similar to comments otherwise
+            "support.type.object.module",
+            "support.type.object.console",
+            "meta.type.cast.expr",
+            "meta.type.new.expr",
+            "support.constant.media-type",
+            "support.constant.media",
+            "support.type.vendored.property-name",
+            "support.type.property-name",
+            "storage",
+            "storage.type",
+            "storage.modifier",
+        ],
+        "settings": {
+            "foreground": "{{cyan}}"
+        }
+    },
+    {
+        "name": "Keywords",
+        "scope": [
+            "keyword.operator", //instanceof
+            "keyword.operator.accessor", //.
+            "keyword.operator.logical",
+            "variable.language.prototype.js",
+            "keyword.operator.comparison",
+            "keyword.other.unit",
+            "keyword",
+            "keyword.control",
+            "keyword.operator.ternary",
+            "keyword.control.case",
+            "keyword.control.default",
+            "keyword.control.conditional",
+            "keyword.control.switch",
+            "keyword.control.flow",
+            "keyword.control.return",
+            "keyword.control.break",
+            "keyword.control.trycatch",
+            "keyword.control.pseudo-method", //ruby yields
+            "variable.function meta.function-call",
+            "keyword.other.debugger",
+            "keyword.operator.module",
+            "keyword.control.from",
+            "keyword.control.import", //keyword.control.import.tsx,
+            "keyword.control.export",
+            "keyword.control",
+            "keyword.operator.class", //-> in php
+            "keyword.operator.delete",
+            "keyword.operator.minus.exponent",
+            "keyword.operator.new",
+            "keyword.operator.noexcept",
+            "keyword.operator.plus.exponent",
+            "keyword.operator",
+            "keyword.other.new",
+            "keyword.other.operator",
+            "keyword.other.using",
+            "keyword",
+        ],
+        "settings": {
+            "foreground": "{{structural}}"
+        }
+    },
+    {
+        "name": "Special isolated keywords",
         "scope": [
             "entity.name.class",
             "new.expr", //new Foo
             "variable.other.class",
             "entity.name.type.class",
             "entity.other.inherited-class",
-        ],
-        "settings": {
-            "foreground": "{{alt3}}"
-        }
-    },
-    {
-        "scope": [
-            "variable.other.property.static"
-        ],
-        "settings": {
-            "foreground": "{{alt3}}BF"
-        }
-    },
-    //type annotations
-    {
-        "scope": [
-            "meta.function.parameter.typehinted storage.type", //php type hints in fn params
-            "meta.other.type.phpdoc support.class",
-            "meta.other.type.phpdoc keyword.other",
-            "meta.function.parameters support.type", //param1: int in python
-            "punctuation.separator.annotation", //-> in python
-            "meta.return.type entity.name.type",
-            // "meta.type.parameters",
-            "meta.type.annotation",
-        ],
-        "settings": {
-            "foreground": "{{alt5}}"
-        }
-    },
-    {
-        "scope": [
-            "keyword.operator.type.annotation" //:
-        ],
-        "settings": {
-            "foreground": "{{alt5}}DF"
-        }
-    },
-    {
-        "scope": [
-            "meta.interface",
-            "meta.type.declaration"
-        ],
-        "settings": {
-            "foreground": "{{alt5Prominent}}"
-        }
-    },
-    {
-        "scope": [
-            "meta.type.parameters"
-        ],
-        "settings": {
-            "foreground": "{{alt5Supplementary}}"
-        }
-    },
-    {
-        "scope": [
-            "punctuation.definition.typeparameters"
-        ],
-        "settings": {
-            "foreground": "{{alt5Supplementary}}"
-        }
-    },
-    {
-        "scope": [
-            "constant.other.symbol",
-            "storage.modifier"
-        ],
-        "settings": {
-            "foreground": "{{alt4}}",
-            "fontStyle": "italic"
-        }
-    },
-    //Object
-    {
-        "scope": [
-            "variable.other.property",
-            "meta.property.object"
-        ],
-        "settings": {
-            "foreground": "{{text}}"
-            // "fontStyle": "italic"
-        }
-    },
-    {
-        "scope": [
-            "variable.other.object" //this.object
-        ],
-        "settings": {
-            "foreground": "{{text}}"
-            // "fontStyle": "italic"
-        }
-    },
-    // { //FIXME: Can't reliably target object literal {} vs block {}
-    //     "scope": [
-    //         "meta.var meta.block meta.objectliteral punctuation.definition.block" // {} for literals but not block curlies
-    //         // "meta.var meta.objectliteral punctuation.definition.block"
-    //     ],
-    //     "settings": {©∫
-    //         "foreground": "{{text}}"
-    //         // "fontStyle": "italic"
-    //     }
-    // },
-    {
-        "scope": [
-            "meta.object-literal.key"
-        ],
-        "settings": {
-            "foreground": "{{mainVariant}}"
-        }
-    },
-    {
-        "scope": [
-            "string.unquoted.label"
-        ],
-        "settings": {
-            "foreground": "{{mainAlt}}"
-        }
-    },
-    //keywords
-    {
-        "scope": [
-            "keyword.operator", //instanceof
-            "keyword.operator.accessor", //.
-            "keyword.operator.logical",
-            "variable.language.prototype.js",
-            "keyword.operator.comparison"
-        ],
-        "settings": {
-            "foreground": "{{alt1}}"
-        }
-    },
-    {
-        "scope": [
-            "keyword",
-            "keyword.control",
-            "keyword.operator.ternary"
-        ],
-        "settings": {
-            "foreground": "{{alt1}}"
-        }
-    },
-    {
-        "scope": [
-            "keyword.control.case",
-            "keyword.control.default",
-        ],
-        "settings": {
-            "foreground": "{{alt1}}BF"
-            // , "fontStyle": "italic"
-        }
-    },
-    // {
-    //     "scope": [
-    //         "keyword.control.conditional",
-    //         "keyword.control.switch"
-    //     ],
-    //     "settings": {
-    //         // "fontStyle": "italic"
-    //     }
-    // },
-    {
-        "scope": [
-            "keyword.control.flow",
-            "keyword.control.return",
-            "keyword.control.break",
-            "keyword.control.trycatch",
-            "keyword.control.pseudo-method", //ruby yields
-            "variable.function meta.function-call"
-        ],
-        "settings": {
-            "foreground": "{{alt1Complentary}}"
-        }
-    },
-    {
-        "scope": [
-            "keyword.other.debugger"
-        ],
-        "settings": {
-            "foreground": "{{important}}"
-        }
-    },
-    {
-        "scope": [
-            "keyword.operator.module",
-            "keyword.control.from",
-            "keyword.control.import", //keyword.control.import.tsx,
-            "keyword.control.export",
-            "storage.type.function.python", //#special case def in python since it looks too similar to comments otherwise
-            "support.type.object.module"
-        ],
-        "settings": {
-            "foreground": "{{alt4}}"
-            // , "fontStyle": "italic"
-        }
-    },
-    {
-        "scope": [
-            "support.class.console",
-            "support.function.console",
-            "support.type.object.console"
-        ],
-        "settings": {
-            "foreground": "{{mainVariant}}"
-        }
-    },
-    {
-        "scope": "support.class.error",
-        "settings": {
-            "foreground": "{{important}}"
-        }
-    },
-    {
-        "scope": [
             "keyword.operator.new",
-            "keyword.other.new"
+            "keyword.operator.expression",
+            "keyword.operator.cast",
+            "keyword.operator.sizeof",
+            "keyword.operator.alignof",
+            "keyword.operator.typeid",
+            "keyword.operator.alignas",
+            "keyword.operator.instanceof",
+            "keyword.operator.logical.python",
+            "keyword.operator.wordlike",
         ],
         "settings": {
-            "foreground": "{{alt3}}EE"
-        }
-    },
-    //variables
-    {
-        "scope": [
-            "meta.function-call.without-arguments",
-            "meta.function-call.method.without-arguments",
-            "meta.brace.round"
-        ],
-        "settings": {
-            "foreground": "{{textMostIntense}}b4"
+            "foreground": "{{interfaces}}"
         }
     },
     {
+        "name": "Strings",
         "scope": [
-            "meta.brace.square",
-            "punctuation.separator.arguments",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.class.mixin.css",
+            "entity.other.attribute-name.id.css",
+            "entity.other.attribute-name.parent-selector.css",
+            "entity.other.attribute-name.pseudo-class.css",
+            "entity.other.attribute-name.pseudo-element.css",
+            "source.css.less entity.other.attribute-name.id",
+            "entity.other.attribute-name.scss",
+            "meta.preprocessor.string",
+            "string.value",
+            "string.tag",
+            "string",
+            "meta.embedded.assembly",
+            "string.regexp",
+            "constant.character.character-class.regexp",
+            "constant.other.character-class.set.regexp",
+            "constant.other.character-class.regexp",
+            "constant.character.set.regexp",
+            "keyword.operator.or.regexp",
+            "keyword.control.anchor.regexp",
+            "keyword.operator.quantifier.regexp",
+            "punctuation.definition.group.regexp",
+            "punctuation.definition.group.assertion.regexp",
+            "punctuation.definition.character-class.regexp",
+            "punctuation.character.set.begin.regexp",
+            "punctuation.character.set.end.regexp",
+            "keyword.operator.negation.regexp",
+            "support.other.parenthesis.regexp",
+            "constant.other.placeholder", // placeholders in strings
         ],
         "settings": {
-            "foreground": "{{text}}"
+            "foreground": "{{interfaces}}"
         }
     },
     {
+        "name": "String interpolation",
         "scope": [
-            "punctuation.definition.variable" //$ in $this
+            "punctuation.definition.template-expression.begin",
+            "punctuation.definition.template-expression.end",
+            "punctuation.section.embedded",
+            "meta.template.expression",
         ],
         "settings": {
-            // "foreground": "{{mainMild}}DF"
+            "foreground": "{{yellow}}"
         }
     },
     {
+        "name": "Language Boilerplate",
         "scope": [
-            "keyword.operator.class" //-> in php
+            "storage.modifier.import.java",
+            "variable.language.wildcard.java",
+            "storage.modifier.package.java"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
+            "foreground": "{{magenta}}"
         }
     },
     {
+        "name": "Errors",
         "scope": [
-            "variable"
+            "invalid",
         ],
         "settings": {
-            "foreground": "{{text}}"
+            "foreground": "{{red}}"
         }
     },
-    {
-        "scope": [
-            "variable.parameter",
-            "meta.definition.variable variable",
-            "variable.other.readwrite.class",
-            "variable.other.readwrite.instance",
-            "variable.other.constant"
-        ],
-        "settings": {
-            "foreground": "{{textProminent}}"
-        }
-    },
-    {
-        "scope": [
-            "variable.language.super"
-        ],
-        "settings": {
-            "foreground": "{{alt3}}"
-        }
-    },
-    {
-        "scope": [
-            "variable.language.this",
-            "variable.language.special.self",
-        ],
-        "settings": {
-            "color": "{{text}}",
-            "fontStyle": "italic"
-        }
-    }
 ]

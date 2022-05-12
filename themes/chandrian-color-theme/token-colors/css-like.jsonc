@@ -13,7 +13,7 @@
             "source.css entity.name.tag",
         ],
         "settings": {
-            "foreground": "{{alt3}}"
+            "foreground": "{{interfaces}}"
         }
     },
     {
@@ -65,7 +65,7 @@
             "source.css entity.other.attribute-name.parent-selector punctuation.definition"
         ],
         "settings": {
-            "foreground": "{{alt1}}BF"
+            "foreground": "{{structural}}BF"
         }
     },
     {
@@ -110,7 +110,7 @@
             "source.css meta.property-list entity.name.tag" //otherwise colors cursor and content
         ],
         "settings": {
-            "foreground": "{{mainVariant}}"
+            "foreground": "{{keys}}"
         }
     },
     {
@@ -118,7 +118,7 @@
             "support.type.vendored.property-name"
         ],
         "settings": {
-            "foreground": "{{mainVariant}}BF"
+            "foreground": "{{keys}}BF"
         }
     },
     //ATTR Values
@@ -145,7 +145,7 @@
             "source.css support.function"
         ],
         "settings": {
-            "foreground": "{{alt1}}BF"
+            "foreground": "{{structural}}BF"
             // ,"fontStyle": "italic"
         }
     },
@@ -183,7 +183,7 @@
             "keyword.operator.combinator.css" //+>~
         ],
         "settings": {
-            "foreground": "{{alt1}}DF"
+            "foreground": "{{structural}}DF"
         }
     },
     {
@@ -204,7 +204,7 @@
             "source.css keyword.control.at-rule.media"
         ],
         "settings": {
-            "foreground": "{{alt4}}"
+            "foreground": "{{attributes}}"
         }
     },
     {
@@ -224,7 +224,7 @@
             "source.css entity.other.attribute-name.class.mixin"
         ],
         "settings": {
-            "foreground": "{{alt1}}"
+            "foreground": "{{structural}}"
         }
     },
     {
@@ -232,7 +232,7 @@
             "source.css meta.at-rule.extend"
         ],
         "settings": {
-            "foreground": "{{alt3}}"
+            "foreground": "{{interfaces}}"
         }
     },
     {
@@ -242,7 +242,7 @@
             "source.css variable.other"
         ],
         "settings": {
-            "foreground": "{{alt1Complentary}}"
+            "foreground": "{{structural}}"
         }
     },
     {
@@ -250,7 +250,7 @@
             "source.css punctuation.definition.variable" //@
         ],
         "settings": {
-            "foreground": "{{alt1Complentary}}7f"
+            "foreground": "{{structural}}7f"
         }
     },
     {
@@ -258,7 +258,7 @@
             "source.css variable.argument"
         ],
         "settings": {
-            "foreground": "{{alt1Complentary}}",
+            "foreground": "{{structural}}",
             "fontStyle": ""
         }
     },
@@ -268,7 +268,7 @@
             "source.css meta.function.variable" //var()
         ],
         "settings": {
-            "foreground": "{{alt1}}"
+            "foreground": "{{structural}}"
         }
     },
     {
@@ -276,7 +276,7 @@
             "source.css variable.other.interpolation"
         ],
         "settings": {
-            "foreground": "{{alt1Complentary}}",
+            "foreground": "{{structural}}",
             "fontStyle": "italic"
         }
     }
