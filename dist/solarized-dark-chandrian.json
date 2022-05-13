@@ -838,7 +838,7 @@
         "source.css constant.numeric"
       ],
       "settings": {
-        "foreground": "#Bd84F4",
+        "foreground": "#7f84D7",
         "fontStyle": ""
       }
     },
@@ -847,7 +847,7 @@
         "source.css keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#Bd84F4BF",
+        "foreground": "#7f84D7BF",
         "fontStyle": ""
       }
     },
@@ -1013,7 +1013,7 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1885,7 +1885,6 @@
         "punctuation.definition.typeparameters",
         "meta.other.type.phpdoc support.class",
         "meta.other.type.phpdoc keyword.other",
-        "storage.type.function.python",
         "support.type.object.module",
         "support.type.object.console",
         "meta.type.cast.expr",
@@ -1915,6 +1914,8 @@
     {
       "name": "Keywords",
       "scope": [
+        "storage.type.function.ts",
+        "storage.type.function.python",
         "variable.language.prototype.js",
         "variable.function meta.function-call",
         "keyword.operator",

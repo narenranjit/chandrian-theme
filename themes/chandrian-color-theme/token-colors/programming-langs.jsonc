@@ -237,7 +237,6 @@
             "punctuation.definition.typeparameters",
             "meta.other.type.phpdoc support.class",
             "meta.other.type.phpdoc keyword.other",
-            "storage.type.function.python", //#special case def in python since it looks too similar to comments otherwise
             "support.type.object.module",
             "support.type.object.console",
             "meta.type.cast.expr",
@@ -267,6 +266,8 @@
     {
         "name": "Keywords",
         "scope": [
+            "storage.type.function.ts",
+            "storage.type.function.python", //#special case def in python since it looks too similar to comments otherwise
             "variable.language.prototype.js",
             "variable.function meta.function-call",
             "keyword.operator", //instanceof

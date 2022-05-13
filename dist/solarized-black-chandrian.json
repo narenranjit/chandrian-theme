@@ -35,7 +35,7 @@
     "charts.green": "#85A930",
     "charts.lines": "#1e1e1e",
     "charts.orange": "#EB7A06",
-    "charts.purple": "#Bd84F4",
+    "charts.purple": "#7f84D7",
     "charts.red": "#ff454f",
     "charts.yellow": "#DBA000",
     "checkbox.background": "#252526",
@@ -137,7 +137,7 @@
     "editorBracketHighlight.foreground3": "#179fff",
     "editorBracketHighlight.foreground4": "#EB7A06",
     "editorBracketHighlight.foreground5": "#2ab1a8",
-    "editorBracketHighlight.foreground6": "#Bd84F4",
+    "editorBracketHighlight.foreground6": "#7f84D7",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff454fcc",
     "editorBracketMatch.background": "#252526",
     "editorBracketMatch.border": "#657b83",
@@ -804,7 +804,7 @@
         "source.css entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -813,7 +813,7 @@
         "source.css punctuation.section.function.end.bracket.round"
       ],
       "settings": {
-        "foreground": "#Bd84F4BF"
+        "foreground": "#7f84D7BF"
       }
     },
     {
@@ -838,7 +838,7 @@
         "source.css constant.numeric"
       ],
       "settings": {
-        "foreground": "#Bd84F4",
+        "foreground": "#7f84D7",
         "fontStyle": ""
       }
     },
@@ -847,7 +847,7 @@
         "source.css keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#Bd84F4BF",
+        "foreground": "#7f84D7BF",
         "fontStyle": ""
       }
     },
@@ -913,7 +913,7 @@
         "source.css keyword.control.at-rule.media"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1013,7 +1013,7 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1143,7 +1143,7 @@
         "meta.tag.object.img entity.name.tag"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1187,7 +1187,7 @@
         "meta.tag.metadata.script"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1195,7 +1195,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#Bd84F4",
+        "foreground": "#7f84D7",
         "fontStyle": "italic"
       }
     },
@@ -1335,7 +1335,7 @@
         "meta.jsx meta.tag punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#Bd84F4BF"
+        "foreground": "#7f84D7BF"
       }
     },
     {
@@ -1399,7 +1399,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1472,7 +1472,7 @@
         "markup.quote.markdown"
       ],
       "settings": {
-        "foreground": "#Bd84F4",
+        "foreground": "#7f84D7",
         "fontStyle": "italic"
       }
     },
@@ -1630,7 +1630,7 @@
         "log.constant"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1769,7 +1769,7 @@
         "meta.function.decorator"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -1885,7 +1885,6 @@
         "punctuation.definition.typeparameters",
         "meta.other.type.phpdoc support.class",
         "meta.other.type.phpdoc keyword.other",
-        "storage.type.function.python",
         "support.type.object.module",
         "support.type.object.console",
         "meta.type.cast.expr",
@@ -1915,6 +1914,8 @@
     {
       "name": "Keywords",
       "scope": [
+        "storage.type.function.ts",
+        "storage.type.function.python",
         "variable.language.prototype.js",
         "variable.function meta.function-call",
         "keyword.operator",
@@ -2055,7 +2056,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
@@ -2072,7 +2073,7 @@
         "variable.other.positional"
       ],
       "settings": {
-        "foreground": "#Bd84F4"
+        "foreground": "#7f84D7"
       }
     },
     {
