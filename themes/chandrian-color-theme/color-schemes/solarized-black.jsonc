@@ -5,9 +5,9 @@
         // standard text
         "textMostMild": "{{base0}}",
         "textMild": "{{base1}}",
-        "text": "{{base2}}",
-        "textIntense": "{{base2}}", //fn params
-        "textMostIntense": "{{base3}}",
+        "text": "{{base1-5}}",
+        "textIntense": "{{base1}}", //fn params
+        "textMostIntense": "{{base2}}",
         // background
         "background": "{{base-2}}",
         "backgroundIntense": "{{base-3}}",
@@ -21,11 +21,14 @@
         // begin mayhem coolest to warmest
         "keywordGray": "{{base0}}",
         "mainMild": "{{brightCyan}}",
-        "main": "{{brightBlue}}", // doers
+        "functions": "{{brightBlue}}", // doers
         "mainAlt": "{{brightViolet}}", //fn definition, .keys, grayish cyan
         "keys": "{{brightCyan}}", //this.state.foo, json keys, bright purple
-        "structural": "{{brightYellow}}", //ifthen, return
+        "structural": "{{brightYellow}}", //ifthen
+        "exit": "{{brightOrange}}", // return, throw
+        "macros": "{{brightViolet}}", // @gen, async
         "types": "{{brightCyan}}", // brown-ish red, types, annotation, Type declaration
+        "subtypes": "{{brightBlue}}", // brown-ish red, types, annotation, Type declaration
         "interpolated": "{{brightCyan}}",
         "interfaces": "{{brightBlue}}", //class names, Promise., bright cyan
         "attributes": "{{brightViolet}}", // grayish purple

@@ -82,7 +82,7 @@
             "heading.3.markdown"
         ],
         "settings": {
-            "foreground": "{{main}}"
+            "foreground": "{{functions}}"
         }
     },
     {

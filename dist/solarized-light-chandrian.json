@@ -237,7 +237,7 @@
     "editorRuler.foreground": "#ded8c5",
     "editorSuggestWidget.background": "#eee8d5",
     "editorSuggestWidget.border": "#fdf6e3",
-    "editorSuggestWidget.focusHighlightForeground": "#066bb2",
+    "editorSuggestWidget.focusHighlightForeground": "undefined",
     "editorSuggestWidget.foreground": "#073642",
     "editorSuggestWidget.highlightForeground": "#0a7385",
     "editorSuggestWidget.selectedBackground": "#ded8c5",
@@ -313,7 +313,7 @@
     "input.placeholderForeground": "#586e75",
     "inputOption.activeBackground": "#fdf6e3",
     "inputOption.activeBorder": "#fdf6e3",
-    "inputOption.activeForeground": "#066bb2",
+    "inputOption.activeForeground": "undefined",
     "inputOption.hoverBackground": "#ded8c5",
     "inputOption.hoverBorder": "#beb8a5",
     "inputValidation.errorBorder": "#be1100",
@@ -769,7 +769,7 @@
         "source.css entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#066bb2",
+        "foreground": "undefined",
         "fontStyle": ""
       }
     },
@@ -786,7 +786,7 @@
         "source.css entity.other.attribute-name.id"
       ],
       "settings": {
-        "foreground": "#066bb2",
+        "foreground": "undefined",
         "fontStyle": ""
       }
     },
@@ -1124,7 +1124,7 @@
         "meta.tag.any"
       ],
       "settings": {
-        "foreground": "#066bb2"
+        "foreground": "undefined"
       }
     },
     {
@@ -1408,7 +1408,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#066bb2"
+        "foreground": "undefined"
       }
     },
     {
@@ -1509,7 +1509,7 @@
         "heading.3.markdown"
       ],
       "settings": {
-        "foreground": "#066bb2"
+        "foreground": "undefined"
       }
     },
     {
@@ -1614,7 +1614,7 @@
         "keyword.other.definition.ini"
       ],
       "settings": {
-        "foreground": "#066bb2"
+        "foreground": "undefined"
       }
     },
     {
@@ -1676,7 +1676,11 @@
         "entity.other.attribute-name.scss",
         "entity.other.attribute-name",
         "entity.other.inherited-class",
-        "keyword.other.variable.definition"
+        "keyword.other.variable.definition",
+        "meta.function-call.arguments",
+        "meta.function-call.method.without-arguments",
+        "meta.function-call.without-arguments",
+        "meta.function.parameter.typehinted storage.type"
       ],
       "settings": {
         "foreground": "#073642"
@@ -1704,7 +1708,6 @@
       "name": "Fainter text",
       "scope": [
         "comment",
-        "meta.class storage.modifier",
         "keyword.control.class",
         "keyword.control.module",
         "keyword.operator.assignment",
@@ -1716,19 +1719,11 @@
         "source.css.less entity.other.attribute-name.id",
         "source.groovy.embedded",
         "source.powershell variable.other.member",
-        "storage.modifier.import.java",
-        "storage.modifier.package.java",
-        "storage.modifier",
-        "string.unquoted.label",
         "strong",
         "meta.brace.round",
         "meta.brace.square",
         "meta.diff.header",
         "meta.embedded",
-        "meta.function-call.arguments",
-        "meta.function-call.method.without-arguments",
-        "meta.function-call.without-arguments",
-        "meta.function.parameter.typehinted storage.type",
         "meta.object-literal.key",
         "meta.object-literal.key",
         "meta.preprocessor.numeric",
@@ -1759,7 +1754,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#066bb2"
+        "foreground": "undefined"
       }
     },
     {
@@ -1774,7 +1769,7 @@
         "meta.function.decorator"
       ],
       "settings": {
-        "foreground": "#6650bA"
+        "foreground": "undefined"
       }
     },
     {
@@ -1798,7 +1793,6 @@
         "constant.numeric",
         "constant.language",
         "constant.language.booleans",
-        "variable.other.constant",
         "variable.other.enummember",
         "support.constant.color",
         "support.constant.dom",
@@ -1888,7 +1882,6 @@
         "punctuation.separator.annotation",
         "meta.type.annotation",
         "meta.interface",
-        "meta.type.parameters",
         "punctuation.definition.typeparameters",
         "meta.other.type.phpdoc support.class",
         "meta.other.type.phpdoc keyword.other",
@@ -1906,16 +1899,27 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#0a7385"
+        "foreground": "#6650bA"
+      }
+    },
+    {
+      "name": "Types declaration and references",
+      "scope": [
+        "meta.type.parameters.ts",
+        "meta.type.parameters"
+      ],
+      "settings": {
+        "foreground": "undefined"
       }
     },
     {
       "name": "Keywords",
       "scope": [
+        "variable.language.prototype.js",
+        "variable.function meta.function-call",
         "keyword.operator",
         "keyword.operator.accessor",
         "keyword.operator.logical",
-        "variable.language.prototype.js",
         "keyword.operator.comparison",
         "keyword.other.unit",
         "keyword",
@@ -1930,7 +1934,6 @@
         "keyword.control.break",
         "keyword.control.trycatch",
         "keyword.control.pseudo-method",
-        "variable.function meta.function-call",
         "keyword.other.debugger",
         "keyword.operator.module",
         "keyword.control.from",
@@ -1951,6 +1954,18 @@
       ],
       "settings": {
         "foreground": "#905E00"
+      }
+    },
+    {
+      "name": "Exit Keywords",
+      "scope": [
+        "keyword.control",
+        "keyword.control.flow",
+        "keyword.control.return",
+        "keyword.control.break"
+      ],
+      "settings": {
+        "foreground": "undefined"
       }
     },
     {
@@ -1991,8 +2006,11 @@
         "string.value",
         "string.tag",
         "string",
+        "string.template",
+        "string.template.ts",
         "meta.embedded.assembly",
         "string.regexp",
+        "string.unquoted.label",
         "constant.character.character-class.regexp",
         "constant.other.character-class.set.regexp",
         "constant.other.character-class.regexp",
@@ -2010,7 +2028,7 @@
         "constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#066bb2"
+        "foreground": "#0a7385"
       }
     },
     {
@@ -2030,10 +2048,14 @@
       "scope": [
         "storage.modifier.import.java",
         "variable.language.wildcard.java",
-        "storage.modifier.package.java"
+        "storage.modifier.package.java",
+        "meta.class storage.modifier",
+        "storage.modifier.import.java",
+        "storage.modifier.package.java",
+        "storage.modifier"
       ],
       "settings": {
-        "foreground": "#b20662"
+        "foreground": "undefined"
       }
     },
     {

@@ -5,7 +5,7 @@
             "keyword.other.definition.ini"
         ],
         "settings": {
-            "foreground": "{{main}}"
+            "foreground": "{{functions}}"
         }
     },
     {

@@ -5,7 +5,7 @@
             "meta.tag.any"
         ],
         "settings": {
-            "foreground": "{{main}}"
+            "foreground": "{{functions}}"
         }
     },
     {
