@@ -2,46 +2,51 @@
     "name": "solarized-light",
     "type": "light",
     "colors": {
-        "textMostMild": "{{base01}}",
-        "text": "{{base02}}",
-        "textIntense": "{{base00}}",
+        // standard text
+        "textMostMild": "{{base02}}",
+        "textMild": "{{base02}}",
+        "text": "{{base03}}",
         "textIntense": "{{base03}}",
         "textMostIntense": "{{base04}}", //fn params
+        // background
         "terminalBackground": "{{base3}}",
         "backgroundMostIntense": "{{base4}}",
         "backgroundIntense": "{{base3}}",
         "background": "{{base2}}",
         "backgroundMild": "{{base2}}",
         "backgroundMostMild": "{{base1-5}}",
-        "commentGray": "{{base00}}",
-        "commentGrayProminent": "{{base01}}",
-        "mainMild": "{{darkGreen}}",
-        "main": "{{darkBlue}}",
-        "mainAlt": "{{darkBlue}}", //fn definition, grayish darkCyan
-        "keys": "{{darkGreen}}", //this.state.foo, bright purple
+        // end basics
+        "commentGray": "{{base0}}",
+        "commentGrayProminent": "{{base1}}",
+        // coolest to warmest
+        "keywordGray": "{{base0}}",
+        "mainMild": "{{darkCyan}}",
+        "functions": "{{darkBlue}}", // doers
+        "mainAlt": "{{darkViolet}}", //fn definition, .keys, grayish cyan
+        "keys": "{{darkCyan}}", //this.state.foo, json keys, dark purple
         "structural": "{{darkYellow}}", //ifthen
-        "structural": "{{darkYellow}}", //return
-        "interfaces": "{{darkBlue}}", //class names, Promise., bright darkCyan
-        "attributes": "{{darkMagenta}}", // grayish purple
-        "types": "{{darkViolet}}", // brown-ish red, annotation
-        "types": "{{darkViolet}}", // Type declaration
-        "alt5Supplementary": "{{darkOrange}}",
-        "keywordGray": "{{darkGreen}}",
-        "important": "{{darkRed}}",
-        "strings": "{{darkCyan}}",
-        "interpolated": "{{darkGreen}}",
-        "number": "{{darkViolet}}",
-        "booleans": "{{magenta}}",
+        "exit": "{{darkOrange}}", // return, throw
+        "macros": "{{darkViolet}}", // @gen, async
+        "types": "{{darkCyan}}", // brown-ish red, types, annotation, Type declaration
+        "subtypes": "{{darkBlue}}", // brown-ish red, types, annotation, Type declaration
+        "interpolated": "{{darkCyan}}",
+        "interfaces": "{{darkBlue}}", //class names, Promise., dark cyan
+        "attributes": "{{darkViolet}}", // grayish purple
+        "strings": "{{darkGreen}}",
         "regex": "{{darkYellow}}",
+        "number": "{{darkViolet}}",
+        "booleans": "{{darkMagenta}}",
+        "important": "{{darkRed}}",
         // simple colors
-        "red": "{{darkRed}}",
         "yellow": "{{darkYellow}}",
-        "green": "{{darkGreen}}",
         "orange": "{{darkOrange}}",
+        "red": "{{darkRed}}",
+        "magenta": "{{darkMagenta}}",
+        "violet": "{{darkViolet}}",
         "blue": "{{darkBlue}}",
         "darkBlue": "{{darkBlue}}",
-        "magenta": "{{darkMagenta}}",
         "cyan": "{{darkCyan}}",
+        "green": "{{darkGreen}}",
         "white": "#FFFFFF",
     }
 }

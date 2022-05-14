@@ -14,28 +14,28 @@
     "base2": "#ded8c5", // tan
     "base3": "#eee8d5", // white
     "base4": "#fdf6e3", // brwhite
-    "darkYellow": "#905E00", // dyellow
+    "darkYellow": "#875B10", // dyellow
     "yellow": "#b58900", // yellow
     "brightYellow": "#DBA000", // bryellow 
-    "darkOrange": "#b53A20", //dorange
+    "darkOrange": "#AE4001", //dorange
     "orange": "#cb4b16", // brred
     "brightOrange": "#EB7A06", //brorange
-    "darkRed": "#c01E00", // dred
+    "darkRed": "#B00F0F", // dred
     "red": "#dc322f", // red
     "brightRed": "#ff454f", // brbrred
-    "darkMagenta": "#b20662", // dmagenta
-    "magenta": "#d33682", // magenta
+    "darkMagenta": "#B310A5", // dmagenta
+    "magenta": "#C10078", // magenta
     "brightMagenta": "#F246A2", // brbrmagenta
-    "darkViolet": "#6650bA", //dviolet
+    "darkViolet": "#6858A6", //dviolet
     "violet": "#6c71c4", // brmagenta
     "brightViolet": "#7f84D7", //brviolet
-    "darkBlue": "#066bb2", //dblue
+    "darkBlue": "#2B60C0", //dblue
     "blue": "#268bd2", // blue
     "brightBlue": "#66A5EF", // brblue
-    "darkCyan": "#0a7385", //dcyan
+    "darkCyan": "#006E7F", //dcyan
     "cyan": "#2aa198", // cyan
     "brightCyan": "#2ab1a8", // brcyan
-    "darkGreen": "#507300", //dgreen
+    "darkGreen": "#407000", //dgreen
     "green": "#859900", // green
     "brightGreen": "#85A930", // brgreen
 }

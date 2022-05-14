@@ -1,5 +1,4 @@
 [
-    // Jack's additions
     {
         "name": "Standard text",
         "scope": [
@@ -393,7 +392,7 @@
             "meta.template.expression",
         ],
         "settings": {
-            "foreground": "{{yellow}}"
+            "foreground": "{{structural}}"
         }
     },
     {
@@ -417,7 +416,7 @@
             "invalid",
         ],
         "settings": {
-            "foreground": "{{red}}"
+            "foreground": "{{important}}"
         }
     },
 ]

@@ -9,10 +9,10 @@
         "textIntense": "{{base1}}", //fn params
         "textMostIntense": "{{base2}}",
         // background
+        "terminalBackground": "{{base-4}}",
         "background": "{{base-2}}",
         "backgroundIntense": "{{base-3}}",
         "backgroundMostIntense": "{{base-4}}",
-        "terminalBackground": "{{base-4}}",
         "backgroundMild": "{{base-3}}",
         "backgroundMostMild": "{{base00}}",
         // end basics

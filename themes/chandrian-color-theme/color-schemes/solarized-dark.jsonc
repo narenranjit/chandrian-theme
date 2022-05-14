@@ -2,46 +2,51 @@
     "name": "solarized-dark",
     "type": "dark",
     "colors": {
+        // standard text
         "textMostMild": "{{base1}}",
+        "textMild": "{{base1}}",
         "text": "{{base2}}",
-        "textIntense": "{{base2}}E0",
         "textIntense": "{{base3}}",
         "textMostIntense": "{{base4}}", //fn params
+        // background
+        "terminalBackground": "{{base04}}",
         "background": "{{base02}}",
         "backgroundIntense": "{{base03}}",
         "backgroundMostIntense": "{{base04}}",
-        "terminalBackground": "{{base04}}",
         "backgroundMild": "{{base03}}",
         "backgroundMostMild": "{{base00}}",
+        // end basics
         "commentGray": "{{base0}}",
         "commentGrayProminent": "{{base1}}",
-        "mainMild": "{{brightGreen}}",
-        "main": "{{brightBlue}}",
-        "mainAlt": "{{brightBlue}}", //fn definition, grayish cyan
-        "keys": "{{brightGreen}}", //this.state.foo, bright purple
+        // begin mayhem coolest to warmest
+        "keywordGray": "{{base0}}",
+        "mainMild": "{{brightCyan}}",
+        "functions": "{{brightBlue}}", // doers
+        "mainAlt": "{{brightViolet}}", //fn definition, .keys, grayish cyan
+        "keys": "{{brightCyan}}", //this.state.foo, json keys, bright purple
         "structural": "{{brightYellow}}", //ifthen
-        "structural": "{{brightYellow}}", //return
+        "exit": "{{brightOrange}}", // return, throw
+        "macros": "{{brightViolet}}", // @gen, async
+        "types": "{{brightCyan}}", // brown-ish red, types, annotation, Type declaration
+        "subtypes": "{{brightBlue}}", // brown-ish red, types, annotation, Type declaration
+        "interpolated": "{{brightCyan}}",
         "interfaces": "{{brightBlue}}", //class names, Promise., bright cyan
-        "attributes": "{{brightMagenta}}", // grayish purple
-        "types": "{{brightViolet}}", // brown-ish red, annotation
-        "types": "{{brightGreen}}", // Type declaration
-        "alt5Supplementary": "{{brightOrange}}",
-        "keywordGray": "{{brightGreen}}",
-        "important": "{{brightRed}}",
-        "strings": "{{brightCyan}}",
-        "interpolated": "{{brightGreen}}",
+        "attributes": "{{brightViolet}}", // grayish purple
+        "strings": "{{brightGreen}}",
+        "regex": "{{brightYellow}}",
         "number": "{{brightViolet}}",
         "booleans": "{{brightMagenta}}",
-        "regex": "{{brightYellow}}",
+        "important": "{{brightRed}}",
         // simple colors
-        "red": "{{brightRed}}",
         "yellow": "{{brightYellow}}",
-        "green": "{{brightGreen}}",
         "orange": "{{brightOrange}}",
+        "red": "{{brightRed}}",
+        "magenta": "{{brightMagenta}}",
+        "violet": "{{brightViolet}}",
         "blue": "{{brightBlue}}",
         "darkBlue": "{{darkBlue}}",
-        "magenta": "{{brightMagenta}}",
         "cyan": "{{brightCyan}}",
+        "green": "{{brightGreen}}",
         "white": "#FFFFFF",
     }
 }
