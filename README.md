@@ -1,5 +1,7 @@
 # Chandrian VS Code Color Theme
 
+test
+
 Chandrian is a **semantic** syntax highlighting theme, designed explicitly to make scanning large code-bases easier and to make errors more obvious. It features a 16-color palette with a mixture of carefully chosen warm, cold, and neutral colors. The colors are broadly categorized into:
 
 - Warm Colors for **action** keywords - `throw`, `return` in programming languages, links in Markdown files.
